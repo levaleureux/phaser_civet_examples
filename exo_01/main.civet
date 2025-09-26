@@ -1,0 +1,37 @@
+class Example extends Phaser.Scene
+  constructor()
+    super()
+
+  preload()
+    @load.setBaseURL 'https://cdn.phaserfiles.com/v385'
+    @load.image 'ball', 'assets/sprites/shinyball.png'
+
+  create()
+    @groups = []
+    const radii = [200, 160, 120, 80]
+
+    for i, radius in radii
+      const group = @add.group { key: 'ball', frameQuantity: 16 }
+      Phaser.Actions.PlaceOnCircle group.getChildren(), { x: 400, y: 300, radius }
+      @groups.push [ group, radius ]
+    
+    console.log @groups
+
+  update()
+    // for [ group, radius ] in @groups
+    // console.log @groups
+    //for i, loup  in @groups
+    // console.log loup
+    for i, [ group, radius ] in @groups
+      Phaser.Actions.RotateAroundDistance group.getChildren(), { x: 400, y: 300 }, 0.02, radius
+
+config =
+  type: Phaser.AUTO
+  width: 800
+  height: 600
+  backgroundColor: '#2d2d2d'
+  parent: 'phaser-example'
+  scene: Example
+
+game = new Phaser.Game config
+

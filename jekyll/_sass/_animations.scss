@@ -1,0 +1,24 @@
+.copper-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: linear-gradient(0deg,
+    $copper-color-00 0%,
+    $copper-color-01 16.66%,
+    $copper-color-02 33.33%,
+    $copper-color-03 50%,
+    $copper-color-04 66.66%,
+    $copper-color-05 83.33%,
+    $copper-color-06 100%
+  );
+  opacity: 0.05;
+  z-index: -1;
+  animation: copperFlow 8s ease-in-out infinite alternate;
+}
+
+@keyframes copperFlow {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}

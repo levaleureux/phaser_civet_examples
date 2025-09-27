@@ -1,0 +1,67 @@
+.examples-preview {
+  padding: 80px 0;
+}
+
+.examples-preview h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: $text-light;
+}
+
+.examples-subtitle {
+  text-align: center;
+  color: $text-muted;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+.examples-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.example-item {
+  background: $bg-card;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.example-item:hover {
+  transform: translateY(-2px);
+  border-color: $copper-color-04;
+}
+
+.example-item h4 {
+  color: $copper-color-04;
+  margin-bottom: 10px;
+}
+
+.example-item p {
+  color: $text-muted;
+  font-size: 0.9rem;
+}
+
+.view-all-examples {
+  text-align: center;
+}
+
+.view-all-examples a {
+  display: inline-block;
+  padding: 12px 25px;
+  background: linear-gradient(135deg, $copper-color-01, $copper-color-03);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.view-all-examples a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(68, 51, 170, 0.3);
+}

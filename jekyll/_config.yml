@@ -9,6 +9,8 @@ baseurl: ""
 collections:
   examples:
     output: true
+  categories:
+    output: true
 
 # Build settings
 markdown: kramdown

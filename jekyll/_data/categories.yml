@@ -1,0 +1,57 @@
+categories:
+  - slug: animation
+    name: "animation"
+  - slug: array
+    name: "array"
+  - slug: audio
+    name: "audio"
+  - slug: cache
+    name: "cache"
+  - slug: camera
+    name: "camera"
+  - slug: demoscene
+    name: "demoscene"
+  - slug: depth-sorting
+    name: "depth-sorting"
+  - slug: events
+    name: "events"
+  - slug: game-config
+    name: "game-config"
+  - slug: game-elements
+    name: "game-elements"
+  - slug: games
+    name: "games"
+  - slug: loader
+    name: "loader"
+  - slug: paths
+    name: "paths"
+  - slug: plugins
+    name: "plugins"
+  - slug: pools
+    name: "pools"
+  - slug: rbush
+    name: "rbush"
+  - slug: renderer
+    name: "renderer"
+  - slug: scalemanager
+    name: "scalemanager"
+  - slug: scenes
+    name: "scenes"
+  - slug: size
+    name: "size"
+  - slug: snapshot
+    name: "snapshot"
+  - slug: spine3
+    name: "spine3"
+  - slug: spine4
+    name: "spine4"
+  - slug: textures
+    name: "textures"
+  - slug: tilemap
+    name: "tilemap"
+  - slug: time
+    name: "time"
+  - slug: transform
+    name: "transform"
+  - slug: tweens
+    name: "tweens"

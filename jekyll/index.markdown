@@ -45,14 +45,7 @@ title: Home
         <p class="examples-subtitle">
             Discover all Phaser.js examples translated to CivetScript
         </p>
-        <div class="examples-grid">
-            {% for example in site.data.examples %}
-            <div class="example-item">
-                <h4>{{ example.name }}</h4>
-                <p>{{ example.description | default: "Phaser example in CivetScript" }}</p>
-            </div>
-            {% endfor %}
-        </div>
+        {% include categories.html %}
         <div class="view-all-examples">
             <a href="https://github.com/levaleureux/phaser_civet_examples" target="_blank">
                 View all examples on GitHub

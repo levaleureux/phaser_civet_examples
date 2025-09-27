@@ -1,0 +1,8 @@
+<div class="examples-grid">
+    {% for category in site.data.categories.categories %}
+    <div class="example-item">
+        <h4><a href="/categories/{{ category.slug }}.html">{{ category.name | capitalize }}</a></h4>
+        <p>Examples in the {{ category.name }} category</p>
+    </div>
+    {% endfor %}
+</div>

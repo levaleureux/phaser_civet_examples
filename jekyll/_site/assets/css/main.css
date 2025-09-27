@@ -259,6 +259,24 @@ header {
   font-size: 14px;
 }
 
+.view-all-examples {
+  text-align: center;
+}
+.view-all-examples a {
+  display: inline-block;
+  padding: 12px 25px;
+  background: linear-gradient(135deg, #4433aa, #3377ee);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.view-all-examples a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(68, 51, 170, 0.3);
+}
+
 footer {
   padding: 40px 0;
   background: rgba(0, 0, 0, 0.3);

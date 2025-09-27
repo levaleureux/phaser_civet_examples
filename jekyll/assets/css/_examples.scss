@@ -78,3 +78,23 @@ $text-muted: #b4b4c8;
     }
   }
 }
+
+.view-all-examples {
+  text-align: center;
+
+  a {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, $copper-01, $copper-03);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(68, 51, 170, 0.3);
+    }
+  }
+}

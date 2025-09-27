@@ -261,6 +261,7 @@ header {
 
 .view-all-examples {
   text-align: center;
+  margin-bottom: 40px;
 }
 .view-all-examples a {
   display: inline-block;

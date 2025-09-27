@@ -1,0 +1,19 @@
+# Site settings
+title: Phaser Examples
+description: A collection of Phaser examples
+# url: "https://example.com" # Replace with your site URL
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+
+# Collections
+collections:
+  examples:
+    output: true
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+# sass:
+  # style: compressed
+plugins:
+  - jekyll-feed

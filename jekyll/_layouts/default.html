@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+    <div class="copper-bg"></div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <div class="logo phaser">P</div>
+                    <span style="color: #b4b4c8; font-size: 2rem;">+</span>
+                    <div class="logo civet">C</div>
+                </div>
+                <h1 class="title">{{ site.title }}</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="https://phaser.io" class="footer-link">Phaser.io</a>
+                <a href="https://civet.dev" class="footer-link">Civet.dev</a>
+                <a href="https://github.com/levaleureux/phaser_civet_examples" class="footer-link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

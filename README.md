@@ -27,3 +27,31 @@ During the session, I was in a French café in the morning, eating a croissant �
 - `e5ee8d6` - Translated all files (2025-09-26 10:07:45)
 
 It was an interesting experience, but now I'll probably take several hours (;^_^) to test all the examples to see if they work 😂.
+
+## Middleman Setup
+
+This repository includes a Middleman site in the `middleman/` folder for visualizing the Civet examples.
+
+### Prerequisites
+- Ruby installed
+- Bundler: `gem install bundler`
+
+### Installation
+```bash
+cd middleman
+bundle install
+```
+
+### Development Server
+To launch the local development server:
+```bash
+bundle exec middleman server
+```
+Open `http://localhost:4567` in your browser.
+
+### Build
+To build the static site:
+```bash
+bundle exec middleman build
+```
+The generated files will be in `middleman/build/`.

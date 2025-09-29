@@ -26,25 +26,47 @@
         <section class="examples-preview">
             <div class="container">
                 <h2>{{ page.title }}</h2>
-                <p class="examples-subtitle">
-                    Examples in the {{ page.category }} category
-                </p>
-                 <div class="examples-grid">
-                      {% for item in site.collections.examples.docs %}
-                      {% if item.data.category == page.category %}
-                      <div class="example-item">
-                          <div class="category-image"></div>
-                          <div class="category-content">
-                              <h4><a href="{{ item.url }}">{{ item.data.name }}</a></h4>
-                              <p>Phaser example in JavaScript</p>
-                          </div>
-                      </div>
-                      {% endif %}
-                      {% endfor %}
-                  </div>
-                <div class="view-all-examples">
-                    <a href="/">Back to Home</a>
-                </div>
+                 <p class="examples-subtitle">
+                     {% if page.is_leaf %}
+                       Examples in the {{ page.category }} category
+                     {% else %}
+                       Sub-categories in the {{ page.category }} category
+                     {% endif %}
+                 </p>
+                 {% if page.is_leaf %}
+                   <div class="examples-grid">
+                        {% for item in site.collections.examples.docs %}
+                        {% if item.data.category == page.category %}
+                        <div class="example-item">
+                            <div class="category-image"></div>
+                            <div class="category-content">
+                                <h4><a href="{{ item.url }}">{{ item.data.name }}</a></h4>
+                                <p>Phaser example in JavaScript</p>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                 {% else %}
+                   <div class="examples-grid">
+                        {% for sub_cat in page.sub_categories %}
+                        <div class="example-item">
+                            <div class="category-image"></div>
+                            <div class="category-content">
+                                <h4><a href="/categories/{{ sub_cat.slug }}.html">{{ sub_cat.name }}</a></h4>
+                                <p>Examples in the {{ sub_cat.name }} category</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                 {% endif %}
+                 <div class="view-all-examples">
+                     {% if page.parent %}
+                       <a href="/categories/{{ page.parent }}.html">Back to {{ page.parent | replace: '-', ' ' | capitalize }}</a>
+                     {% else %}
+                       <a href="/">Back to Home</a>
+                     {% endif %}
+                 </div>
             </div>
         </section>
     </main>

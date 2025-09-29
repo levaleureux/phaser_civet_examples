@@ -7,55 +7,6 @@ require 'net/http'
 require 'fileutils'
 
 class BuildCategories < Thor
-  desc "build", "Build categories and examples from civet examples"
-  def build
-    jekyll_dir = "jekyll"
-    civet_dir = "civet_examples"
-    data_dir = "#{jekyll_dir}/_data"
-    categories_dir = "#{jekyll_dir}/_categories"
-
-    Dir.mkdir(data_dir) unless Dir.exist?(data_dir)
-    Dir.mkdir(categories_dir) unless Dir.exist?(categories_dir)
-
-    categories = {}
-
-    Dir.glob("#{civet_dir}/**/*.civet").each do |file|
-      category = File.basename(File.dirname(file))
-      categories[category] = true
-    end
-
-    File.open("#{data_dir}/categories.yml", "w") do |f|
-      f.puts "categories:"
-      categories.keys.sort.each do |cat|
-        f.puts "  - slug: #{cat}"
-        f.puts "    name: \"#{cat}\""
-      end
-    end
-
-    categories.keys.each do |cat|
-      File.open("#{categories_dir}/#{cat}.md", "w") do |f|
-        f.puts "---"
-        f.puts "layout: category"
-        f.puts "title: \"#{cat} Examples\""
-        f.puts "category: #{cat}"
-        f.puts "---"
-      end
-    end
-
-    # Build examples
-    File.open("#{data_dir}/examples.yml", "w") do |f|
-      f.puts "examples:"
-      Dir.glob("#{civet_dir}/**/*.civet").each do |file|
-        category = File.basename(File.dirname(file))
-        slug = File.basename(file, '.civet')
-        f.puts "  - slug: #{slug}"
-        f.puts "    category: #{category}"
-        f.puts "    title: \"Example #{slug}\""
-      end
-    end
-
-    puts "Categories and examples built successfully."
-  end
 
   desc "build_v2", "Build v2 structure from Phaser examples URL"
   def build_v2
@@ -118,43 +69,29 @@ class BuildCategories < Thor
       process_category(cat_url, v2_dir, slug)
     end
 
+    # Generate categories.yml for Jekyll
+    jekyll_data_dir = 'jekyll/_data'
+    Dir.mkdir(jekyll_data_dir) unless Dir.exist?(jekyll_data_dir)
+    File.open("#{jekyll_data_dir}/categories.yml", "w") do |f|
+      f.puts "categories:"
+      categories.each do |cat|
+        name = cat.at_css('.examples_folders_folder_name')&.text&.strip
+        next unless name
+        slug = name.downcase.gsub(' ', '-')
+        f.puts "  - slug: #{slug}"
+        f.puts "    name: \"#{name}\""
+      end
+    end
+
     puts "V2 structure built successfully."
   end
 
-  desc "grid CATEGORY", "Generate examples grid HTML for a category"
-  def grid(category)
-    data_dir = "jekyll/_data"
-    examples_file = "#{data_dir}/examples.yml"
 
-    if !File.exist?(examples_file)
-      puts "Examples data not found. Run 'build' first."
-      return
-    end
-
-    examples = YAML.load_file(examples_file)['examples']
-    category_examples = examples.select { |e| e['category'] == category }
-
-    html = '<div class="examples-grid">'
-    category_examples.each do |example|
-      html += <<~HTML
-        <div class="example-item">
-            <div class="category-image"></div>
-            <div class="category-content">
-                <h4><a href="/examples/#{example['slug']}.html">#{example['title']}</a></h4>
-                <p>Phaser example in CivetScript</p>
-            </div>
-        </div>
-      HTML
-    end
-    html += '</div>'
-
-    puts html
-  end
 
   desc "generate_example_pages", "Generate Jekyll pages for v2 examples"
   def generate_example_pages
     v2_dir = 'civet_examples_v2'
-    examples_v2_dir = 'jekyll/_examples_v2'
+    examples_dir = 'jekyll/_examples'
 
     Dir.glob("#{v2_dir}/*").each do |cat_dir|
       next unless File.directory?(cat_dir)
@@ -171,7 +108,7 @@ class BuildCategories < Thor
         name_slug = example['name'].downcase.gsub(/[^a-z0-9]+/, '_').gsub(/^_+|_+$/, '')
         subdir = "#{id_padded}_#{name_slug}"
 
-        md_dir = "#{examples_v2_dir}/#{category}"
+        md_dir = "#{examples_dir}/#{category}"
         FileUtils.mkdir_p(md_dir)
 
         md_file = "#{md_dir}/#{subdir}.md"
@@ -192,6 +129,67 @@ js_path: #{js_path}
     end
 
     puts "Example pages generated successfully."
+  end
+
+  desc "generate_category_pages", "Generate Jekyll category pages for v2 structure"
+  def generate_category_pages
+    v2_dir = 'civet_examples_v2'
+    categories_dir = 'jekyll/_categories'
+
+    def process_category(yaml_file, categories_dir, parent_slug = nil)
+      data = YAML.load_file(yaml_file)
+      name = data['name']
+      slug = File.basename(File.dirname(yaml_file))
+      full_slug = parent_slug ? "#{parent_slug}-#{slug}" : slug
+
+      examples = data['examples'] || []
+      is_leaf = examples.any?
+
+      sub_categories = []
+      cat_dir = File.dirname(yaml_file)
+      Dir.glob("#{cat_dir}/*").each do |sub|
+        next unless File.directory?(sub)
+        sub_yaml = "#{sub}/#{File.basename(sub)}.yml"
+        if File.exist?(sub_yaml)
+          sub_data = YAML.load_file(sub_yaml)
+          sub_categories << { 'slug' => "#{full_slug}-#{File.basename(sub)}", 'name' => sub_data['name'] }
+        end
+      end
+
+      # Generate MD file
+      md_file = "#{categories_dir}/#{full_slug}.md"
+      FileUtils.mkdir_p(categories_dir)
+
+      front_matter = {
+        'layout' => 'category',
+        'title' => "#{name} Examples",
+        'category' => full_slug,
+        'is_leaf' => is_leaf,
+        'sub_categories' => sub_categories,
+        'parent' => parent_slug
+      }
+
+      content = front_matter.to_yaml + "---\n"
+
+      File.write(md_file, content)
+
+      # Recurse for sub-categories
+      sub_categories.each do |sub_cat|
+        sub_slug = sub_cat['slug'].split('-').last
+        sub_yaml = "#{cat_dir}/#{sub_slug}/#{sub_slug}.yml"
+        process_category(sub_yaml, categories_dir, full_slug) if File.exist?(sub_yaml)
+      end
+    end
+
+    Dir.glob("#{v2_dir}/*").each do |cat_dir|
+      next unless File.directory?(cat_dir)
+      category = File.basename(cat_dir)
+      yaml_file = "#{cat_dir}/#{category}.yml"
+      next unless File.exist?(yaml_file)
+      process_category(yaml_file, categories_dir)
+    end
+
+    puts "Category pages generated successfully."
   end
 
   desc "scrape_examples YAML_FILE", "Scrape examples from YAML file and download assets"

@@ -1,5 +1,10 @@
 ---
 layout: category
-title: "renderer Examples"
+title: renderer Examples
 category: renderer
+is_leaf: false
+sub_categories:
+- slug: renderer-tests
+  name: tests
+parent: 
 ---

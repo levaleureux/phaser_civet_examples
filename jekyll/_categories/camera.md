@@ -1,5 +1,10 @@
 ---
 layout: category
-title: "camera Examples"
+title: camera Examples
 category: camera
+is_leaf: false
+sub_categories:
+- slug: camera-multi-camera
+  name: multi camera
+parent: 
 ---

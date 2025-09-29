@@ -37,10 +37,14 @@
 
 ## Processus de Build et Affichage
 
-### Génération complète des exemples
-- Exécutez `./build_examples.sh` pour compiler tous les `.civet` en JS, créer les pages Jekyll, et générer les données.
-- Cela met à jour `jekyll/js/builded_examples/`, `jekyll/_examples/`, `jekyll/_data/`, et `jekyll/_categories/`.
-- Lancez Jekyll avec `jekyll serve` dans `jekyll/` pour voir l'app (exemples accessibles via `/examples/slug`).
+### Génération complète des exemples (v2)
+- Exécutez les commandes suivantes pour scraper, générer et builder :
+  1. `ruby build_categories.rb build_v2` : Scrape la structure depuis phaser.io vers `civet_examples_v2/`.
+  2. Pour chaque YAML : `ruby build_categories.rb scrape_examples civet_examples_v2/{category}/{category}.yml` : Télécharge les assets (images et JS).
+  3. `ruby build_categories.rb generate_category_pages` : Génère les pages de catégories hiérarchiques dans `jekyll/_categories/`.
+  4. `ruby build_categories.rb generate_example_pages` : Génère les pages d'exemples dans `jekyll/_examples/`.
+  5. `cd jekyll && bundle exec jekyll build` : Build le site Jekyll.
+- Lancez Jekyll avec `jekyll serve` dans `jekyll/` pour voir l'app (catégories via `/categories/slug`, exemples via `/examples/category/slug`).
 
 ### Régénération d'un exemple spécifique
 - Pour régénérer un seul exemple (ex. `civet_examples/animation/1057.civet`) :

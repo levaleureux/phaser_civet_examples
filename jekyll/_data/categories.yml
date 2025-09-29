@@ -1,44 +1,56 @@
 categories:
+  - slug: actions
+    name: "actions"
   - slug: animation
     name: "animation"
-  - slug: array
-    name: "array"
   - slug: audio
     name: "audio"
   - slug: cache
     name: "cache"
   - slug: camera
     name: "camera"
+  - slug: components
+    name: "components"
   - slug: demoscene
     name: "demoscene"
   - slug: depth-sorting
-    name: "depth-sorting"
+    name: "depth sorting"
+  - slug: display
+    name: "display"
   - slug: events
     name: "events"
+  - slug: fx
+    name: "fx"
   - slug: game-config
-    name: "game-config"
+    name: "game config"
   - slug: game-elements
-    name: "game-elements"
+    name: "game elements"
+  - slug: game-objects
+    name: "game objects"
   - slug: games
     name: "games"
+  - slug: geom
+    name: "geom"
+  - slug: input
+    name: "input"
   - slug: loader
     name: "loader"
+  - slug: math
+    name: "math"
   - slug: paths
     name: "paths"
+  - slug: physics
+    name: "physics"
   - slug: plugins
     name: "plugins"
   - slug: pools
     name: "pools"
-  - slug: rbush
-    name: "rbush"
   - slug: renderer
     name: "renderer"
   - slug: scalemanager
     name: "scalemanager"
   - slug: scenes
     name: "scenes"
-  - slug: size
-    name: "size"
   - slug: snapshot
     name: "snapshot"
   - slug: spine3
@@ -55,3 +67,5 @@ categories:
     name: "transform"
   - slug: tweens
     name: "tweens"
+  - slug: utils
+    name: "utils"

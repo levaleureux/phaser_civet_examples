@@ -1,0 +1,24 @@
+---
+name: snake
+examples:
+- name: Part1
+  url_js: https://phaser.io/examples-show/1134
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pSMnWRVS.png
+- name: Part2
+  url_js: https://phaser.io/examples-show/1136
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/t3kB9PPm.png
+- name: Part3
+  url_js: https://phaser.io/examples-show/1137
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/enZ8MuwQ.png
+- name: Part4
+  url_js: https://phaser.io/examples-show/1138
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bFaWTfWN.png
+- name: Part5
+  url_js: https://phaser.io/examples-show/1139
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Grm7f6HF.png
+- name: Part6
+  url_js: https://phaser.io/examples-show/1140
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/23d51c4V.png
+- name: Part7
+  url_js: https://phaser.io/examples-show/1141
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WHskqe5L.png

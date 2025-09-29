@@ -1,0 +1,27 @@
+---
+name: dynamic
+examples:
+- name: Canvas Text
+  url_js: https://phaser.io/examples-show/205
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/U3YXv52t.png
+- name: Display Callback Index Effect
+  url_js: https://phaser.io/examples-show/463
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uq29GG4E.png
+- name: Display Callback Rotation Effect
+  url_js: https://phaser.io/examples-show/464
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vbEKWga2.png
+- name: Display Callback Scale Effect
+  url_js: https://phaser.io/examples-show/465
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qj7k44Xq.png
+- name: Display Callback Wibble Effect
+  url_js: https://phaser.io/examples-show/466
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uh8VG99R.png
+- name: Text Follow Path
+  url_js: https://phaser.io/examples-show/1615
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hbAuSFm5.png
+- name: Tinted Text
+  url_js: https://phaser.io/examples-show/1860
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Z29LkaeR.png
+- name: Vertical Scroller
+  url_js: https://phaser.io/examples-show/1750
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HWBFdLB2.png

@@ -1,0 +1,9 @@
+---
+name: rbush
+examples:
+- name: Rbush 1
+  url_js: https://phaser.io/examples-show/1266
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pPMr19h3.png
+- name: Rbush 2
+  url_js: https://phaser.io/examples-show/1267
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xUELMZPK.png

@@ -1,0 +1,12 @@
+---
+name: texture atlas multi
+examples:
+- name: Load Multi Texture Atlas
+  url_js: https://phaser.io/examples-show/882
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pMEEXozo.png
+- name: Load Multi Texture Atlas With Normal Maps
+  url_js: https://phaser.io/examples-show/881
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/H7EWJrvb.png
+- name: Load Webp Multi Texture Atlas
+  url_js: https://phaser.io/examples-show/917
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/P1MToKaJ.png

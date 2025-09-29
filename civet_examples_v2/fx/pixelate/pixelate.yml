@@ -1,0 +1,15 @@
+---
+name: pixelate
+examples:
+- name: Pixelate Amount
+  url_js: https://phaser.io/examples-show/1181
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pb9gzzg5.png
+- name: Pixelate Fx
+  url_js: https://phaser.io/examples-show/1182
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mBBFyvP7.png
+- name: Pixelate Sprite Fx
+  url_js: https://phaser.io/examples-show/1183
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7QZU3En3.png
+- name: Pixelate Transition Scene
+  url_js: https://phaser.io/examples-show/1184
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1xRnBbVx.png

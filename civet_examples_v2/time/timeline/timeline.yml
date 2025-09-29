@@ -1,0 +1,33 @@
+---
+name: timeline
+examples:
+- name: Add Event In
+  url_js: https://phaser.io/examples-show/27
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SMG4qJo1.png
+- name: Create Timeline
+  url_js: https://phaser.io/examples-show/367
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/z35oUxCR.png
+- name: From Times
+  url_js: https://phaser.io/examples-show/619
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/T9avRoZp.png
+- name: Play Timeline On Click
+  url_js: https://phaser.io/examples-show/1210
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZpPEDEij.png
+- name: Repeat Timeline
+  url_js: https://phaser.io/examples-show/1305
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DTVm4oqS.png
+- name: Run Timed Events
+  url_js: https://phaser.io/examples-show/1370
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mNM9wBup.png
+- name: Set Action
+  url_js: https://phaser.io/examples-show/1417
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/k1i3mdfe.png
+- name: Sound Action
+  url_js: https://phaser.io/examples-show/1513
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kGdXeivq.png
+- name: Timeline Event
+  url_js: https://phaser.io/examples-show/1658
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kFK6rft8.png
+- name: Tween Action
+  url_js: https://phaser.io/examples-show/1708
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hdzBvaM4.png

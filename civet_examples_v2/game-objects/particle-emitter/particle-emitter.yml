@@ -1,0 +1,135 @@
+---
+name: particle emitter
+examples:
+- name: Add Emit Zone
+  url_js: https://phaser.io/examples-show/25
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/84cc686G.png
+- name: Bring To Top
+  url_js: https://phaser.io/examples-show/1863
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1nXfZQcz.png
+- name: Change Emitter Tint
+  url_js: https://phaser.io/examples-show/219
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/E16sZHUN.png
+- name: Custom Callback
+  url_js: https://phaser.io/examples-show/403
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xe9dN4uJ.png
+- name: Direct Value
+  url_js: https://phaser.io/examples-show/457
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cWR6YKYe.png
+- name: Emit At Pointer
+  url_js: https://phaser.io/examples-show/542
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Fsgk3FEn.png
+- name: Emit Zone Loop
+  url_js: https://phaser.io/examples-show/545
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EUcNwpJM.png
+- name: Emitter Alpha
+  url_js: https://phaser.io/examples-show/546
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cqYyY3jp.png
+- name: Emitter Duration
+  url_js: https://phaser.io/examples-show/547
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RrUkWuDz.png
+- name: Emitter Events
+  url_js: https://phaser.io/examples-show/548
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fPfhoHR3.png
+- name: Emitter Zone Total
+  url_js: https://phaser.io/examples-show/549
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/a8hn6ywR.png
+- name: Explode Emitter
+  url_js: https://phaser.io/examples-show/567
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Z8szx8Vg.png
+- name: Fire Effects
+  url_js: https://phaser.io/examples-show/584
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2vQmiDQy.png
+- name: Get Emitter Bounds
+  url_js: https://phaser.io/examples-show/660
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/C9JPKB9K.png
+- name: Get Particle Bounds
+  url_js: https://phaser.io/examples-show/671
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ayLda2yf.png
+- name: Gravity Processor
+  url_js: https://phaser.io/examples-show/724
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DkWiswLi.png
+- name: Hold Particle
+  url_js: https://phaser.io/examples-show/749
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PyrnV4eV.png
+- name: Interpolation Ease
+  url_js: https://phaser.io/examples-show/789
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/69tzNPhi.png
+- name: Min Max
+  url_js: https://phaser.io/examples-show/965
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KzHz5H3r.png
+- name: Move To
+  url_js: https://phaser.io/examples-show/1862
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/AgSDqYKX.png
+- name: Move To Dynamic
+  url_js: https://phaser.io/examples-show/989
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9wvcXNfL.png
+- name: Multiple Death Zones
+  url_js: https://phaser.io/examples-show/1023
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ufwPLTiN.png
+- name: Onemit And Onupdate
+  url_js: https://phaser.io/examples-show/1102
+  url_image: ''
+- name: Particle Bounds
+  url_js: https://phaser.io/examples-show/1145
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XfqakVZt.png
+- name: Particle Overlap
+  url_js: https://phaser.io/examples-show/1147
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uBbJRXfq.png
+- name: Particle Physics Body Overlap
+  url_js: https://phaser.io/examples-show/1148
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/N3MHG7aB.png
+- name: Random Array
+  url_js: https://phaser.io/examples-show/1247
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iJrCrTqn.png
+- name: Random Object
+  url_js: https://phaser.io/examples-show/1255
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vhzCnvbN.png
+- name: Random Tint
+  url_js: https://phaser.io/examples-show/1257
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eccmfD9E.png
+- name: Set Emitter Zone
+  url_js: https://phaser.io/examples-show/1425
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cFh8JoNS.png
+- name: Set Emitter Zone By Instance
+  url_js: https://phaser.io/examples-show/1424
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/JsYs6WqH.png
+- name: Sort Order
+  url_js: https://phaser.io/examples-show/1512
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gUjbUi8Q.png
+- name: Start End
+  url_js: https://phaser.io/examples-show/1576
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XL1JoxX8.png
+- name: Start End Ease
+  url_js: https://phaser.io/examples-show/1574
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Eb85GjT6.png
+- name: Start End Random
+  url_js: https://phaser.io/examples-show/1575
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ezVLjJcb.png
+- name: Stepped Emitter
+  url_js: https://phaser.io/examples-show/1586
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Uib5o9uS.png
+- name: Stepped Emitter With Yoyo
+  url_js: https://phaser.io/examples-show/1585
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QoWTPrHi.png
+- name: Stop After
+  url_js: https://phaser.io/examples-show/1589
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fKrewpNo.png
+- name: Tween Alpha
+  url_js: https://phaser.io/examples-show/1864
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/JEyRrBu7.png
+- name: Tween Speed
+  url_js: https://phaser.io/examples-show/1714
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6Xc6yDfM.png
+- name: Tween Speed X
+  url_js: https://phaser.io/examples-show/1712
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jjde6pNF.png
+- name: Tween Speed Y
+  url_js: https://phaser.io/examples-show/1713
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gHC6jYaP.png
+- name: Tween Xy
+  url_js: https://phaser.io/examples-show/1722
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SK6kg7Gx.png
+- name: View Bounds
+  url_js: https://phaser.io/examples-show/1760
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5tcHzY6K.png

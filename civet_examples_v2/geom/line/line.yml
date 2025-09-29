@@ -1,0 +1,96 @@
+---
+name: line
+examples:
+- name: Angle
+  url_js: https://phaser.io/examples-show/2014
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/X3MSy78W.png
+- name: Bresenham Points
+  url_js: https://phaser.io/examples-show/171
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cMqKsrDP.png
+- name: Center On
+  url_js: https://phaser.io/examples-show/212
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZqSSNkKN.png
+- name: Clone
+  url_js: https://phaser.io/examples-show/2016
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SX6zjJGL.png
+- name: Copy From
+  url_js: https://phaser.io/examples-show/2017
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Zi1gxN6A.png
+- name: Create
+  url_js: https://phaser.io/examples-show/2019
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Em3hQ5mB.png
+- name: Equals
+  url_js: https://phaser.io/examples-show/2010
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1BeZxKCD.png
+- name: Get Eased Points
+  url_js: https://phaser.io/examples-show/659
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/REczfRAr.png
+- name: Get Mid Point
+  url_js: https://phaser.io/examples-show/667
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/54VvYCkU.png
+- name: Get Normal
+  url_js: https://phaser.io/examples-show/669
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Bbc5BkBa.png
+- name: Get Point Ab
+  url_js: https://phaser.io/examples-show/676
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qbkTfA7u.png
+- name: Get Point At
+  url_js: https://phaser.io/examples-show/2018
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ttDTQF32.png
+- name: Get Points
+  url_js: https://phaser.io/examples-show/2020
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Vgp1ghjD.png
+- name: Get Random Point
+  url_js: https://phaser.io/examples-show/2013
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4Lgd1gWc.png
+- name: Height
+  url_js: https://phaser.io/examples-show/743
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/o4ihnNw2.png
+- name: Inverse Line
+  url_js: https://phaser.io/examples-show/792
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/otbemmFh.png
+- name: Length
+  url_js: https://phaser.io/examples-show/834
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/byo4rgVG.png
+- name: Normal Angle
+  url_js: https://phaser.io/examples-show/1074
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nWfbSDRh.png
+- name: Normal Xy
+  url_js: https://phaser.io/examples-show/1075
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eXjcanwv.png
+- name: Offset
+  url_js: https://phaser.io/examples-show/2015
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iu5ThPru.png
+- name: Perp Slope
+  url_js: https://phaser.io/examples-show/1170
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cqLNc5P7.png
+- name: Point On Line
+  url_js: https://phaser.io/examples-show/1213
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2KxjnrkY.png
+- name: Properties
+  url_js: https://phaser.io/examples-show/2011
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UkrQPtns.png
+- name: Reflect Angle
+  url_js: https://phaser.io/examples-show/1282
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4jLqeL9x.png
+- name: Rotate
+  url_js: https://phaser.io/examples-show/1359
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tQB5RYfU.png
+- name: Rotate Around Point
+  url_js: https://phaser.io/examples-show/1345
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PLEkY5sH.png
+- name: Rotate Around Xy
+  url_js: https://phaser.io/examples-show/1347
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/p22wWgR3.png
+- name: Set To
+  url_js: https://phaser.io/examples-show/2012
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/N5X8kRTq.png
+- name: Set To Angle
+  url_js: https://phaser.io/examples-show/1440
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ge2BZUvn.png
+- name: Slope
+  url_js: https://phaser.io/examples-show/1500
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Su6wk5rx.png
+- name: Width
+  url_js: https://phaser.io/examples-show/1784
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gsJsgRw5.png

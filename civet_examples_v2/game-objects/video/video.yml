@@ -1,0 +1,54 @@
+---
+name: video
+examples:
+- name: Change Video Source
+  url_js: https://phaser.io/examples-show/239
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Q4kkaEzR.png
+- name: Get First Video Frame
+  url_js: https://phaser.io/examples-show/661
+  url_image: ''
+- name: Load Video From Url
+  url_js: https://phaser.io/examples-show/916
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/o4qJJZ94.png
+- name: Loop Video
+  url_js: https://phaser.io/examples-show/921
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ye2NU4Hb.png
+- name: Multiple Video Instances
+  url_js: https://phaser.io/examples-show/1054
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RF4hKw1n.png
+- name: Multiple Videos
+  url_js: https://phaser.io/examples-show/1055
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VMU5aL2v.png
+- name: On Complete Event
+  url_js: https://phaser.io/examples-show/1869
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RmSoVTuv.png
+- name: Play Video
+  url_js: https://phaser.io/examples-show/1211
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kDdHXoZp.png
+- name: Stream Video From Webcam
+  url_js: https://phaser.io/examples-show/1591
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KtSrKNVa.png
+- name: Transparent Video
+  url_js: https://phaser.io/examples-show/1691
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jTkKE3be.png
+- name: Video As Shader Texture
+  url_js: https://phaser.io/examples-show/1752
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/F8zV6pQi.png
+- name: Video Controls
+  url_js: https://phaser.io/examples-show/1753
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Hg1u56TH.png
+- name: Video Set Current Time
+  url_js: https://phaser.io/examples-show/1755
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pm4jbxuH.png
+- name: Video Snapshot
+  url_js: https://phaser.io/examples-show/1757
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/AQZKR8m6.png
+- name: Video Snapshot Area
+  url_js: https://phaser.io/examples-show/1756
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/AcTojVbJ.png
+- name: Video To Sprites
+  url_js: https://phaser.io/examples-show/1758
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rUaLGHZB.png
+- name: Video Transition
+  url_js: https://phaser.io/examples-show/1759
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sxyuAQBq.png

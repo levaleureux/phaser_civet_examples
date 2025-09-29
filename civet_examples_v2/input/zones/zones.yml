@@ -1,0 +1,18 @@
+---
+name: zones
+examples:
+- name: Basic Input Zone
+  url_js: https://phaser.io/examples-show/112
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QiqSe1mo.png
+- name: Circular Drop Zone
+  url_js: https://phaser.io/examples-show/269
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FraZ9Q1x.png
+- name: Drop Zone
+  url_js: https://phaser.io/examples-show/522
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jXWayhtn.png
+- name: Resize Zone
+  url_js: https://phaser.io/examples-show/1313
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FXsQBaRB.png
+- name: Sprite Drop Zone
+  url_js: https://phaser.io/examples-show/1544
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RBbo1MP3.png

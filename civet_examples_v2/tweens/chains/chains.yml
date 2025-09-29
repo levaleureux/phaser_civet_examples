@@ -1,0 +1,15 @@
+---
+name: chains
+examples:
+- name: Basic Tween Chain
+  url_js: https://phaser.io/examples-show/119
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QgxbV6L5.png
+- name: Bat Tween
+  url_js: https://phaser.io/examples-show/121
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZEZdZ9FZ.png
+- name: Chest Sequence
+  url_js: https://phaser.io/examples-show/250
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YL6B9T9m.png
+- name: Multi Target Chain
+  url_js: https://phaser.io/examples-show/1016
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fxDhTrdX.png

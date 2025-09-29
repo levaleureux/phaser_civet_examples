@@ -1,0 +1,24 @@
+---
+name: dynamic textures
+examples:
+- name: Copy Image
+  url_js: https://phaser.io/examples-show/333
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bbZk4HRF.png
+- name: Create Dynamic Texture
+  url_js: https://phaser.io/examples-show/345
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cg9xBA97.png
+- name: Dynamic Texture Camera Test
+  url_js: https://phaser.io/examples-show/530
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9qjkAbBa.png
+- name: Get Pixel From Dynamic Texture
+  url_js: https://phaser.io/examples-show/673
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/otKuFgbz.png
+- name: Masked Sprite To Dynamic Texture
+  url_js: https://phaser.io/examples-show/934
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GVnc6t5B.png
+- name: Multiple Dynamic Textures
+  url_js: https://phaser.io/examples-show/1027
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YvC9QH92.png
+- name: Nine Slice Dynamic Texture
+  url_js: https://phaser.io/examples-show/1066
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iZXVuV4B.png

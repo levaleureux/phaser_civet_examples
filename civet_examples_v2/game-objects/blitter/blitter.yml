@@ -1,0 +1,54 @@
+---
+name: blitter
+examples:
+- name: Benchmark Test 1
+  url_js: https://phaser.io/examples-show/126
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rzf8gsCP.png
+- name: Benchmark Test 2
+  url_js: https://phaser.io/examples-show/127
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xn2d9ocn.png
+- name: Benchmark Test 3
+  url_js: https://phaser.io/examples-show/128
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qqCQdsrg.png
+- name: Blitter Alpha
+  url_js: https://phaser.io/examples-show/144
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/977az9zm.png
+- name: Blitter Camera Test
+  url_js: https://phaser.io/examples-show/146
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rbCSwsBP.png
+- name: Blitter Camera Test Canvas
+  url_js: https://phaser.io/examples-show/145
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/reFoT2NC.png
+- name: Blitter Global Alpha
+  url_js: https://phaser.io/examples-show/147
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sQr9UVfY.png
+- name: Bob Frame Object
+  url_js: https://phaser.io/examples-show/154
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/E3sonaYB.png
+- name: Bobs Using A Multi Atlas
+  url_js: https://phaser.io/examples-show/155
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hQzizbYi.png
+- name: Canvas Benchmark 1
+  url_js: https://phaser.io/examples-show/203
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/b2SCYtgT.png
+- name: Create From Callback
+  url_js: https://phaser.io/examples-show/349
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZnsFPyhr.png
+- name: Multiple Atlas Frame Bobs
+  url_js: https://phaser.io/examples-show/1020
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iitL5vkV.png
+- name: Multiple Bobs
+  url_js: https://phaser.io/examples-show/1021
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9iH2sS2z.png
+- name: Single Atlas Frame Bob
+  url_js: https://phaser.io/examples-show/1486
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XWk5Rdgj.png
+- name: Single Image Bob
+  url_js: https://phaser.io/examples-show/1488
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ci5z56vL.png
+- name: Tween Test 1
+  url_js: https://phaser.io/examples-show/1716
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YV8zijac.png
+- name: Twist Scroller
+  url_js: https://phaser.io/examples-show/1729
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WiBzF9Zz.png

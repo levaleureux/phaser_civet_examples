@@ -1,0 +1,42 @@
+---
+name: plane
+examples:
+- name: Animated Sprite Plane
+  url_js: https://phaser.io/examples-show/59
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kG4p8pfk.png
+- name: Checkerboard Plane
+  url_js: https://phaser.io/examples-show/248
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XQofxspw.png
+- name: Click Plane
+  url_js: https://phaser.io/examples-show/277
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/siinLRAM.png
+- name: Create Plane
+  url_js: https://phaser.io/examples-show/363
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oukjPAC2.png
+- name: Create Plane From Atlas Frame
+  url_js: https://phaser.io/examples-show/362
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FgoJwQqr.png
+- name: Plane Drag Input
+  url_js: https://phaser.io/examples-show/1196
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/S9utiXJT.png
+- name: Plane Pop-Up Effect
+  url_js: https://phaser.io/examples-show/1197
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/faAimfHC.png
+- name: Plane With Bitmap Mask
+  url_js: https://phaser.io/examples-show/1198
+  url_image: ''
+- name: Plane With Normal Map
+  url_js: https://phaser.io/examples-show/1199
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rV5cUXZ7.png
+- name: Tile Plane Texture
+  url_js: https://phaser.io/examples-show/1640
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2nehY4fK.png
+- name: Uv Scale Plane Texture
+  url_js: https://phaser.io/examples-show/1739
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Sx2omfHA.png
+- name: Uv Scroll Plane Texture
+  url_js: https://phaser.io/examples-show/1740
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hWnY9FXg.png
+- name: Walls
+  url_js: https://phaser.io/examples-show/1773
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wSHd2igH.png

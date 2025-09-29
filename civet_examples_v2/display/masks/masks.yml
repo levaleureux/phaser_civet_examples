@@ -1,0 +1,18 @@
+---
+name: masks
+examples:
+- name: Dynamic Texture As Bitmap Mask
+  url_js: https://phaser.io/examples-show/529
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BLiaKgwA.png
+- name: Geometry Mask From Shape
+  url_js: https://phaser.io/examples-show/642
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cJrVZkRL.png
+- name: Graphics Bitmap Mask
+  url_js: https://phaser.io/examples-show/714
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/M1462mPD.png
+- name: Nested Bitmap Mask
+  url_js: https://phaser.io/examples-show/1060
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dFHwst1t.png
+- name: Shared Bitmap Mask
+  url_js: https://phaser.io/examples-show/1469
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/27FznmQ3.png

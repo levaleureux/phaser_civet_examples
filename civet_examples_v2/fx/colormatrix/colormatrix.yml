@@ -1,0 +1,9 @@
+---
+name: colormatrix
+examples:
+- name: Colormatrix Fx
+  url_js: https://phaser.io/examples-show/292
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hqtF4hYi.png
+- name: Colormatrix Hue Shift Fx
+  url_js: https://phaser.io/examples-show/293
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GSQ7EJaK.png

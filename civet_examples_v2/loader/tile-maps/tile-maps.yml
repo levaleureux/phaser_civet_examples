@@ -1,0 +1,18 @@
+---
+name: tile maps
+examples:
+- name: Load Tile Map From Local Json
+  url_js: https://phaser.io/examples-show/909
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gDG7BC84.png
+- name: Load Tile Map Json
+  url_js: https://phaser.io/examples-show/913
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8TdeXy8E.png
+- name: Load Tile Map Json From Object
+  url_js: https://phaser.io/examples-show/910
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KqczBrsV.png
+- name: Load Tile Map Json From Scene Payload
+  url_js: https://phaser.io/examples-show/911
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xvgNs3hT.png
+- name: Load Tile Map Json With Normal Map
+  url_js: https://phaser.io/examples-show/912
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xbYA28t2.png

@@ -1,0 +1,81 @@
+---
+name: ellipse
+examples:
+- name: Adjust Size
+  url_js: https://phaser.io/examples-show/45
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aZoGUVWC.png
+- name: Area
+  url_js: https://phaser.io/examples-show/1949
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8rhuE7Rp.png
+- name: Circumference
+  url_js: https://phaser.io/examples-show/1951
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uBqbhM3h.png
+- name: Circumference Point
+  url_js: https://phaser.io/examples-show/1947
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MigesLea.png
+- name: Clone
+  url_js: https://phaser.io/examples-show/1962
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pwKDDauC.png
+- name: Contains
+  url_js: https://phaser.io/examples-show/1956
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Mm8tz8hy.png
+- name: Contains Point
+  url_js: https://phaser.io/examples-show/1950
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1gH2Goc8.png
+- name: Contains Rect
+  url_js: https://phaser.io/examples-show/1961
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/P8yUp3Yk.png
+- name: Copy From
+  url_js: https://phaser.io/examples-show/1964
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6hLLi4Uh.png
+- name: Create Ellipse
+  url_js: https://phaser.io/examples-show/346
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Q4fneX5R.png
+- name: Equals
+  url_js: https://phaser.io/examples-show/1948
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eDMsPzZK.png
+- name: Get Bounds
+  url_js: https://phaser.io/examples-show/1953
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WrYG8MZK.png
+- name: Get Major Radius
+  url_js: https://phaser.io/examples-show/666
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/T2piKJLQ.png
+- name: Get Minor Radius
+  url_js: https://phaser.io/examples-show/668
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xDfm4dy5.png
+- name: Get Point At
+  url_js: https://phaser.io/examples-show/1966
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3dBjJ6pm.png
+- name: Get Points
+  url_js: https://phaser.io/examples-show/1967
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/riH22fPD.png
+- name: Get Random Point
+  url_js: https://phaser.io/examples-show/1957
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/v4t7ekZV.png
+- name: Is Empty
+  url_js: https://phaser.io/examples-show/1965
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/p2iVBnsd.png
+- name: Move Ellipse
+  url_js: https://phaser.io/examples-show/985
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3wgqmRhC.png
+- name: Offset
+  url_js: https://phaser.io/examples-show/1958
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/19UWsDms.png
+- name: Offset Point
+  url_js: https://phaser.io/examples-show/1955
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4ywP3Pdh.png
+- name: Properties
+  url_js: https://phaser.io/examples-show/1952
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Uk3Bn5Pd.png
+- name: Set Empty
+  url_js: https://phaser.io/examples-show/1959
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sJRbTzen.png
+- name: Set Position
+  url_js: https://phaser.io/examples-show/1960
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qYeijGWf.png
+- name: Set Size
+  url_js: https://phaser.io/examples-show/1963
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cfu8hT1e.png
+- name: Set To
+  url_js: https://phaser.io/examples-show/1954
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6iCHTSAk.png

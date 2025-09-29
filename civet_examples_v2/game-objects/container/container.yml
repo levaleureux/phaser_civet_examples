@@ -1,0 +1,156 @@
+---
+name: container
+examples:
+- name: Add Array Of Sprites At Index
+  url_js: https://phaser.io/examples-show/17
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/282gdg6x.png
+- name: Add Array Of Sprites To Container
+  url_js: https://phaser.io/examples-show/18
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pWgBwRtM.png
+- name: Add Emitter To Container
+  url_js: https://phaser.io/examples-show/26
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/F3Ebs3Cp.png
+- name: Add Sprite To Container
+  url_js: https://phaser.io/examples-show/39
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/C8RLwtEz.png
+- name: Add Tilesprite To Container
+  url_js: https://phaser.io/examples-show/41
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/D6UuVtL7.png
+- name: Animation Test
+  url_js: https://phaser.io/examples-show/63
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MXnjpMmh.png
+- name: Arcade Physics Body Test
+  url_js: https://phaser.io/examples-show/71
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fxfeZ5X3.png
+- name: Arcade Physics Sprite Test
+  url_js: https://phaser.io/examples-show/73
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hiXEEEXm.png
+- name: Camera Transform Test
+  url_js: https://phaser.io/examples-show/201
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/e3VPMpMN.png
+- name: Child Blend Mode
+  url_js: https://phaser.io/examples-show/251
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MYi7y6KP.png
+- name: Child Order
+  url_js: https://phaser.io/examples-show/252
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RsXsyEDL.png
+- name: Container Alpha
+  url_js: https://phaser.io/examples-show/307
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aFe3F79N.png
+- name: Container And Camera Zoom
+  url_js: https://phaser.io/examples-show/308
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/E9FaK4ft.png
+- name: Container And Child Input
+  url_js: https://phaser.io/examples-show/309
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ppWya4Cd.png
+- name: Container As Mask
+  url_js: https://phaser.io/examples-show/310
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qnpebxNK.png
+- name: Container Depth
+  url_js: https://phaser.io/examples-show/315
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QGUdY1G1.png
+- name: Container Hitarea
+  url_js: https://phaser.io/examples-show/317
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hNnYqP1L.png
+- name: Container Hitarea From Size
+  url_js: https://phaser.io/examples-show/316
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dp6uSCVM.png
+- name: Container Ik
+  url_js: https://phaser.io/examples-show/318
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hJLEwCQW.png
+- name: Container Input Test
+  url_js: https://phaser.io/examples-show/319
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bEYSgp8p.png
+- name: Container Mask
+  url_js: https://phaser.io/examples-show/320
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VAKEeDLb.png
+- name: Container Placement
+  url_js: https://phaser.io/examples-show/322
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EfcBdWWR.png
+- name: Container Scrollfactor
+  url_js: https://phaser.io/examples-show/323
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jFirnuu9.png
+- name: Create Container
+  url_js: https://phaser.io/examples-show/344
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/azXyZSBA.png
+- name: Draggable Container
+  url_js: https://phaser.io/examples-show/507
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EntAVium.png
+- name: Get Bounds Test 1
+  url_js: https://phaser.io/examples-show/652
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wGt9bwxe.png
+- name: Get Child World Position
+  url_js: https://phaser.io/examples-show/657
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tiHqdCBE.png
+- name: Girl Body Sprites
+  url_js: https://phaser.io/examples-show/700
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uRqvQ1tY.png
+- name: Input Overlap Test
+  url_js: https://phaser.io/examples-show/781
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/U9aw8dds.png
+- name: Matter Physics Body Test
+  url_js: https://phaser.io/examples-show/945
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GrPaoWCw.png
+- name: Matter Physics Body Test Camera
+  url_js: https://phaser.io/examples-show/944
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/v6TaQXMA.png
+- name: Matter Physics Sprite Test
+  url_js: https://phaser.io/examples-show/946
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PkyJjJVc.png
+- name: Multi Camera Input Test
+  url_js: https://phaser.io/examples-show/1000
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fqmE8zM5.png
+- name: Multi Container Depth Test
+  url_js: https://phaser.io/examples-show/1004
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YS87B6wi.png
+- name: Multiple Non Exclusive Containers
+  url_js: https://phaser.io/examples-show/1033
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9pa8Nyie.png
+- name: Nested Container Input Test
+  url_js: https://phaser.io/examples-show/1061
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qPvjETWG.png
+- name: Nested Container Visibility
+  url_js: https://phaser.io/examples-show/1062
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eX7etuuD.png
+- name: Nested Get Bounds Test
+  url_js: https://phaser.io/examples-show/1063
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hwavXx82.png
+- name: Nested Input Test
+  url_js: https://phaser.io/examples-show/1064
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qUnmijBU.png
+- name: Non Exclusive Containers
+  url_js: https://phaser.io/examples-show/1072
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/o5Fuwp1H.png
+- name: Parent Matrix
+  url_js: https://phaser.io/examples-show/1133
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sjxWQsX9.png
+- name: Rotated Input Test
+  url_js: https://phaser.io/examples-show/1362
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gi2KRDzK.png
+- name: Rotation
+  url_js: https://phaser.io/examples-show/1856
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QzUnrXmJ.png
+- name: Scaled Input Test
+  url_js: https://phaser.io/examples-show/1377
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sVWtgfyr.png
+- name: Text And Sprite Test
+  url_js: https://phaser.io/examples-show/1611
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rMnX22qf.png
+- name: Twirl 1
+  url_js: https://phaser.io/examples-show/1723
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KUHkuYuM.png
+- name: Twirl 2
+  url_js: https://phaser.io/examples-show/1724
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/w9UKUJ6e.png
+- name: Twirl 3
+  url_js: https://phaser.io/examples-show/1725
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oYwBqiMc.png
+- name: Twirl 4
+  url_js: https://phaser.io/examples-show/1726
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mr7fv6DD.png
+- name: Twirl 5
+  url_js: https://phaser.io/examples-show/1727
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/K1WLWfEC.png
+- name: Twirl 6
+  url_js: https://phaser.io/examples-show/1728
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZANBmrvP.png

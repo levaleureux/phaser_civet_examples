@@ -1,0 +1,75 @@
+---
+name: scalemanager
+examples:
+- name: Envelop
+  url_js: https://phaser.io/examples-show/557
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fzk3ZNV3.png
+- name: Envelop Min Max
+  url_js: https://phaser.io/examples-show/556
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cHC4wPpo.png
+- name: Fit
+  url_js: https://phaser.io/examples-show/591
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yKRRSr3d.png
+- name: Fit And Snap
+  url_js: https://phaser.io/examples-show/585
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PR3m9ZoE.png
+- name: Fit Min Max
+  url_js: https://phaser.io/examples-show/587
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2687tBH2.png
+- name: Fit Running Game
+  url_js: https://phaser.io/examples-show/589
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YFEcADB3.png
+- name: Fit With Auto Center
+  url_js: https://phaser.io/examples-show/590
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RmK6jiBH.png
+- name: Full Screen Game
+  url_js: https://phaser.io/examples-show/620
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/apmFydRC.png
+- name: Height Controls Width
+  url_js: https://phaser.io/examples-show/742
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Bd1LubUN.png
+- name: Manually Resize
+  url_js: https://phaser.io/examples-show/926
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gBY5bbc9.png
+- name: Manually Resize With Zoom
+  url_js: https://phaser.io/examples-show/925
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FM7NVidk.png
+- name: Mobile Game Example
+  url_js: https://phaser.io/examples-show/972
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/siMuxMXj.png
+- name: No Scale
+  url_js: https://phaser.io/examples-show/1071
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/g4E9DAje.png
+- name: No Scale With Auto Center
+  url_js: https://phaser.io/examples-show/1070
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sx2hd99W.png
+- name: Orientation Check
+  url_js: https://phaser.io/examples-show/1103
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bopZw744.png
+- name: Resize
+  url_js: https://phaser.io/examples-show/1314
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BudbrMX4.png
+- name: Resize And Fit
+  url_js: https://phaser.io/examples-show/1308
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8VqSR5vU.png
+- name: Resize Min Max
+  url_js: https://phaser.io/examples-show/1309
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3TnZxFDY.png
+- name: Resize On Click
+  url_js: https://phaser.io/examples-show/1310
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NXvFpvvU.png
+- name: Width Controls Height
+  url_js: https://phaser.io/examples-show/1783
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iTQuaQmE.png
+- name: World Input
+  url_js: https://phaser.io/examples-show/1802
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YbBNAEUT.png
+- name: Zoom Manual Resize
+  url_js: https://phaser.io/examples-show/1818
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nw4Upiap.png
+- name: Zoom With Fit
+  url_js: https://phaser.io/examples-show/1821
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kWYHWUkq.png
+- name: Zoom With No Scale
+  url_js: https://phaser.io/examples-show/1822
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/J5z3gPRn.png

@@ -1,0 +1,126 @@
+---
+name: actions
+examples:
+- name: Align To
+  url_js: https://phaser.io/examples-show/50
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ttis1tNu.png
+- name: Align To Base
+  url_js: https://phaser.io/examples-show/48
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/96BpJsyo.png
+- name: Align To Offset
+  url_js: https://phaser.io/examples-show/49
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QcHpYFDh.png
+- name: Angle
+  url_js: https://phaser.io/examples-show/2027
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NbFuDbJT.png
+- name: Angle With Step
+  url_js: https://phaser.io/examples-show/54
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SxC3kW9m.png
+- name: Get First
+  url_js: https://phaser.io/examples-show/662
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1ueWq9M1.png
+- name: Grid Align Animations
+  url_js: https://phaser.io/examples-show/728
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4AjenTTT.png
+- name: Grid Align Group
+  url_js: https://phaser.io/examples-show/729
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vMY5cXCm.png
+- name: Grid Align Overlap
+  url_js: https://phaser.io/examples-show/730
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VvmtjsSc.png
+- name: Grid Align Sprites
+  url_js: https://phaser.io/examples-show/731
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gXivD7Jb.png
+- name: Inc X
+  url_js: https://phaser.io/examples-show/777
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/N8ffhsuR.png
+- name: Inc X And Y
+  url_js: https://phaser.io/examples-show/776
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HL8n7u7N.png
+- name: Inc Y
+  url_js: https://phaser.io/examples-show/778
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/JKEq3yZd.png
+- name: Place On A Circle Multi
+  url_js: https://phaser.io/examples-show/1185
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ybkxN8T7.png
+- name: Place On A Circle Reversed
+  url_js: https://phaser.io/examples-show/1186
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DRYtT96N.png
+- name: Place On Circle
+  url_js: https://phaser.io/examples-show/1187
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8FJNdzoT.png
+- name: Place On Ellipse
+  url_js: https://phaser.io/examples-show/1188
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wmvVif8r.png
+- name: Place On Line
+  url_js: https://phaser.io/examples-show/1189
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RGkZGXc7.png
+- name: Place On Part Of A Circle
+  url_js: https://phaser.io/examples-show/1190
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Y8dQLxZ2.png
+- name: Place On Rectangle
+  url_js: https://phaser.io/examples-show/1192
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kZAqDW3F.png
+- name: Place On Rectangle Shift
+  url_js: https://phaser.io/examples-show/1191
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/s7eCfKBK.png
+- name: Place On Triangle
+  url_js: https://phaser.io/examples-show/1193
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/JqgshJTW.png
+- name: Place Sprites On Circle
+  url_js: https://phaser.io/examples-show/1194
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iVuryzcQ.png
+- name: Place Sprites On Part Of A Circle
+  url_js: https://phaser.io/examples-show/1195
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GCcnnnJw.png
+- name: Random Circle
+  url_js: https://phaser.io/examples-show/1248
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Leg4Hz9o.png
+- name: Random Ellipse
+  url_js: https://phaser.io/examples-show/1251
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PzyaZRG9.png
+- name: Random Line
+  url_js: https://phaser.io/examples-show/1254
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/db9gmNqb.png
+- name: Random Rectangle
+  url_js: https://phaser.io/examples-show/1256
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/y1fQZuWd.png
+- name: Random Triangle
+  url_js: https://phaser.io/examples-show/1258
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gKcz7ea3.png
+- name: Rotate Around
+  url_js: https://phaser.io/examples-show/1348
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uhnHf923.png
+- name: Rotate Around Distance
+  url_js: https://phaser.io/examples-show/1344
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xHJ7bwgc.png
+- name: Rotate Around X Y
+  url_js: https://phaser.io/examples-show/1346
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PHdPiRMX.png
+- name: Rotate Container Facing Point
+  url_js: https://phaser.io/examples-show/1351
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qDUuDk4H.png
+- name: Set Alpha
+  url_js: https://phaser.io/examples-show/1418
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Wg4AY5iD.png
+- name: Set X Y
+  url_js: https://phaser.io/examples-show/1444
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/V5j5Uybd.png
+- name: Shift Position
+  url_js: https://phaser.io/examples-show/1471
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/k3ZEz4aA.png
+- name: Shift Position Snake
+  url_js: https://phaser.io/examples-show/1470
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vaigHAii.png
+- name: Spread
+  url_js: https://phaser.io/examples-show/1539
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/q3cp8Hqg.png
+- name: Wrap In Camera Bounds
+  url_js: https://phaser.io/examples-show/1807
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HTrrF2YA.png
+- name: Wrap In Rectangle
+  url_js: https://phaser.io/examples-show/1809
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jxv7kgKh.png
+- name: Wrap In Rectangle With Padding
+  url_js: https://phaser.io/examples-show/1808
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6xbXTLb7.png

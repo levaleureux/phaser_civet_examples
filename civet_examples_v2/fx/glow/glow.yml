@@ -1,0 +1,24 @@
+---
+name: glow
+examples:
+- name: Double Glow Post Fx
+  url_js: https://phaser.io/examples-show/481
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pxDHwPZ2.png
+- name: Glow Bitmaptext
+  url_js: https://phaser.io/examples-show/705
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eFdSi1FB.png
+- name: Glow Fx
+  url_js: https://phaser.io/examples-show/706
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/M7FvAMxW.png
+- name: Glow Graphics
+  url_js: https://phaser.io/examples-show/707
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iiSmKnnb.png
+- name: Glow Post Fx
+  url_js: https://phaser.io/examples-show/708
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XZzaEaDW.png
+- name: Glow Rope Fx
+  url_js: https://phaser.io/examples-show/709
+  url_image: ''
+- name: Glow Text
+  url_js: https://phaser.io/examples-show/710
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oHuBiikt.png

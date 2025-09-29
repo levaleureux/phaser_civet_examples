@@ -29,16 +29,19 @@
                 <p class="examples-subtitle">
                     Examples in the {{ page.category }} category
                 </p>
-                <div class="examples-grid">
-                    {% for example in site.data.examples %}
-                    {% if example.category == page.category %}
-                    <div class="example-item">
-                        <h4><a href="/examples/{{ example.slug }}.html">{{ example.title }}</a></h4>
-                        <p>Phaser example in CivetScript</p>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                </div>
+                 <div class="examples-grid">
+                     {% for example in site.data.examples %}
+                     {% if example.category == page.category %}
+                     <div class="example-item">
+                         <div class="category-image"></div>
+                         <div class="category-content">
+                             <h4><a href="/examples/{{ example.slug }}.html">{{ example.title }}</a></h4>
+                             <p>Phaser example in CivetScript</p>
+                         </div>
+                     </div>
+                     {% endif %}
+                     {% endfor %}
+                 </div>
                 <div class="view-all-examples">
                     <a href="/">Back to Home</a>
                 </div>

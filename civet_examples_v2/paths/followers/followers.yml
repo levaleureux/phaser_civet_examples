@@ -1,0 +1,45 @@
+---
+name: followers
+examples:
+- name: Basic Follower
+  url_js: https://phaser.io/examples-show/111
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CrRrC9TM.png
+- name: Change Path
+  url_js: https://phaser.io/examples-show/225
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QkZ1Ph8M.png
+- name: Leave Path
+  url_js: https://phaser.io/examples-show/832
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zLTzaei7.png
+- name: Mass Followers
+  url_js: https://phaser.io/examples-show/936
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RSqWftba.png
+- name: Multi Curve Path
+  url_js: https://phaser.io/examples-show/1005
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ytVdsXYy.png
+- name: Path From Json
+  url_js: https://phaser.io/examples-show/1156
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/M9WTE1ec.png
+- name: Path From Json All Types
+  url_js: https://phaser.io/examples-show/1155
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RKwJ4wxM.png
+- name: Pause And Resume
+  url_js: https://phaser.io/examples-show/1825
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2qWA49nd.png
+- name: Rotate To Path
+  url_js: https://phaser.io/examples-show/1357
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eRqXtF6b.png
+- name: Rotation Offset
+  url_js: https://phaser.io/examples-show/1365
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/AULX8biG.png
+- name: Sparkle Trail
+  url_js: https://phaser.io/examples-show/1516
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2qJ66KzE.png
+- name: Start At
+  url_js: https://phaser.io/examples-show/1826
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tVCu2uqN.png
+- name: Wave Path
+  url_js: https://phaser.io/examples-show/1774
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MoVds51r.png
+- name: Yoyo Follower
+  url_js: https://phaser.io/examples-show/1814
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VmDQ7bnU.png

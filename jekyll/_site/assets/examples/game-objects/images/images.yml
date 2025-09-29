@@ -1,0 +1,51 @@
+---
+name: images
+examples:
+- name: Blend Test
+  url_js: https://phaser.io/examples-show/143
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Cvwhudq3.png
+- name: Custom Game Object
+  url_js: https://phaser.io/examples-show/1846
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GQrzNeMg.png
+- name: Custom Image Class
+  url_js: https://phaser.io/examples-show/411
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9gASaASR.png
+- name: Custom Image Class Es6
+  url_js: https://phaser.io/examples-show/410
+  url_image: ''
+- name: Destroy An Image
+  url_js: https://phaser.io/examples-show/441
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pdZuB4De.png
+- name: Flip
+  url_js: https://phaser.io/examples-show/598
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tTJC7yYj.png
+- name: Get Bounds
+  url_js: https://phaser.io/examples-show/1845
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Zh9Nx2zg.png
+- name: Image Alpha
+  url_js: https://phaser.io/examples-show/758
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xbC4fNGD.png
+- name: Image Bounds
+  url_js: https://phaser.io/examples-show/759
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oDwYuHKE.png
+- name: Image Edge Points
+  url_js: https://phaser.io/examples-show/761
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/x1YKwMtZ.png
+- name: Image Offset
+  url_js: https://phaser.io/examples-show/762
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Faba9qeu.png
+- name: Image Rotation
+  url_js: https://phaser.io/examples-show/763
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9BpsTMsM.png
+- name: Make Image From Config
+  url_js: https://phaser.io/examples-show/924
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kQR1c5e4.png
+- name: Multiple Alpha
+  url_js: https://phaser.io/examples-show/1019
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gJzHphLW.png
+- name: Multiple Image Rotation
+  url_js: https://phaser.io/examples-show/1031
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hyyvrkNB.png
+- name: Single Image
+  url_js: https://phaser.io/examples-show/1489
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/idQQCLmc.png

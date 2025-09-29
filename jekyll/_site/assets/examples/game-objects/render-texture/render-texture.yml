@@ -1,0 +1,132 @@
+---
+name: render texture
+examples:
+- name: Atlas Frame To Render Texture
+  url_js: https://phaser.io/examples-show/85
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eRKCw7Zr.png
+- name: Batch Draw Frame
+  url_js: https://phaser.io/examples-show/122
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2hmT7EMZ.png
+- name: Batch Draw Sprite
+  url_js: https://phaser.io/examples-show/123
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xz6JW8xb.png
+- name: Blitter To Render Texture
+  url_js: https://phaser.io/examples-show/150
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/j9vKUTY8.png
+- name: Brute Force
+  url_js: https://phaser.io/examples-show/176
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xEY1hN3G.png
+- name: Change Frame
+  url_js: https://phaser.io/examples-show/223
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yY3NxMZF.png
+- name: Container To Render Texture
+  url_js: https://phaser.io/examples-show/324
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HZdhVcbo.png
+- name: Destroy Game With Render Texture
+  url_js: https://phaser.io/examples-show/446
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ot4vuoLU.png
+- name: Destroy Render Texture
+  url_js: https://phaser.io/examples-show/448
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GiXdJAz4.png
+- name: Draw Game Objects To Render Texture
+  url_js: https://phaser.io/examples-show/511
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/V2o96ikb.png
+- name: Draw On Texture
+  url_js: https://phaser.io/examples-show/513
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Y2GWHfJv.png
+- name: Dynamic Bitmap Text To Render Texture
+  url_js: https://phaser.io/examples-show/524
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FX7tUpU8.png
+- name: Dynamic Tilemap To Render Texture
+  url_js: https://phaser.io/examples-show/531
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aNkCeguT.png
+- name: Erase Part Of Render Texture
+  url_js: https://phaser.io/examples-show/560
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sNQ1BfbG.png
+- name: Erase Part Of Render Texture Canvas
+  url_js: https://phaser.io/examples-show/559
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CxgXKznv.png
+- name: Frame Fill
+  url_js: https://phaser.io/examples-show/612
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ADM2HFMR.png
+- name: Graphics To Render Texture
+  url_js: https://phaser.io/examples-show/722
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EbDs69v7.png
+- name: Group To Render Texture
+  url_js: https://phaser.io/examples-show/736
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oPPP1tyv.png
+- name: Paint
+  url_js: https://phaser.io/examples-show/1130
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TMzP8G9n.png
+- name: Paint Interpolated
+  url_js: https://phaser.io/examples-show/1127
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rPBqWzCh.png
+- name: Paint Interpolated Shadow
+  url_js: https://phaser.io/examples-show/1126
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dLa8x24E.png
+- name: Paint Tinted
+  url_js: https://phaser.io/examples-show/1129
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MLZEegLa.png
+- name: Particle Emitter To Render Texture
+  url_js: https://phaser.io/examples-show/1146
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Bf5UFb1C.png
+- name: Pixel Art Test
+  url_js: https://phaser.io/examples-show/1861
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/phbTkzjY.png
+- name: Render Texture As A Mask
+  url_js: https://phaser.io/examples-show/1293
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YgCt1LfD.png
+- name: Render Texture Larger Than Camera
+  url_js: https://phaser.io/examples-show/1294
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Mmu8UwCv.png
+- name: Render Texture To Render Texture
+  url_js: https://phaser.io/examples-show/1296
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RZFazJAm.png
+- name: Resize Render Texture
+  url_js: https://phaser.io/examples-show/1311
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ArxbBtmK.png
+- name: Resize Rendertexture
+  url_js: https://phaser.io/examples-show/1312
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/T7TDCtQR.png
+- name: Save Texture
+  url_js: https://phaser.io/examples-show/1373
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5D66oXcw.png
+- name: Scene To Render Texture
+  url_js: https://phaser.io/examples-show/1402
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QraMPfyE.png
+- name: Scene To Render Texture Quad
+  url_js: https://phaser.io/examples-show/1400
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kS8akjWy.png
+- name: Scene To Render Texture With Crop
+  url_js: https://phaser.io/examples-show/1401
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VKa9fc7x.png
+- name: Scratch
+  url_js: https://phaser.io/examples-show/1404
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/JDMHCEPY.png
+- name: Shape To Render Texture
+  url_js: https://phaser.io/examples-show/1468
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/51p4fovx.png
+- name: Sprite To Render Texture
+  url_js: https://phaser.io/examples-show/1556
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cQLSvX71.png
+- name: Static Bitmap Text To Render Texture
+  url_js: https://phaser.io/examples-show/1579
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nDrJ6dV9.png
+- name: Static Tilemap To Render Texture
+  url_js: https://phaser.io/examples-show/1584
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1ztQJxWB.png
+- name: Text To Render Texture
+  url_js: https://phaser.io/examples-show/1626
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZBsuQBAX.png
+- name: Texture Key To Render Texture
+  url_js: https://phaser.io/examples-show/1630
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ymNF7rxe.png
+- name: Trail
+  url_js: https://phaser.io/examples-show/1683
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dCZXLuCB.png
+- name: Trail2
+  url_js: https://phaser.io/examples-show/1684
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vbHcoRph.png
+- name: Transform Draw
+  url_js: https://phaser.io/examples-show/1685
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UQmoqBKG.png

@@ -1,0 +1,6 @@
+---
+name: scene payload
+examples:
+- name: Scene Files Payload
+  url_js: https://phaser.io/examples-show/1875
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VEF26Nzt.png

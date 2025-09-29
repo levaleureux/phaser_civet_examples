@@ -1,0 +1,15 @@
+---
+name: distance
+examples:
+- name: Distance
+  url_js: https://phaser.io/examples-show/472
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QBdV8DCp.png
+- name: Distance Between Points
+  url_js: https://phaser.io/examples-show/471
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aRdJLUbR.png
+- name: Get Chebyshev Distance
+  url_js: https://phaser.io/examples-show/656
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RmDNvwsT.png
+- name: Snake Distance
+  url_js: https://phaser.io/examples-show/1503
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Vqv9XT4B.png

@@ -1,0 +1,12 @@
+---
+name: binary
+examples:
+- name: Load Binary Data
+  url_js: https://phaser.io/examples-show/864
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/M57RU1ZS.png
+- name: Load Binary Data From Object
+  url_js: https://phaser.io/examples-show/862
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5DZakine.png
+- name: Load Binary Data Parse After Load
+  url_js: https://phaser.io/examples-show/863
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EWxtfkJs.png

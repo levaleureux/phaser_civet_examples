@@ -1,0 +1,54 @@
+---
+name: primitives
+examples:
+- name: Arc Filled
+  url_js: https://phaser.io/examples-show/65
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qAesyGHK.png
+- name: Arc Gradient Filled
+  url_js: https://phaser.io/examples-show/66
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/S4n8FzFA.png
+- name: Arc Stroked
+  url_js: https://phaser.io/examples-show/68
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QwbqDZvL.png
+- name: Line Between
+  url_js: https://phaser.io/examples-show/839
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nwbzb4Vy.png
+- name: Line Filled
+  url_js: https://phaser.io/examples-show/842
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xuKLNT7d.png
+- name: Line Gradient Stroked
+  url_js: https://phaser.io/examples-show/843
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5mikPNSp.png
+- name: Path Gradient Filled
+  url_js: https://phaser.io/examples-show/1157
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HFdw2sUx.png
+- name: Path Stroked
+  url_js: https://phaser.io/examples-show/1159
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kwoPgyeL.png
+- name: Rectangle Filled
+  url_js: https://phaser.io/examples-show/1271
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/g1VVNnf3.png
+- name: Rectangle Filled Texture
+  url_js: https://phaser.io/examples-show/1270
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pZ4F6XjK.png
+- name: Rectangle Gradient Filled
+  url_js: https://phaser.io/examples-show/1272
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gpSwjCKa.png
+- name: Rectangle Stroked
+  url_js: https://phaser.io/examples-show/1274
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hAFfrgd7.png
+- name: Scene Stack Test
+  url_js: https://phaser.io/examples-show/1399
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Km8CWCee.png
+- name: Split Path Filled
+  url_js: https://phaser.io/examples-show/1536
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XYy82Da3.png
+- name: Triangle Gradient Filled
+  url_js: https://phaser.io/examples-show/1695
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9aeutG1Z.png
+- name: Triangle Gradient Stroked
+  url_js: https://phaser.io/examples-show/1696
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wcmrsLpr.png
+- name: Triangle Stroked
+  url_js: https://phaser.io/examples-show/1698
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HcxBHJHz.png

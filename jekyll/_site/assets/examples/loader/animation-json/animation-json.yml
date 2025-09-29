@@ -1,0 +1,6 @@
+---
+name: animation json
+examples:
+- name: Load Animation Json
+  url_js: https://phaser.io/examples-show/856
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/K3F2NVcV.png

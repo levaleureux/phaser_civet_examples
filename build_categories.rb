@@ -151,6 +151,49 @@ class BuildCategories < Thor
     puts html
   end
 
+  desc "generate_example_pages", "Generate Jekyll pages for v2 examples"
+  def generate_example_pages
+    v2_dir = 'civet_examples_v2'
+    examples_v2_dir = 'jekyll/_examples_v2'
+
+    Dir.glob("#{v2_dir}/*").each do |cat_dir|
+      next unless File.directory?(cat_dir)
+      category = File.basename(cat_dir)
+      yaml_file = "#{cat_dir}/#{category}.yml"
+      next unless File.exist?(yaml_file)
+
+      data = YAML.load_file(yaml_file)
+      examples = data['examples'] || []
+
+      examples.each do |example|
+        id = example['url_js'].split('/').last.to_i
+        id_padded = id.to_s.rjust(3, '0')
+        name_slug = example['name'].downcase.gsub(/[^a-z0-9]+/, '_').gsub(/^_+|_+$/, '')
+        subdir = "#{id_padded}_#{name_slug}"
+
+        md_dir = "#{examples_v2_dir}/#{category}"
+        FileUtils.mkdir_p(md_dir)
+
+        md_file = "#{md_dir}/#{subdir}.md"
+        js_path = "/assets/examples/#{category}/examples/#{subdir}/original.js"
+
+        content = <<~MD
+---
+layout: example
+category: #{category}
+slug: #{subdir}
+name: #{example['name']}
+js_path: #{js_path}
+---
+        MD
+
+        File.write(md_file, content)
+      end
+    end
+
+    puts "Example pages generated successfully."
+  end
+
   desc "scrape_examples YAML_FILE", "Scrape examples from YAML file and download assets"
   def scrape_examples(yaml_file)
     unless File.exist?(yaml_file)

@@ -1,0 +1,30 @@
+---
+name: blend modes
+examples:
+- name: Blend Mode Tester
+  url_js: https://phaser.io/examples-show/140
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/reBtSkRM.png
+- name: Circle Cut Out
+  url_js: https://phaser.io/examples-show/256
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ue8EKKBb.png
+- name: Custom Blend Mode
+  url_js: https://phaser.io/examples-show/401
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/K85DLL7C.png
+- name: Custom Blend Mode With Graphics
+  url_js: https://phaser.io/examples-show/400
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nFLQuJ2T.png
+- name: Custom Separate Blend Mode
+  url_js: https://phaser.io/examples-show/417
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/15ye43Am.png
+- name: Difference
+  url_js: https://phaser.io/examples-show/452
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rX2FQgCJ.png
+- name: Graphics Blend Mode
+  url_js: https://phaser.io/examples-show/715
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uvh4Emdq.png
+- name: Overlay
+  url_js: https://phaser.io/examples-show/1119
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bMobHbei.png
+- name: Particle
+  url_js: https://phaser.io/examples-show/1149
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wVpZ2yuQ.png

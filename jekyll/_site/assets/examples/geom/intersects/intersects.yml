@@ -1,0 +1,45 @@
+---
+name: intersects
+examples:
+- name: Circle To Circle
+  url_js: https://phaser.io/examples-show/262
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VFWxk6F9.png
+- name: Get Rectangle Intersection
+  url_js: https://phaser.io/examples-show/686
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iw2Ri3jm.png
+- name: Line To Circle
+  url_js: https://phaser.io/examples-show/847
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MKeWHc2G.png
+- name: Line To Line
+  url_js: https://phaser.io/examples-show/849
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zB6eMRGj.png
+- name: Line To Rectangle
+  url_js: https://phaser.io/examples-show/850
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Zo2WJsXF.png
+- name: Point To Line
+  url_js: https://phaser.io/examples-show/1215
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7DCMtoBn.png
+- name: Point To Line Segment
+  url_js: https://phaser.io/examples-show/1214
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8kkP99Ld.png
+- name: Rectangle To Circle
+  url_js: https://phaser.io/examples-show/1275
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SGGGVKpu.png
+- name: Rectangle To Rectangle
+  url_js: https://phaser.io/examples-show/1276
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/faHsa7s7.png
+- name: Rectangle To Triangle
+  url_js: https://phaser.io/examples-show/1277
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yftrc8vi.png
+- name: Rectangle To Values
+  url_js: https://phaser.io/examples-show/1278
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MJZJxd3T.png
+- name: Triangle To Circle
+  url_js: https://phaser.io/examples-show/1699
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BYBrMkpG.png
+- name: Triangle To Line
+  url_js: https://phaser.io/examples-show/1700
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LD4c6dqi.png
+- name: Triangle To Triangle
+  url_js: https://phaser.io/examples-show/1701
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cH6MUaEf.png

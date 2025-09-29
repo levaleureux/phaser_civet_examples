@@ -1,0 +1,57 @@
+---
+name: game object
+examples:
+- name: Change Sprite Hitarea Size
+  url_js: https://phaser.io/examples-show/234
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6gkxuN3m.png
+- name: Custom Shape Hit Area
+  url_js: https://phaser.io/examples-show/419
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5k6JffXK.png
+- name: Destroy Sprite On Down Event
+  url_js: https://phaser.io/examples-show/449
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1ciecLbD.png
+- name: Graphics Object Example
+  url_js: https://phaser.io/examples-show/719
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SPJkPXQo.png
+- name: Multiple Down
+  url_js: https://phaser.io/examples-show/1025
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ChdoRcNc.png
+- name: Multiple Over Out
+  url_js: https://phaser.io/examples-show/1034
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rrCAXNbF.png
+- name: Multiple Up
+  url_js: https://phaser.io/examples-show/1053
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MQvvAVf9.png
+- name: On Down Event
+  url_js: https://phaser.io/examples-show/1089
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/joyVYjs4.png
+- name: On Move Event
+  url_js: https://phaser.io/examples-show/1092
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/H3iphWz8.png
+- name: On Up Event
+  url_js: https://phaser.io/examples-show/1098
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hb4TJj87.png
+- name: Over And Out Events
+  url_js: https://phaser.io/examples-show/1110
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iASuTqeq.png
+- name: Select And Deselect
+  url_js: https://phaser.io/examples-show/1412
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QHtch83N.png
+- name: Sprite Example
+  url_js: https://phaser.io/examples-show/1545
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/U23jVWTc.png
+- name: Tilesprite On Down
+  url_js: https://phaser.io/examples-show/1653
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jGTRfmai.png
+- name: Top Only Over Out Events
+  url_js: https://phaser.io/examples-show/1672
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cx3vJpmY.png
+- name: Top Only Up Down Events
+  url_js: https://phaser.io/examples-show/1674
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/detpTRGD.png
+- name: Use Hand Cursor
+  url_js: https://phaser.io/examples-show/1734
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zqeUR2eg.png
+- name: World Game Objects
+  url_js: https://phaser.io/examples-show/1801
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oWaui7Ab.png

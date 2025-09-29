@@ -1,0 +1,15 @@
+---
+name: gamepad
+examples:
+- name: Axes
+  url_js: https://phaser.io/examples-show/92
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5dMo8E2a.png
+- name: Gamepad Across Scenes
+  url_js: https://phaser.io/examples-show/633
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dbM7TdP8.png
+- name: Move Sprite
+  url_js: https://phaser.io/examples-show/988
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cxabAeY1.png
+- name: Select Gamepad
+  url_js: https://phaser.io/examples-show/1413
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ygLugj9s.png

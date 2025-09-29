@@ -1,0 +1,54 @@
+---
+name: plugins
+examples:
+- name: Add Global Plugin
+  url_js: https://phaser.io/examples-show/30
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QB3iQwtn.png
+- name: Add Scene Plugin In Config
+  url_js: https://phaser.io/examples-show/36
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qGCAVb9Y.png
+- name: Custom File Type
+  url_js: https://phaser.io/examples-show/408
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MVchKmPS.png
+- name: Custom Game Object
+  url_js: https://phaser.io/examples-show/409
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oGpUsed8.png
+- name: Destroy Game With Plugin
+  url_js: https://phaser.io/examples-show/445
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Zg9Bkpzq.png
+- name: Global Plugin Test 1
+  url_js: https://phaser.io/examples-show/702
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EyLbQS6v.png
+- name: Global Scene Plugin
+  url_js: https://phaser.io/examples-show/703
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7Ab6Escc.png
+- name: Install Global Plugin At Runtime
+  url_js: https://phaser.io/examples-show/783
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3e1mPN2A.png
+- name: Load Plugin Test 1
+  url_js: https://phaser.io/examples-show/886
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mqZGGbud.png
+- name: Load Plugin Test 2
+  url_js: https://phaser.io/examples-show/887
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/P3u4FKwG.png
+- name: Load Scene Plugin Test 1
+  url_js: https://phaser.io/examples-show/891
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KSjtZhkQ.png
+- name: Load Scene Plugin Test 2
+  url_js: https://phaser.io/examples-show/892
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qmCwuXU1.png
+- name: Multiple Global Plugin Instances
+  url_js: https://phaser.io/examples-show/1029
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DBQyf7M5.png
+- name: Scene Plugin Test 1
+  url_js: https://phaser.io/examples-show/1395
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ncj3U9oP.png
+- name: Scene Plugin Test 2
+  url_js: https://phaser.io/examples-show/1396
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/q54aYcQR.png
+- name: Scene Plugin Test 3
+  url_js: https://phaser.io/examples-show/1397
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Lowrk6g5.png
+- name: Start And Stop A Plugin
+  url_js: https://phaser.io/examples-show/1572
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/L7p59dk7.png

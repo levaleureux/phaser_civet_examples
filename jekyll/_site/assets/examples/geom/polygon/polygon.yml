@@ -1,0 +1,36 @@
+---
+name: polygon
+examples:
+- name: Area
+  url_js: https://phaser.io/examples-show/2021
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LapmP8Zg.png
+- name: Basic Polygon
+  url_js: https://phaser.io/examples-show/115
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tgDQcst7.png
+- name: Clone
+  url_js: https://phaser.io/examples-show/2025
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZsVvQxfn.png
+- name: Complex Polygon
+  url_js: https://phaser.io/examples-show/296
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uenu8YsB.png
+- name: Contains
+  url_js: https://phaser.io/examples-show/2024
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BeayBeLt.png
+- name: Contains Point
+  url_js: https://phaser.io/examples-show/2022
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oZps93wM.png
+- name: Get Aabb
+  url_js: https://phaser.io/examples-show/643
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ei8megd1.png
+- name: Get Number Array
+  url_js: https://phaser.io/examples-show/670
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LnrosnsS.png
+- name: Get Points
+  url_js: https://phaser.io/examples-show/2026
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tZpFKges.png
+- name: Polygon Edge Rays
+  url_js: https://phaser.io/examples-show/1224
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/f2XRzFtj.png
+- name: Set To
+  url_js: https://phaser.io/examples-show/2023
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xsBygJR6.png

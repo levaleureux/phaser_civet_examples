@@ -1,0 +1,75 @@
+---
+name: shapes
+examples:
+- name: Arc
+  url_js: https://phaser.io/examples-show/69
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/C1o81sW7.png
+- name: Blend Modes
+  url_js: https://phaser.io/examples-show/142
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/x8tQEkEL.png
+- name: Circle
+  url_js: https://phaser.io/examples-show/263
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hJjqCpTe.png
+- name: Curve
+  url_js: https://phaser.io/examples-show/398
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/U11uajRj.png
+- name: Draw
+  url_js: https://phaser.io/examples-show/520
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/M8M5YvdA.png
+- name: Ellipse
+  url_js: https://phaser.io/examples-show/541
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qiVVQDSS.png
+- name: Grid
+  url_js: https://phaser.io/examples-show/733
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/c58bkCtV.png
+- name: Iso Birdie
+  url_js: https://phaser.io/examples-show/798
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xGukPHLh.png
+- name: Iso Box
+  url_js: https://phaser.io/examples-show/799
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cmmZYKmw.png
+- name: Iso Draw
+  url_js: https://phaser.io/examples-show/800
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fRRbUyRC.png
+- name: Iso Image
+  url_js: https://phaser.io/examples-show/801
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LGgtjDc1.png
+- name: Iso Landscape
+  url_js: https://phaser.io/examples-show/802
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ys4FD7WR.png
+- name: Iso Triangle
+  url_js: https://phaser.io/examples-show/803
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2WShaMay.png
+- name: Line
+  url_js: https://phaser.io/examples-show/851
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rj31kzcf.png
+- name: Polygon
+  url_js: https://phaser.io/examples-show/1227
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/crXoiXvE.png
+- name: Polygon Contains
+  url_js: https://phaser.io/examples-show/1223
+  url_image: ''
+- name: Polygon With Matter Physics
+  url_js: https://phaser.io/examples-show/1226
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/42AHJare.png
+- name: Rectangle
+  url_js: https://phaser.io/examples-show/1280
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/v96cFs5f.png
+- name: Rectangle With Arcade Physics
+  url_js: https://phaser.io/examples-show/1279
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KdB8DjjQ.png
+- name: Spline
+  url_js: https://phaser.io/examples-show/1534
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xcVESz2s.png
+- name: Stacker
+  url_js: https://phaser.io/examples-show/1868
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xqdLXhZf.png
+- name: Stacker Es6
+  url_js: https://phaser.io/examples-show/1564
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PvxyJpvb.png
+- name: Star
+  url_js: https://phaser.io/examples-show/1571
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NDDNgpta.png
+- name: Triangle
+  url_js: https://phaser.io/examples-show/1702
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uEQZLj3R.png

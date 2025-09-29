@@ -1,0 +1,9 @@
+---
+name: bitmap text
+examples:
+- name: Load Bitmap Text
+  url_js: https://phaser.io/examples-show/866
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/APYH8top.png
+- name: Load Bitmap Text From Pack
+  url_js: https://phaser.io/examples-show/865
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rEZEn2DV.png

@@ -7,10 +7,11 @@ baseurl: ""
 
 # Collections
 collections:
-  examples:
-    output: true
   categories:
     output: true
+  examples:
+    output: true
+    permalink: /examples/:path/
 
 # Build settings
 markdown: kramdown

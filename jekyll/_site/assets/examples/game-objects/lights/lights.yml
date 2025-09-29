@@ -1,0 +1,66 @@
+---
+name: lights
+examples:
+- name: Bitmap Text Light
+  url_js: https://phaser.io/examples-show/130
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ADbXZmec.png
+- name: Blitter Light
+  url_js: https://phaser.io/examples-show/148
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jKubiT9W.png
+- name: Change Max Lights
+  url_js: https://phaser.io/examples-show/224
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BvD8khUc.png
+- name: Change Scene
+  url_js: https://phaser.io/examples-show/230
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9NQdWmLp.png
+- name: Create Point Light
+  url_js: https://phaser.io/examples-show/364
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/55ZEKhRG.png
+- name: Draw Light
+  url_js: https://phaser.io/examples-show/512
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EXzJ84CA.png
+- name: Graveyard
+  url_js: https://phaser.io/examples-show/723
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mUcuiLi1.png
+- name: Light Culling
+  url_js: https://phaser.io/examples-show/835
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iNDUGnRf.png
+- name: Light Follow Pointer
+  url_js: https://phaser.io/examples-show/836
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7pxkQDQW.png
+- name: Mesh Light
+  url_js: https://phaser.io/examples-show/962
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jtPLy893.png
+- name: Particles Light
+  url_js: https://phaser.io/examples-show/1151
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3PDZ6ty8.png
+- name: Point Lights
+  url_js: https://phaser.io/examples-show/1212
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oYap7Vgx.png
+- name: Render Texture Light
+  url_js: https://phaser.io/examples-show/1295
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hmM6PB7a.png
+- name: Rotated Sprite
+  url_js: https://phaser.io/examples-show/1363
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ko4nQziU.png
+- name: Single Light
+  url_js: https://phaser.io/examples-show/1491
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/J8nacjSE.png
+- name: Spotlight
+  url_js: https://phaser.io/examples-show/1538
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GHYqpGmb.png
+- name: Sprite Sheet Light
+  url_js: https://phaser.io/examples-show/1552
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UvFMj6Hi.png
+- name: Text Light
+  url_js: https://phaser.io/examples-show/1619
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cfzN4GdN.png
+- name: Tilemap Layer
+  url_js: https://phaser.io/examples-show/1648
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dnFx8Fjz.png
+- name: Tilesprite Light
+  url_js: https://phaser.io/examples-show/1652
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/s3zHRrdF.png
+- name: Zoom Point Light
+  url_js: https://phaser.io/examples-show/1819
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/i4qo6KSm.png

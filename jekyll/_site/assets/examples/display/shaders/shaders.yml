@@ -1,0 +1,27 @@
+---
+name: shaders
+examples:
+- name: Shader Test 1
+  url_js: https://phaser.io/examples-show/1453
+  url_image: ''
+- name: Shader Test 2
+  url_js: https://phaser.io/examples-show/1454
+  url_image: ''
+- name: Shader Test 3
+  url_js: https://phaser.io/examples-show/1455
+  url_image: ''
+- name: Shader Test 4
+  url_js: https://phaser.io/examples-show/1456
+  url_image: ''
+- name: Shader Test 5
+  url_js: https://phaser.io/examples-show/1457
+  url_image: ''
+- name: Shader Test 6
+  url_js: https://phaser.io/examples-show/1458
+  url_image: ''
+- name: Shader Test 7
+  url_js: https://phaser.io/examples-show/1459
+  url_image: ''
+- name: Shader Test 8
+  url_js: https://phaser.io/examples-show/1460
+  url_image: ''

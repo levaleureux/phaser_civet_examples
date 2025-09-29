@@ -1,0 +1,27 @@
+---
+name: layer
+examples:
+- name: Add Sprite To Layer
+  url_js: https://phaser.io/examples-show/40
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/v4eztRFD.png
+- name: Create Layer
+  url_js: https://phaser.io/examples-show/358
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7rxdP65t.png
+- name: Depth Sort Layer Children
+  url_js: https://phaser.io/examples-show/440
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kZzDK6By.png
+- name: Layer Post Pipeline
+  url_js: https://phaser.io/examples-show/827
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GapuEUZU.png
+- name: Layer With Bitmap Mask
+  url_js: https://phaser.io/examples-show/830
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jNS7Z5zy.png
+- name: Layer With Geometry Mask
+  url_js: https://phaser.io/examples-show/831
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vCCYkbP3.png
+- name: Move Between Layers
+  url_js: https://phaser.io/examples-show/979
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6mFm8kRY.png
+- name: Nested Layers
+  url_js: https://phaser.io/examples-show/1065
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/daQxDpLU.png

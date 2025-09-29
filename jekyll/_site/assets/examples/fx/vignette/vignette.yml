@@ -1,0 +1,18 @@
+---
+name: vignette
+examples:
+- name: Vignette Camera
+  url_js: https://phaser.io/examples-show/1761
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6nvtqHp4.png
+- name: Vignette Radius
+  url_js: https://phaser.io/examples-show/1762
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UBH9mKXz.png
+- name: Vignette Sprite Fx
+  url_js: https://phaser.io/examples-show/1763
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/14E3gmuJ.png
+- name: Vignette Strength
+  url_js: https://phaser.io/examples-show/1764
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9m8y5T9T.png
+- name: Vignette Xy
+  url_js: https://phaser.io/examples-show/1765
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mEvS3dbD.png

@@ -4,6 +4,7 @@ require 'thor'
 require 'yaml'
 require 'nokogiri'
 require 'net/http'
+require 'fileutils'
 
 class BuildCategories < Thor
   desc "build", "Build categories and examples from civet examples"
@@ -148,6 +149,66 @@ class BuildCategories < Thor
     html += '</div>'
 
     puts html
+  end
+
+  desc "scrape_examples YAML_FILE", "Scrape examples from YAML file and download assets"
+  def scrape_examples(yaml_file)
+    unless File.exist?(yaml_file)
+      puts "YAML file not found: #{yaml_file}"
+      return
+    end
+
+    data = YAML.load_file(yaml_file)
+    examples = data['examples'] || []
+
+    examples_dir = "#{File.dirname(yaml_file)}/examples"
+    FileUtils.mkdir_p(examples_dir)
+
+    examples.each do |example|
+      id = example['url_js'].split('/').last.to_i
+      id_padded = id.to_s.rjust(3, '0')
+      name_underscore = example['name'].downcase.gsub(/[^a-z0-9]+/, '_').gsub(/^_+|_+$/, '')
+      folder_name = "#{id_padded}_#{name_underscore}"
+      folder_path = "#{examples_dir}/#{folder_name}"
+      FileUtils.mkdir_p(folder_path)
+
+      # Download image
+      begin
+        uri_image = URI(example['url_image'])
+        response_image = Net::HTTP.get_response(uri_image)
+        if response_image.is_a?(Net::HTTPSuccess)
+          File.write("#{folder_path}/thumb.png", response_image.body)
+        else
+          warn "Failed to download image for #{example['name']}: #{response_image.code}"
+        end
+      rescue => e
+        warn "Error downloading image for #{example['name']}: #{e.message}"
+      end
+
+      # Download and extract JS
+      begin
+        category = File.basename(File.dirname(yaml_file))
+        slug = example['name'].downcase.gsub(/[^a-z0-9]+/, '-').gsub(/^-|-$/, '')
+        url = "https://phaser.io/examples/v3.85.0/#{category}/view/#{slug}"
+        uri_js = URI(url)
+        response_js = Net::HTTP.get_response(uri_js)
+        if response_js.is_a?(Net::HTTPSuccess)
+          doc = Nokogiri::HTML(response_js.body)
+          code_tag = doc.at_css('pre.example_code_codefile code')
+          if code_tag
+            File.write("#{folder_path}/original.js", code_tag.text)
+          else
+            warn "Failed to extract JS for #{example['name']}: no code tag found"
+          end
+        else
+          warn "Failed to download JS page for #{example['name']}: #{response_js.code}"
+        end
+      rescue => e
+        warn "Error downloading/extracting JS for #{example['name']}: #{e.message}"
+      end
+    end
+
+    puts "Scraped examples successfully."
   end
 end
 

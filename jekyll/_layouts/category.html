@@ -38,7 +38,7 @@
                         {% for item in site.collections.examples.docs %}
                         {% if item.data.category == page.category %}
                         <div class="example-item">
-                            <div class="category-image"></div>
+                            <img src="/assets/examples/{{ item.data.category }}/examples/{{ item.data.slug }}/thumb.png" alt="{{ item.data.name }}" class="category-image">
                             <div class="category-content">
                                 <h4><a href="{{ item.url }}">{{ item.data.name }}</a></h4>
                                 <p>Phaser example in JavaScript</p>

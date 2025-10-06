@@ -92,27 +92,27 @@ Example content.
     end
   end
 
-  desc "example_pages", "Generate Jekyll pages for v2 examples"
+  desc "example_pages", "Generate Jekyll pages for examples"
   def example_pages
-    v2_dir = 'civet_examples_v2'
-    examples_dir = 'jekyll/_examples_v2'
+    examples_dir = 'civet_examples'
+    output_dir = 'jekyll/_examples'
 
-    Dir.glob("#{v2_dir}/*").each do |cat_dir|
+    Dir.glob("#{examples_dir}/*").each do |cat_dir|
       next unless File.directory?(cat_dir)
       category = File.basename(cat_dir)
       yaml_file = "#{cat_dir}/#{category}.yml"
-      process_yaml_for_examples(yaml_file, examples_dir, category) if File.exist?(yaml_file)
+      process_yaml_for_examples(yaml_file, output_dir, category) if File.exist?(yaml_file)
     end
 
     puts "Example pages generated successfully."
   end
 
-  desc "category_pages", "Generate Jekyll category pages for v2 structure"
+  desc "category_pages", "Generate Jekyll category pages for structure"
   def category_pages
-    v2_dir = 'civet_examples_v2'
+    examples_dir = 'civet_examples'
     categories_dir = 'jekyll/_categories'
 
-    Dir.glob("#{v2_dir}/*").each do |cat_dir|
+    Dir.glob("#{examples_dir}/*").each do |cat_dir|
       next unless File.directory?(cat_dir)
       category = File.basename(cat_dir)
       yaml_file = "#{cat_dir}/#{category}.yml"

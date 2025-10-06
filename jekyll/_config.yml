@@ -7,7 +7,7 @@ baseurl: ""
 
 # Collections
 collections:
-  examples_v2:
+  examples:
     output: true
     permalink: /examples/:path/
   categories:

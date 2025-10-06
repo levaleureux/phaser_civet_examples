@@ -5,8 +5,8 @@ require 'net/http'
 require 'fileutils'
 
 class Scrap < Thor
-  desc "v2", "Build v2 structure from Phaser examples URL"
-  def v2
+  desc "structure", "Build structure from Phaser examples URL"
+  def structure
     def process_category(url, parent_dir, slug)
       uri = URI(url)
       response = Net::HTTP.get(uri)
@@ -55,15 +55,16 @@ class Scrap < Thor
     doc = Nokogiri::HTML(response)
     categories = doc.css('.examples_folders_folder')
 
-    v2_dir = 'civet_examples_v2'
-    Dir.mkdir(v2_dir) unless Dir.exist?(v2_dir)
+    examples_dir = 'civet_examples'
+    Dir.mkdir(examples_dir) unless Dir.exist?(examples_dir)
+    Dir.mkdir(examples_dir) unless Dir.exist?(examples_dir)
 
     categories.each do |cat|
       name = cat.at_css('.examples_folders_folder_name')&.text&.strip
       next unless name
       slug = name.downcase.gsub(' ', '-')
       cat_url = cat.at_css('a')['href']
-      process_category(cat_url, v2_dir, slug)
+      process_category(cat_url, examples_dir, slug)
     end
 
     # Generate categories.yml for Jekyll
@@ -80,7 +81,7 @@ class Scrap < Thor
       end
     end
 
-    puts "V2 structure built successfully."
+    puts "Structure built successfully."
   end
 
   desc "examples YAML_FILE", "Scrape examples from YAML file and download assets"
@@ -93,8 +94,8 @@ class Scrap < Thor
     data = YAML.load_file(yaml_file)
     examples = data['examples'] || []
 
-    examples_dir = "#{File.dirname(yaml_file)}/examples"
-    FileUtils.mkdir_p(examples_dir)
+    assets_dir = "#{File.dirname(yaml_file)}/examples"
+    FileUtils.mkdir_p(assets_dir)
 
     examples.each do |example|
       id = example['url_js'].split('/').last.to_i

@@ -9,6 +9,11 @@ require 'set'
 
 class BuildCategories < Thor
 
+  desc "version", "Show version"
+  def version
+    puts "1.0.0"
+  end
+
   desc "build_v2", "Build v2 structure from Phaser examples URL"
   def build_v2
     def process_category(url, parent_dir, slug)

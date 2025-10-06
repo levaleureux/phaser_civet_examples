@@ -3,11 +3,7 @@ require 'yaml'
 require 'fileutils'
 
 class Generate < Thor
-  desc "example_pages", "Generate Jekyll pages for v2 examples"
-  def example_pages
-    v2_dir = 'civet_examples_v2'
-    examples_dir = 'jekyll/_examples'
-
+  no_commands do
     def process_yaml_for_examples(yaml_file, examples_dir, full_slug)
       data = YAML.load_file(yaml_file)
       examples = data['examples'] || []
@@ -51,6 +47,56 @@ Example content.
       end
     end
 
+    def process_category(yaml_file, categories_dir, full_slug, parent_slug)
+      data = YAML.load_file(yaml_file)
+      name = data['name']
+
+      examples = data['examples'] || []
+      is_leaf = examples.any?
+
+      sub_categories = []
+
+      cat_dir = File.dirname(yaml_file)
+      Dir.glob("#{cat_dir}/*").each do |sub|
+        next unless File.directory?(sub)
+        sub_yaml = "#{sub}/#{File.basename(sub)}.yml"
+        if File.exist?(sub_yaml)
+          sub_data = YAML.load_file(sub_yaml)
+          sub_categories << { 'slug' => "#{full_slug}-#{File.basename(sub)}", 'name' => sub_data['name'], 'sub_slug' => File.basename(sub) }
+        end
+      end
+
+      # Generate MD file
+      md_file = "#{categories_dir}/#{full_slug}.md"
+      FileUtils.mkdir_p(categories_dir)
+
+      front_matter = {
+        'layout' => 'category',
+        'title' => "#{name} Examples",
+        'category' => full_slug,
+        'is_leaf' => is_leaf,
+        'sub_categories' => sub_categories,
+        'parent' => parent_slug
+      }
+
+      content = front_matter.to_yaml + "\n---\n"
+
+      File.write(md_file, content)
+
+      # Recurse for sub-categories
+      sub_categories.each do |sub_cat|
+        sub_slug = sub_cat['slug'].split('-').last
+        sub_yaml = "#{cat_dir}/#{sub_slug}/#{sub_slug}.yml"
+        process_category(sub_yaml, categories_dir, sub_cat['slug'], full_slug) if File.exist?(sub_yaml)
+      end
+    end
+  end
+
+  desc "example_pages", "Generate Jekyll pages for v2 examples"
+  def example_pages
+    v2_dir = 'civet_examples_v2'
+    examples_dir = 'jekyll/_examples_v2'
+
     Dir.glob("#{v2_dir}/*").each do |cat_dir|
       next unless File.directory?(cat_dir)
       category = File.basename(cat_dir)
@@ -65,52 +111,6 @@ Example content.
   def category_pages
     v2_dir = 'civet_examples_v2'
     categories_dir = 'jekyll/_categories'
-
-    no_commands do
-      def process_category(yaml_file, categories_dir, full_slug, parent_slug)
-        data = YAML.load_file(yaml_file)
-        name = data['name']
-
-        examples = data['examples'] || []
-        is_leaf = examples.any?
-
-        sub_categories = []
-
-        cat_dir = File.dirname(yaml_file)
-        Dir.glob("#{cat_dir}/*").each do |sub|
-          next unless File.directory?(sub)
-          sub_yaml = "#{sub}/#{File.basename(sub)}.yml"
-          if File.exist?(sub_yaml)
-            sub_data = YAML.load_file(sub_yaml)
-            sub_categories << { 'slug' => "#{full_slug}-#{File.basename(sub)}", 'name' => sub_data['name'], 'sub_slug' => File.basename(sub) }
-          end
-        end
-
-        # Generate MD file
-        md_file = "#{categories_dir}/#{full_slug}.md"
-        FileUtils.mkdir_p(categories_dir)
-
-        front_matter = {
-          'layout' => 'category',
-          'title' => "#{name} Examples",
-          'category' => full_slug,
-          'is_leaf' => is_leaf,
-          'sub_categories' => sub_categories,
-          'parent' => parent_slug
-        }
-
-        content = front_matter.to_yaml + "\n---\n"
-
-        File.write(md_file, content)
-
-        # Recurse for sub-categories
-        sub_categories.each do |sub_cat|
-          sub_slug = sub_cat['slug'].split('-').last
-          sub_yaml = "#{cat_dir}/#{sub_slug}/#{sub_slug}.yml"
-          process_category(sub_yaml, categories_dir, sub_cat['slug'], full_slug) if File.exist?(sub_yaml)
-        end
-      end
-    end
 
     Dir.glob("#{v2_dir}/*").each do |cat_dir|
       next unless File.directory?(cat_dir)

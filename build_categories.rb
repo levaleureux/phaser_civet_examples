@@ -5,8 +5,7 @@ require 'yaml'
 require 'nokogiri'
 require 'net/http'
 require 'fileutils'
-
-
+require 'set'
 
 class BuildCategories < Thor
 
@@ -88,8 +87,6 @@ class BuildCategories < Thor
     puts "V2 structure built successfully."
   end
 
-
-
   desc "generate_example_pages", "Generate Jekyll pages for v2 examples"
   def generate_example_pages
     v2_dir = 'civet_examples_v2'
@@ -120,6 +117,7 @@ slug: #{subdir}
 name: #{example['name']}
 js_path: #{js_path}
 ---
+Example content.
           MD
 
           File.write(md_file, content)
@@ -147,7 +145,7 @@ js_path: #{js_path}
     puts "Example pages generated successfully."
   end
 
-    def process_category(yaml_file, categories_dir, full_slug, parent_slug)
+  def process_category(yaml_file, categories_dir, full_slug, parent_slug)
     data = YAML.load_file(yaml_file)
     name = data['name']
 
@@ -179,9 +177,9 @@ js_path: #{js_path}
       'parent' => parent_slug
     }
 
-      content = front_matter.to_yaml + "\n---\n"
+    content = front_matter.to_yaml + "\n---\n"
 
-      File.write(md_file, content)
+    File.write(md_file, content)
 
     # Recurse for sub-categories
     sub_categories.each do |sub_cat|
@@ -201,70 +199,6 @@ js_path: #{js_path}
       category = File.basename(cat_dir)
       yaml_file = "#{cat_dir}/#{category}.yml"
       process_category(yaml_file, categories_dir, category, nil) if File.exist?(yaml_file)
-    end
-
-    puts "Category pages generated successfully."
-  end
-      end
-
-      # Generate MD file
-      md_file = "#{categories_dir}/#{full_slug}.md"
-      FileUtils.mkdir_p(categories_dir)
-
-      front_matter = {
-        'layout' => 'category',
-        'title' => "#{name} Examples",
-        'category' => full_slug,
-        'is_leaf' => is_leaf,
-        'sub_categories' => sub_categories,
-        'parent' => parent_slug
-      }
-
-      content = "---\n" + front_matter.to_yaml + "\n---\n"
-
-      File.write(md_file, content)
-
-      # Recurse for sub-categories
-      # sub_categories.each do |sub_cat|
-      #   sub_slug = sub_cat['sub_slug']
-      #   sub_yaml = "#{cat_dir}/#{sub_slug}/#{sub_slug}.yml"
-      #   process_category(sub_yaml, categories_dir, sub_cat['slug'], full_slug) if File.exist?(sub_yaml)
-      # end
-    end
-      end
-
-      # Generate MD file
-      md_file = "#{categories_dir}/#{full_slug}.md"
-      FileUtils.mkdir_p(categories_dir)
-
-      parent = full_slug.include?('-') ? full_slug.split('-')[0..-2].join('-') : nil
-      front_matter = {
-        'layout' => 'category',
-        'title' => "#{name} Examples",
-        'category' => full_slug,
-        'is_leaf' => is_leaf,
-        'sub_categories' => sub_categories,
-        'parent' => parent
-      }
-
-      content = "---\n" + front_matter.to_yaml + "\n---\n"
-
-      File.write(md_file, content)
-
-      # Recurse for sub-categories
-      sub_categories.each do |sub_cat|
-        sub_slug = sub_cat['slug'].split('-').last
-        sub_yaml = "#{cat_dir}/#{sub_slug}/#{sub_slug}.yml"
-        process_category(sub_yaml, categories_dir, sub_cat['slug']) if File.exist?(sub_yaml)
-      end
-    end
-
-    Dir.glob("#{v2_dir}/*").each do |cat_dir|
-      next unless File.directory?(cat_dir)
-      category = File.basename(cat_dir)
-      yaml_file = "#{cat_dir}/#{category}.yml"
-      next unless File.exist?(yaml_file)
-      process_category(yaml_file, categories_dir, category)
     end
 
     puts "Category pages generated successfully."
@@ -328,6 +262,83 @@ js_path: #{js_path}
     end
 
     puts "Scraped examples successfully."
+  end
+
+  desc "build_examples", "Compile Civet examples and generate Jekyll pages"
+  def build_examples
+    jekyll_dir = "jekyll"
+    civet_dir = "civet_examples"
+    build_dir = "#{jekyll_dir}/js/builded_examples"
+    examples_dir = "#{jekyll_dir}/_examples"
+    data_dir = "#{jekyll_dir}/_data"
+
+    # Create build directories
+    FileUtils.mkdir_p(build_dir)
+    FileUtils.mkdir_p(examples_dir)
+    FileUtils.mkdir_p("#{jekyll_dir}/_categories")
+    FileUtils.mkdir_p(data_dir)
+
+    # Initialize data files
+    File.open("#{data_dir}/examples.yml", "w") { |f| f.puts "examples:" }
+    File.open("#{data_dir}/categories.yml", "w") { |f| f.puts "categories:" }
+    seen_categories = Set.new
+
+    # Find all .civet files
+    Dir.glob("#{civet_dir}/**/*.civet").each do |file|
+      # Get category and slug
+      category = File.basename(File.dirname(file))
+      slug = File.basename(file, ".civet")
+
+      # Compile
+      output_dir = "#{build_dir}/#{category}"
+      FileUtils.mkdir_p(output_dir)
+      output_file = "#{output_dir}/#{slug}.js"
+      if system("civet -c #{file} -o #{output_file} 2>/dev/null")
+        puts "Compiled #{file}"
+      else
+        puts "Failed to compile #{file}, skipping"
+        next
+      end
+
+      # Create example page
+      md_content = <<~MD
+        ---
+        layout: example
+        title: "Example #{slug}"
+        category: #{category}
+        slug: #{slug}
+        ---
+      MD
+      File.write("#{examples_dir}/#{slug}.md", md_content)
+
+      # Add to data
+      File.open("#{data_dir}/examples.yml", "a") do |f|
+        f.puts "  - slug: #{slug}"
+        f.puts "    category: #{category}"
+        f.puts "    title: \"Example #{slug}\""
+      end
+
+      # Track categories
+      unless seen_categories.include?(category)
+        seen_categories.add(category)
+        File.open("#{data_dir}/categories.yml", "a") do |f|
+          f.puts "  - slug: #{category}"
+          f.puts "    name: \"#{category}\""
+        end
+
+        # Create category page
+        cat_md_content = <<~MD
+          ---
+          layout: category
+          title: "#{category} Examples"
+          category: #{category}
+          ---
+        MD
+        File.write("#{jekyll_dir}/_categories/#{category}.md", cat_md_content)
+      end
+    end
+
+    puts "Build complete."
   end
 end
 

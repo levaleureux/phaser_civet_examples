@@ -33,10 +33,11 @@
                        Sub-categories in the {{ page.category }} category
                      {% endif %}
                  </p>
-                 {% if page.is_leaf %}
-                   <div class="examples-grid">
-                        {% for item in site.collections.examples.docs %}
-                        {% if item.data.category == page.category %}
+                  {% if page.is_leaf %}
+                    <div class="examples-grid">
+                         <p>Collection docs count: {{ site.collections.examples.docs | size }}</p>
+                         {% for item in site.collections.examples.docs %}
+                         {% if item.data.category == page.category %}
                         <div class="example-item">
                             <img src="/assets/examples/{{ item.data.category }}/examples/{{ item.data.slug }}/thumb.png" alt="{{ item.data.name }}" class="category-image">
                             <div class="category-content">

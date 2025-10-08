@@ -35,7 +35,7 @@
                  </p>
                   {% if page.is_leaf %}
                      <div class="examples-grid">
-                          <p>Collection docs count: {{ site.collections.examples_v2.docs | size }}</p>
+                          <p>Collection docs count: {{ site.collections.examples.docs | size }}</p>
                           {% for item in site.collections.examples.docs %}
                           {% if item.data.category == page.category %}
                         <div class="example-item">

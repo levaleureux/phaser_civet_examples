@@ -60,3 +60,4 @@
 ### Débogage
 - Vérifiez les erreurs de compilation Civet dans la console lors du build.
 - Assurez-vous que les layouts Jekyll (`jekyll/_layouts/example.html`) incluent le JS compilé correctement.
+- Note: Les layouts sont en Liquid/HTML. Slim n'était pas compatible avec Jekyll.

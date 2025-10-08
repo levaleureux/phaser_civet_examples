@@ -1,6 +1,6 @@
 directories %w[src/_sass]
 
-guard 'shell' do
+guard 'shell', latency: 0.5 do
   watch %r{(.+\.sass)$} do |m|
     puts "Compiling Sass..."
     system('bundle exec sass --style compressed src/_sass/main.sass src/assets/css/main.css')

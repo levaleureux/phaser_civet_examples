@@ -1,0 +1,27 @@
+# Bridgetown cache
+bridgetown/.bridgetown-cache/
+
+# Sass cache
+bridgetown/.sass-cache/
+
+# Bridgetown output
+bridgetown/output/
+
+# Ruby
+*.gem
+.bundle/
+.byebug_history
+.gem
+.gemspec
+.ruby-version
+.ruby-gemset
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db

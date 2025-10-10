@@ -7,8 +7,15 @@
   position: fixed
   top: 0
   left: 0
-  width: 100%
-  height: 100%
-  background: radial-gradient(ellipse at center, rgba(68, 51, 170, 0.1) 0%, rgba(85, 34, 238, 0.05) 50%, transparent 70%)
-  pointer-events: none
+  right: 0
+  height: 100vh
+  background: linear-gradient(0deg, #333333 0%, #4433aa 16.66%, #5522ee 33.33%, #3377ee 50%, #77bb22 66.66%, #66dd88 83.33%, #aaffff 100%)
+  opacity: 0.05
   z-index: -1
+  animation: copperFlow 8s ease-in-out infinite alternate
+
+@keyframes copperFlow
+  0%
+    background-position: 0% 0%
+  100%
+    background-position: 100% 100%

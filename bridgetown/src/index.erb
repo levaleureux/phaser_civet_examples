@@ -10,6 +10,7 @@ layout: default
                 Discover the power of Phaser.js combined with the simplicity of CivetScript.
                 Build your web games with modern and intuitive syntax.
             </p>
+
             <a href="#examples" class="cta-button">Explore Examples</a>
         </div>
     </div>
@@ -45,48 +46,15 @@ layout: default
             Discover all Phaser.js examples translated to CivetScript
         </p>
         <div class="examples-grid">
+          <% site.data.categories.categories.each do |category| %>
             <div class="example-item">
                 <div class="category-image"></div>
                 <div class="category-content">
-                    <h4><a href="/categories/actions/">Actions</a></h4>
-                    <p>Examples in the actions category</p>
+                    <h4><a href="/categories/<%= category['slug'] %>/"><%= category['name'] %></a></h4>
+                    <p>Examples in the <%= category['name'] %> category</p>
                 </div>
             </div>
-            <div class="example-item">
-                <div class="category-image"></div>
-                <div class="category-content">
-                    <h4><a href="/categories/animation/">Animation</a></h4>
-                    <p>Examples in the animation category</p>
-                </div>
-            </div>
-            <div class="example-item">
-                <div class="category-image"></div>
-                <div class="category-content">
-                    <h4><a href="/categories/audio/">Audio</a></h4>
-                    <p>Examples in the audio category</p>
-                </div>
-            </div>
-            <div class="example-item">
-                <div class="category-image"></div>
-                <div class="category-content">
-                    <h4><a href="/categories/camera/">Camera</a></h4>
-                    <p>Examples in the camera category</p>
-                </div>
-            </div>
-            <div class="example-item">
-                <div class="category-image"></div>
-                <div class="category-content">
-                    <h4><a href="/categories/components/">Components</a></h4>
-                    <p>Examples in the components category</p>
-                </div>
-            </div>
-            <div class="example-item">
-                <div class="category-image"></div>
-                <div class="category-content">
-                    <h4><a href="/categories/demoscene/">Demoscene</a></h4>
-                    <p>Examples in the demoscene category</p>
-                </div>
-            </div>
+          <% end %>
         </div>
         <div class="view-all-examples">
             <a href="https://github.com/levaleureux/phaser_civet_examples" target="_blank">

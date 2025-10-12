@@ -2,3 +2,6 @@ collections:
   categories:
     output: true
     permalink: "/categories/:slug/index.html"
+  examples:
+    output: true
+    permalink: "/examples/:category/:slug/index.html"

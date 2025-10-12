@@ -1,0 +1,4 @@
+collections:
+  categories:
+    output: true
+    permalink: "/categories/:slug"

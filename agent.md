@@ -61,3 +61,28 @@
 - Vérifiez les erreurs de compilation Civet dans la console lors du build.
 - Assurez-vous que les layouts Jekyll (`jekyll/_layouts/example.html`) incluent le JS compilé correctement.
 - Note: Les layouts sont en Liquid/HTML. Slim n'était pas compatible avec Jekyll.
+
+## Migration vers Bridgetown
+
+### Vision du Projet
+- Migrer le site Jekyll vers Bridgetown pour une meilleure performance et flexibilité (SSR, composants Ruby, etc.).
+- Rendre l'index dynamique en utilisant `categories.yml` pour afficher toutes les catégories.
+- Implémenter les catégories hiérarchiques récursives : pages parent affichant sous-catégories, feuilles affichant exemples.
+- Utiliser des collections Bridgetown pour générer les pages de catégories et exemples dynamiquement.
+- Extraire les composants en partials ERB pour réutilisabilité.
+
+### Étapes de Migration
+1. **Index dynamique :** Copier `categories.yml` vers `bridgetown/src/_data/`, modifier `index.erb` pour boucler sur `site.data.categories.categories`.
+2. **Partials ERB :** Créer `src/_partials/_category_card.erb` pour les cards de catégories, inclus avec `<%= render "category_card", category: category %>`.
+3. **Catégories hiérarchiques :**
+   - Créer collection `categories` dans `bridgetown.config.yml` avec `output: true`.
+   - Copier les MD de `jekyll/_categories/` vers `bridgetown/src/_categories/`.
+   - Modifier `src/_layouts/category.erb` pour afficher sous-catégories si `is_leaf` false, sinon exemples.
+   - Enrichir `categories.yml` avec hiérarchie (parent, sub_categories).
+4. **Exemples dynamiques :** Créer collection `examples`, associer exemples via front matter (`category: slug`), modifier layout pour boucler sur exemples de la catégorie.
+5. **Build et Serve :** `cd bridgetown && bridgetown build` puis `bridgetown serve` pour tester.
+
+### Comparaison Jekyll vs Bridgetown
+- Jekyll : MD statiques pour catégories, génération via scripts Ruby.
+- Bridgetown : Collections dynamiques, ERB pour logique, composants Ruby pour complexité.
+- Avantages Bridgetown : Progressive generation, meilleures performances, intégration Ruby native.

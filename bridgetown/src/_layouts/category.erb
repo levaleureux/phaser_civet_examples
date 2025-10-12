@@ -36,7 +36,13 @@
                       <div class="example-item">
                         <div class="category-image"></div>
                         <div class="category-content">
-                          <h4><a href="<%= example.relative_url %>"><%= example.data.title || example.data.slug %></a></h4>
+                          <% example %>
+                           <% hardcoded_url =  "/examples/#{example.data.category}/#{example.data.slug}/index.html" %>.
+                           <% hardcoded_url =  "/examples/beta/#{example.data.slug}" %>.
+                          <%= hardcoded_url %>
+                          <%  example.relative_url %>
+
+                          <h4><a href="<%= hardcoded_url %>"><%= example.data.title || example.data.slug %></a></h4>
                           <p><%= example.data.description || "Example in #{data.category}" %></p>
                         </div>
                       </div>

@@ -4,4 +4,4 @@ collections:
     permalink: "/categories/:slug/index.html"
   examples:
     output: true
-    permalink: "/examples/:category/:slug/index.html"
+    permalink: "/examples/:beta/:slug/index.html"

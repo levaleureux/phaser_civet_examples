@@ -26,7 +26,7 @@
 
     <main>
         <div class="example-container">
-            <h1>Example Name</h1>
+            <h1><%= data.name || data.title %></h1>
             <div class="example-content">
                 <div class="example-code">
                     <h2>Code</h2>
@@ -53,11 +53,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/phaser@3.85.0/dist/phaser.min.js"></script>
-    <script src="/assets/examples/example.js"></script>
+    <script src="<%= data.js_path %>"></script>
 
     <script>
     document.addEventListener('DOMContentLoaded', () => {
-        fetch('/assets/examples/example.js')
+        fetch('<%= data.js_path %>')
             .then(response => response.text())
             .then(code => {
                 document.getElementById('code-display').innerHTML = `<code class="language-js">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code>`;

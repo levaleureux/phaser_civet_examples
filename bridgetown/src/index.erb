@@ -47,13 +47,7 @@ layout: default
         </p>
         <div class="examples-grid">
           <% site.data.categories.categories.each do |category| %>
-            <div class="example-item">
-                <div class="category-image"></div>
-                <div class="category-content">
-                    <h4><a href="/categories/<%= category['slug'] %>/"><%= category['name'] %></a></h4>
-                    <p>Examples in the <%= category['name'] %> category</p>
-                </div>
-            </div>
+            <%= render "category_card", category: category %>
           <% end %>
         </div>
         <div class="view-all-examples">

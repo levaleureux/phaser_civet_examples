@@ -1,4 +1,4 @@
 collections:
   categories:
     output: true
-    permalink: "/categories/:slug"
+    permalink: "/categories/:slug/index.html"

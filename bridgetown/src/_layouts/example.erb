@@ -30,7 +30,14 @@
             <div class="example-content">
                 <div class="example-code">
                     <h2>Code</h2>
-                    <pre id="code-display"><code class="language-js">// Loading code...</code></pre>
+                    <div class="code-tabs">
+                        <input id="js-tab" type="radio" name="code-tab" checked>
+                        <label for="js-tab">JS</label>
+                        <input id="civet-tab" type="radio" name="code-tab">
+                        <label for="civet-tab">Civet</label>
+                        <pre id="js-code"><code class="language-js">// Placeholder JS code</code></pre>
+                        <pre id="civet-code"><code class="language-js">hello civet</code></pre>
+                    </div>
                 </div>
                 <div class="example-preview">
                     <h2>Preview</h2>
@@ -60,13 +67,13 @@
         fetch('<%= data.js_path %>')
             .then(response => response.text())
             .then(code => {
-                document.getElementById('code-display').innerHTML = `<code class="language-js">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code>`;
+                document.getElementById('js-code').innerHTML = `<code class="language-js">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code>`;
                 if (window.Prism) {
-                    Prism.highlightElement(document.querySelector('#code-display code'));
+                    Prism.highlightElement(document.querySelector('#js-code code'));
                 }
             })
             .catch(err => {
-                document.getElementById('code-display').innerHTML = '<code>Error loading code.</code>';
+                document.getElementById('js-code').innerHTML = '<code>Error loading code.</code>';
                 console.error(err);
             });
     });

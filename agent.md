@@ -37,23 +37,6 @@
 
 ## Processus de Build et Affichage
 
-### Génération complète des exemples (v2)
-- Exécutez les commandes suivantes pour scraper, générer et builder :
-  1. `ruby build_categories.rb build_v2` : Scrape la structure depuis phaser.io vers `civet_examples_v2/`.
-  2. Pour chaque YAML : `ruby build_categories.rb scrape_examples civet_examples_v2/{category}/{category}.yml` : Télécharge les assets (images et JS).
-  3. `ruby build_categories.rb generate_category_pages` : Génère les pages de catégories hiérarchiques dans `jekyll/_categories/`.
-  4. `ruby build_categories.rb generate_example_pages` : Génère les pages d'exemples dans `jekyll/_examples/`.
-  5. `cd jekyll && bundle exec jekyll build` : Build le site Jekyll.
-- Lancez Jekyll avec `jekyll serve` dans `jekyll/` pour voir l'app (catégories via `/categories/slug`, exemples via `/examples/category/slug`).
-
-### Régénération d'un exemple spécifique
-- Pour régénérer un seul exemple (ex. `civet_examples/animation/1057.civet`) :
-  1. Compilez manuellement : `civet -c civet_examples/animation/1057.civet -o jekyll/js/builded_examples/animation/1057.js`
-  2. Si la page `.md` n'existe pas, créez-la manuellement dans `jekyll/_examples/1057.md` avec front matter (voir exemples existants).
-  3. Relancez Jekyll pour voir les changements.
-- Si le script de build est modifié, relancez `./build_examples.sh` pour tout régénérer.
-- Pour modifier les styles : Éditer les .sass dans `src/_sass/lib/`, Guard recompile automatiquement. Si changements manuels, relancer `bridgetown build`.
-
 ### Conversion JS vers Civet
 - Utilisez `node transform.js` pour transformer des fichiers JS en syntaxe Civet (appliqué récursivement aux `.civet` dans `civet_examples/`).
 - Utile pour importer de nouveaux exemples JS et les convertir.

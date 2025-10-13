@@ -31,36 +31,55 @@
         color: #3377ee
 
     .example-code
-      #code-display
-        background: #111122
-        padding: 20px
-        border-radius: 4px
-        overflow-x: auto
-        overflow-y: auto
-        max-height: 600px
-        font-size: 14px
-        color: #ffffff
+      .code-tabs
+        input
+          display: none
 
-        code
-          color: #cccccc
+        label
+          cursor: pointer
+          padding: 10px
+          background: #1a1a2e
+          border: 1px solid #4433aa
+          border-radius: 4px
+          margin-right: 5px
 
-        .token
-          text-shadow: 0 0 2px rgba(0,0,0,0.7)
+        #js-tab:checked ~ label[for="js-tab"], #civet-tab:checked ~ label[for="civet-tab"]
+          background: #3377ee
 
-        .token.keyword
-          color: #ff6b6b !important
+        #js-code, #civet-code
+          display: none
+          background: #111122
+          padding: 20px
+          border-radius: 4px
+          overflow-x: auto
+          overflow-y: auto
+          max-height: 600px
+          font-size: 14px
+          color: #ffffff
 
-        .token.string
-          color: #98c379 !important
+          code, .token
+            text-shadow: 0 0 2px rgba(0,0,0,0.7)
 
-        .token.comment
-          color: #5c6370 !important
+          .token.keyword
+            color: #ff6b6b !important
 
-        .token.function
-          color: #61dafb !important
+          .token.string
+            color: #98c379 !important
 
-        .token.variable
-          color: #ffffff !important
+          .token.comment
+            color: #5c6370 !important
+
+          .token.function
+            color: #61dafb !important
+
+          .token.variable
+            color: #ffffff !important
+
+        #js-tab:checked ~ #js-code
+          display: block
+
+        #civet-tab:checked ~ #civet-code
+          display: block
 
     .example-preview
       #phaser-example

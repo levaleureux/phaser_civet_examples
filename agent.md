@@ -52,6 +52,7 @@
   2. Si la page `.md` n'existe pas, créez-la manuellement dans `jekyll/_examples/1057.md` avec front matter (voir exemples existants).
   3. Relancez Jekyll pour voir les changements.
 - Si le script de build est modifié, relancez `./build_examples.sh` pour tout régénérer.
+- Pour modifier les styles : Éditer les .sass dans `src/_sass/lib/`, Guard recompile automatiquement. Si changements manuels, relancer `bridgetown build`.
 
 ### Conversion JS vers Civet
 - Utilisez `node transform.js` pour transformer des fichiers JS en syntaxe Civet (appliqué récursivement aux `.civet` dans `civet_examples/`).
@@ -70,6 +71,7 @@
 - Implémenter les catégories hiérarchiques récursives : pages parent affichant sous-catégories, feuilles affichant exemples.
 - Utiliser des collections Bridgetown pour générer les pages de catégories et exemples dynamiquement.
 - Extraire les composants en partials ERB pour réutilisabilité.
+- Utiliser systématiquement la syntaxe .sass indentée pour tous les styles (plus concise et lisible que .scss). Placer les partials dans `src/_sass/lib/` (e.g., `_examples.sass`, `_variables.sass`). Le fichier principal `frontend/css/main.sass` importe depuis `_sass/lib/` avec `@import "_sass/lib/examples"`. Guard peut watcher pour rechargement automatique.
 
 ### Étapes de Migration
 1. **Index dynamique :** Copier `categories.yml` vers `bridgetown/src/_data/`, modifier `index.erb` pour boucler sur `site.data.categories.categories`.
@@ -84,5 +86,5 @@
 
 ### Comparaison Jekyll vs Bridgetown
 - Jekyll : MD statiques pour catégories, génération via scripts Ruby.
-- Bridgetown : Collections dynamiques, ERB pour logique, composants Ruby pour complexité.
+- Bridgetown : Collections dynamiques, ERB pour logique, composants Ruby pour complexité, organisation en `src/_sass/lib/` pour partials indentés, compatible Guard pour développement.
 - Avantages Bridgetown : Progressive generation, meilleures performances, intégration Ruby native.

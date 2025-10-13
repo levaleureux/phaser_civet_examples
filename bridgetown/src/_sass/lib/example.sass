@@ -3,36 +3,58 @@
   margin: 0 auto
   padding: 40px 20px
 
-.example-container h1
-  text-align: center
-  font-size: 2.5rem
-  margin-bottom: 40px
-  color: #ffffff
+  h1
+    text-align: center
+    font-size: 2.5rem
+    margin-bottom: 40px
+    color: #ffffff
 
-.example-content
-  display: grid
-  grid-template-columns: 1fr 1fr
-  gap: 40px
+  .example-content
+    display: flex
+    gap: 40px
 
-.example-code, .example-preview
-  background: #1a1a2e
-  padding: 20px
-  border-radius: 8px
-  border: 1px solid #4433aa
+    @media (max-width: 1024px)
+      flex-direction: column
+      gap: 20px
 
-.example-code h2, .example-preview h2
-  font-size: 1.5rem
-  margin-bottom: 20px
-  color: #3377ee
+    .example-code, .example-preview
+      background: #1a1a2e
+      padding: 20px
+      border-radius: 8px
+      border: 1px solid #4433aa
+      flex: 1
+      min-width: 0
 
-#code-display
-  background: #111122
-  padding: 20px
-  border-radius: 4px
-  overflow-x: auto
+      h2
+        font-size: 1.5rem
+        margin-bottom: 20px
+        color: #3377ee
 
-#phaser-example
-  width: 100%
-  height: 400px
-  background: #000000
-  border-radius: 4px
+    .example-code
+      #code-display
+        background: #111122
+        padding: 20px
+        border-radius: 4px
+        overflow-x: auto
+        overflow-y: auto
+        max-height: 600px
+
+    .example-preview
+      #phaser-example
+        width: 100%
+        height: 600px
+        background: #000000
+        border-radius: 4px
+
+@media (max-width: 768px)
+  .example-container
+    padding: 20px 10px
+
+  .example-content
+    gap: 15px
+
+  .example-code, .example-preview
+    padding: 15px
+
+  #code-display
+    font-size: 13px

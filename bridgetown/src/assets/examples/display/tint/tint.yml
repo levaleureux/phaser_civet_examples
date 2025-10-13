@@ -1,0 +1,45 @@
+---
+name: tint
+examples:
+- name: Atlas Frame Tint
+  url_js: https://phaser.io/examples-show/84
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QbXmDpyu.png
+- name: Corner Tint
+  url_js: https://phaser.io/examples-show/335
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/F8h8funV.png
+- name: Multiple Images
+  url_js: https://phaser.io/examples-show/1032
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UKHXQjWX.png
+- name: Per Vertex Tint
+  url_js: https://phaser.io/examples-show/1165
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uerPjjA2.png
+- name: Pixel Wave
+  url_js: https://phaser.io/examples-show/1180
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2qx7uTQx.png
+- name: Rainbow Text
+  url_js: https://phaser.io/examples-show/1246
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4MvQmp26.png
+- name: Rasters
+  url_js: https://phaser.io/examples-show/1265
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fVPdBG2Y.png
+- name: Single Color Tint
+  url_js: https://phaser.io/examples-show/1487
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BreK32NV.png
+- name: Text Tint
+  url_js: https://phaser.io/examples-show/1625
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VEnTYQdg.png
+- name: Tile Sprite Tint
+  url_js: https://phaser.io/examples-show/1642
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TE9ggvMe.png
+- name: Tint And Alpha
+  url_js: https://phaser.io/examples-show/1660
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vPrF96tA.png
+- name: Tint Fill
+  url_js: https://phaser.io/examples-show/1662
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sTeBmdi8.png
+- name: Tint Fill Effect
+  url_js: https://phaser.io/examples-show/1661
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/P3ZBVZQb.png
+- name: Tween Tint
+  url_js: https://phaser.io/examples-show/1719
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1kRJACDC.png

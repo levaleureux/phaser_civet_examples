@@ -1,0 +1,21 @@
+---
+name: file pack
+examples:
+- name: Load File Pack
+  url_js: https://phaser.io/examples-show/873
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wba4wKQ9.png
+- name: Load File Pack From Json
+  url_js: https://phaser.io/examples-show/868
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/geJZqZF2.png
+- name: Load File Pack Test 2
+  url_js: https://phaser.io/examples-show/869
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/94o2GocY.png
+- name: Load File Pack Test 3
+  url_js: https://phaser.io/examples-show/870
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EPD89ax5.png
+- name: Load File Pack Test 4
+  url_js: https://phaser.io/examples-show/871
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Zr9Kv42w.png
+- name: Load File Pack Test 5
+  url_js: https://phaser.io/examples-show/872
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6jqE9CoX.png

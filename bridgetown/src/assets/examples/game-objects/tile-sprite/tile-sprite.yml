@@ -1,0 +1,39 @@
+---
+name: tile sprite
+examples:
+- name: Atlas
+  url_js: https://phaser.io/examples-show/87
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pTpSaHy6.png
+- name: Atlas - Canvas
+  url_js: https://phaser.io/examples-show/83
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WtqXwvPR.png
+- name: Change Frame
+  url_js: https://phaser.io/examples-show/1857
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8Rs941cP.png
+- name: Change Frame And Size
+  url_js: https://phaser.io/examples-show/222
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KyzD8qcW.png
+- name: Change Single Frame
+  url_js: https://phaser.io/examples-show/232
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qtftVb7f.png
+- name: Create From Frame
+  url_js: https://phaser.io/examples-show/351
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xLZ5R1ts.png
+- name: Example
+  url_js: https://phaser.io/examples-show/566
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yqfnEnty.png
+- name: Example - Canvas
+  url_js: https://phaser.io/examples-show/563
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qZNBdqZJ.png
+- name: Example 2
+  url_js: https://phaser.io/examples-show/565
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zAhsuApd.png
+- name: Example 2 - Canvas
+  url_js: https://phaser.io/examples-show/564
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BwdZwhXP.png
+- name: Flipped
+  url_js: https://phaser.io/examples-show/599
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sjy2e2CJ.png
+- name: Tilesprite Pixel Art Test
+  url_js: https://phaser.io/examples-show/1654
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/H4LtrEws.png

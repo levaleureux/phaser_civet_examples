@@ -1,0 +1,9 @@
+---
+name: texture atlas unity
+examples:
+- name: Load Unity Spritesheet
+  url_js: https://phaser.io/examples-show/915
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XVYkFiNg.png
+- name: Load Unity Spritesheet Animation
+  url_js: https://phaser.io/examples-show/914
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/t73aUTZG.png

@@ -1,0 +1,30 @@
+---
+name: align
+examples:
+- name: In Bottom Center
+  url_js: https://phaser.io/examples-show/767
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HgCtBhtM.png
+- name: In Bottom Left
+  url_js: https://phaser.io/examples-show/768
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DUPMHwFQ.png
+- name: In Bottom Right
+  url_js: https://phaser.io/examples-show/769
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PUn988ZK.png
+- name: In Center
+  url_js: https://phaser.io/examples-show/1880
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LCxUFwgS.png
+- name: In Left Center
+  url_js: https://phaser.io/examples-show/771
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7FLtK4C2.png
+- name: In Right Center
+  url_js: https://phaser.io/examples-show/772
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nGJK8U5L.png
+- name: In Top Center
+  url_js: https://phaser.io/examples-show/773
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3RtKUy6A.png
+- name: In Top Left
+  url_js: https://phaser.io/examples-show/774
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5csRRnFw.png
+- name: In Top Right
+  url_js: https://phaser.io/examples-show/775
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vJKLkTVQ.png

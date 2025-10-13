@@ -1,0 +1,24 @@
+---
+name: camera
+examples:
+- name: Camera Container Ignore
+  url_js: https://phaser.io/examples-show/192
+  url_image: ''
+- name: Camera Ignore
+  url_js: https://phaser.io/examples-show/198
+  url_image: ''
+- name: Graphics Contains
+  url_js: "/pricing"
+  url_image: ''
+- name: Large World High Res
+  url_js: "/pricing"
+  url_image: ''
+- name: Multi Cam Sprite
+  url_js: https://phaser.io/examples-show/998
+  url_image: ''
+- name: Stacked Camera Test
+  url_js: https://phaser.io/examples-show/1563
+  url_image: ''
+- name: World Coordinates
+  url_js: https://phaser.io/examples-show/1800
+  url_image: ''

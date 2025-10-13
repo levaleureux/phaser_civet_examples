@@ -1,0 +1,21 @@
+---
+name: pools
+examples:
+- name: Bullets
+  url_js: https://phaser.io/examples-show/184
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wezMtgS5.png
+- name: Create Pool
+  url_js: https://phaser.io/examples-show/365
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/i1LHahdL.png
+- name: Max Size
+  url_js: https://phaser.io/examples-show/950
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yQDEVv2o.png
+- name: Multi Pools
+  url_js: https://phaser.io/examples-show/1015
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8Lcok6NP.png
+- name: Pool Using A Custom Class
+  url_js: https://phaser.io/examples-show/1228
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UtpHSqo2.png
+- name: Seeded Pool
+  url_js: https://phaser.io/examples-show/1409
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QGrcn4nV.png

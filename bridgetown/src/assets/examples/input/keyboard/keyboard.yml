@@ -1,0 +1,69 @@
+---
+name: keyboard
+examples:
+- name: Add Key
+  url_js: https://phaser.io/examples-show/33
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Zw3QgtcC.png
+- name: Add Key Using String
+  url_js: https://phaser.io/examples-show/32
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oTRnbk6L.png
+- name: Add Single Key
+  url_js: https://phaser.io/examples-show/37
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nYvJkAkZ.png
+- name: Create Key Combo
+  url_js: https://phaser.io/examples-show/357
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6v5oho5J.png
+- name: Cross Scene Keys
+  url_js: https://phaser.io/examples-show/383
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/k1KLuXA2.png
+- name: Cursor Keys
+  url_js: https://phaser.io/examples-show/395
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Raf2icW9.png
+- name: Cursors Time
+  url_js: https://phaser.io/examples-show/397
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/AgXjtppZ.png
+- name: Enter Name
+  url_js: https://phaser.io/examples-show/555
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/X2xzidZp.png
+- name: Global Keydown Event
+  url_js: https://phaser.io/examples-show/701
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fszDS5mg.png
+- name: Just Down
+  url_js: https://phaser.io/examples-show/809
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gp87A4Ti.png
+- name: Key Combo Max Key Delay
+  url_js: https://phaser.io/examples-show/810
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gzoRUakv.png
+- name: Key Down Delay
+  url_js: https://phaser.io/examples-show/811
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YDGooQpt.png
+- name: Key Down Duration
+  url_js: https://phaser.io/examples-show/812
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uaVdjPjH.png
+- name: Key Modifier
+  url_js: https://phaser.io/examples-show/813
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gzDLpPNE.png
+- name: Keydown
+  url_js: https://phaser.io/examples-show/815
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/y7ktJ3tT.png
+- name: Keydown Multi Scene Test
+  url_js: https://phaser.io/examples-show/814
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CpxQC45q.png
+- name: Konami Code Key Combo
+  url_js: https://phaser.io/examples-show/816
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QWYGMugk.png
+- name: Numpad
+  url_js: https://phaser.io/examples-show/1079
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Enaem3B3.png
+- name: Reset Key Combo On Match
+  url_js: https://phaser.io/examples-show/1307
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uSxPubdt.png
+- name: Retro Leaderboard
+  url_js: https://phaser.io/examples-show/1318
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/u2DpMBB9.png
+- name: Single Keydown Event
+  url_js: https://phaser.io/examples-show/1490
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/B8AKDpjs.png
+- name: Text Entry
+  url_js: https://phaser.io/examples-show/1613
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/viWYopWh.png

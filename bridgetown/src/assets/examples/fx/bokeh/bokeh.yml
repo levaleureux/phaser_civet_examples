@@ -1,0 +1,9 @@
+---
+name: bokeh
+examples:
+- name: Particle Bokeh
+  url_js: https://phaser.io/examples-show/1144
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zzyUkV9p.png
+- name: Tiltshift Camera
+  url_js: https://phaser.io/examples-show/1656
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qhtzWjRB.png

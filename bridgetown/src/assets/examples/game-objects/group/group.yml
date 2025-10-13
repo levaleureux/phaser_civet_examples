@@ -1,0 +1,48 @@
+---
+name: group
+examples:
+- name: Create Child
+  url_js: https://phaser.io/examples-show/343
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7bqd9Gbt.png
+- name: Create Invaders
+  url_js: https://phaser.io/examples-show/355
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/i6W6YSFP.png
+- name: Create Multiple
+  url_js: https://phaser.io/examples-show/360
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7MLqBAdV.png
+- name: Create Multiple Keys
+  url_js: https://phaser.io/examples-show/359
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/d11QGJiH.png
+- name: Destroy Child
+  url_js: https://phaser.io/examples-show/443
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BECY3pFY.png
+- name: Multiple Adds
+  url_js: https://phaser.io/examples-show/1018
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8Y44SoKe.png
+- name: Random Frame
+  url_js: https://phaser.io/examples-show/1252
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jf76TePu.png
+- name: Set Rotation
+  url_js: https://phaser.io/examples-show/1433
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zdUWjx1C.png
+- name: Set Scale
+  url_js: https://phaser.io/examples-show/1434
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gDiKXXWu.png
+- name: Set X
+  url_js: https://phaser.io/examples-show/1445
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NDEthGAg.png
+- name: Set Xy
+  url_js: https://phaser.io/examples-show/1446
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UwE6Pko5.png
+- name: Set Y
+  url_js: https://phaser.io/examples-show/1447
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/p2eYDsWW.png
+- name: Shuffle
+  url_js: https://phaser.io/examples-show/1476
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GvQpn4jz.png
+- name: Sprite Pool
+  url_js: https://phaser.io/examples-show/1549
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1RNVU4ZG.png
+- name: Swirl
+  url_js: https://phaser.io/examples-show/1605
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ALQuenxp.png

@@ -1,0 +1,12 @@
+---
+name: isometric
+examples:
+- name: Create Isometric Manually
+  url_js: https://phaser.io/examples-show/356
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/af4SgvFZ.png
+- name: Hexagonal Test
+  url_js: https://phaser.io/examples-show/745
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DLBUFYbf.png
+- name: Isometric Test
+  url_js: https://phaser.io/examples-show/806
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cNMB52ja.png

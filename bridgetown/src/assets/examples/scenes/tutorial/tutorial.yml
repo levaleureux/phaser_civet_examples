@@ -1,0 +1,12 @@
+---
+name: tutorial
+examples:
+- name: Change Scene Order
+  url_js: https://phaser.io/examples-show/229
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ESTxmLeJ.png
+- name: Scene Controller
+  url_js: https://phaser.io/examples-show/1385
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3Lsoy6uf.png
+- name: Scene Order
+  url_js: https://phaser.io/examples-show/1394
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EyZkpGHZ.png

@@ -1,0 +1,6 @@
+---
+name: multi
+examples:
+- name: Arcade And Matter
+  url_js: https://phaser.io/examples-show/70
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qX2PP4qH.png

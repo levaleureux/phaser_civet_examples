@@ -1,0 +1,30 @@
+---
+name: vec2
+examples:
+- name: Add
+  url_js: https://phaser.io/examples-show/44
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rNgHdQtK.png
+- name: Divide
+  url_js: https://phaser.io/examples-show/479
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wXPPu1gf.png
+- name: Dot
+  url_js: https://phaser.io/examples-show/480
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/U7W7ZdLC.png
+- name: Multiply
+  url_js: https://phaser.io/examples-show/1056
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vCeeoJnm.png
+- name: Normalize
+  url_js: https://phaser.io/examples-show/1076
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6xuLN3FB.png
+- name: Perp
+  url_js: https://phaser.io/examples-show/1171
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yJ7BdSBK.png
+- name: Rperp
+  url_js: https://phaser.io/examples-show/1368
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TKCLudwi.png
+- name: Set Magnitude
+  url_js: https://phaser.io/examples-show/1427
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1LUuvYdr.png
+- name: Subtract
+  url_js: https://phaser.io/examples-show/1599
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BQarkDJU.png

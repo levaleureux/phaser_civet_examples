@@ -1,0 +1,99 @@
+---
+name: spine3
+examples:
+- name: Add Hit Area
+  url_js: https://phaser.io/examples-show/1923
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DeST8rzK.png
+- name: Add Spine Object To Group
+  url_js: https://phaser.io/examples-show/1907
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6JFvqkuk.png
+- name: Alpha Test
+  url_js: https://phaser.io/examples-show/1908
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/irbaYFcN.png
+- name: Arcade Physics Spine Body
+  url_js: https://phaser.io/examples-show/1921
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/moL5pMKW.png
+- name: Basic Spineboy
+  url_js: https://phaser.io/examples-show/1920
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qWWuYgEN.png
+- name: Batch Test
+  url_js: https://phaser.io/examples-show/1918
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HboDFKbj.png
+- name: Blend Mode Test
+  url_js: https://phaser.io/examples-show/1917
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YYvgYU5k.png
+- name: Camera Pipeline Test
+  url_js: https://phaser.io/examples-show/1912
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/F1nw8haU.png
+- name: Canvas Test 1
+  url_js: https://phaser.io/examples-show/1915
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oHVg1L8h.png
+- name: Container Batch Test
+  url_js: https://phaser.io/examples-show/1916
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/n8tHotPw.png
+- name: Container Batch Test Pre35
+  url_js: https://phaser.io/examples-show/1930
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/U92ZcoUK.png
+- name: Control Bones
+  url_js: https://phaser.io/examples-show/1919
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HFGbFdav.png
+- name: Destroy Test
+  url_js: https://phaser.io/examples-show/1935
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YUmGe81q.png
+- name: Extend Spine Gameobject
+  url_js: https://phaser.io/examples-show/1914
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NkU7krFp.png
+- name: Extended Class
+  url_js: https://phaser.io/examples-show/1931
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jwJHXsmY.png
+- name: Image Changes
+  url_js: https://phaser.io/examples-show/1928
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CdxW41Vb.png
+- name: Invisible Test
+  url_js: https://phaser.io/examples-show/1906
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZubropYV.png
+- name: Invisible Test With Spine Containers
+  url_js: https://phaser.io/examples-show/1925
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nMKGMTbt.png
+- name: Last Visible
+  url_js: https://phaser.io/examples-show/1936
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cm4t9Yan.png
+- name: Owl
+  url_js: https://phaser.io/examples-show/1937
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fqbPKWqD.png
+- name: Spine Inside Container
+  url_js: https://phaser.io/examples-show/1913
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GGknPK9P.png
+- name: Spine Parallel Scene Test
+  url_js: https://phaser.io/examples-show/1909
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/giJUA4oK.png
+- name: Spine Preloader Test
+  url_js: https://phaser.io/examples-show/1927
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bSoS2ycG.png
+- name: Spine Rotation Test
+  url_js: https://phaser.io/examples-show/1924
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zdLCGvEy.png
+- name: Spine Scene Test
+  url_js: https://phaser.io/examples-show/1911
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/W4GcWNa2.png
+- name: Spine Set Depth Test
+  url_js: https://phaser.io/examples-show/1926
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/X95NVYGy.png
+- name: Spine To Render Texture
+  url_js: https://phaser.io/examples-show/1929
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WgFNmwRg.png
+- name: Webgl Test 1
+  url_js: https://phaser.io/examples-show/1932
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CeaohNb2.png
+- name: Webgl Test 2
+  url_js: https://phaser.io/examples-show/1922
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qDmsVa3q.png
+- name: Webgl Test 3
+  url_js: https://phaser.io/examples-show/1934
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vKjFzTFJ.png
+- name: Webgl Test 4
+  url_js: https://phaser.io/examples-show/1910
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DwoSV4qF.png
+- name: Webgl Test 5
+  url_js: https://phaser.io/examples-show/1933
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/N9TcPB56.png

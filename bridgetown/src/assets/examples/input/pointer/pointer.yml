@@ -1,0 +1,33 @@
+---
+name: pointer
+examples:
+- name: Cards
+  url_js: https://phaser.io/examples-show/209
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vs48jnva.png
+- name: Down Event
+  url_js: https://phaser.io/examples-show/483
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5pz5thr6.png
+- name: Drag Rectangle
+  url_js: https://phaser.io/examples-show/494
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/r5Tg5Mxw.png
+- name: Draw Sprites
+  url_js: https://phaser.io/examples-show/517
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aHM7scso.png
+- name: Event List
+  url_js: https://phaser.io/examples-show/562
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Dqgr3Skn.png
+- name: External Link
+  url_js: https://phaser.io/examples-show/575
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PxRfgqwD.png
+- name: Move Event
+  url_js: https://phaser.io/examples-show/986
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eyJLYtwJ.png
+- name: Multi Camera Cards
+  url_js: https://phaser.io/examples-show/999
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xC7xxhCs.png
+- name: Multiple Scene Down Event
+  url_js: https://phaser.io/examples-show/1040
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oYVvcStC.png
+- name: Pointer Buttons
+  url_js: https://phaser.io/examples-show/1218
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/d5zPfaWG.png

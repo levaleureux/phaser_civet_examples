@@ -1,0 +1,144 @@
+---
+name: animation
+examples:
+- name: 60Fps Animation Test
+  url_js: https://phaser.io/examples-show/14
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1kxRvhWV.png
+- name: Add Animation Event
+  url_js: https://phaser.io/examples-show/16
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/afBFV2n9.png
+- name: Add Frames To Existing Animation
+  url_js: https://phaser.io/examples-show/29
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/U9GB3wct.png
+- name: Animation From Png Sequence
+  url_js: https://phaser.io/examples-show/60
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cCYWGq7A.png
+- name: Animation Get Progress
+  url_js: https://phaser.io/examples-show/61
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xqbhd5a6.png
+- name: Animation Repeat Event
+  url_js: https://phaser.io/examples-show/62
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oP3UnBM8.png
+- name: Aseprite Animation
+  url_js: https://phaser.io/examples-show/75
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DyEmGtFB.png
+- name: Chained Animation
+  url_js: https://phaser.io/examples-show/215
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FCmPEetA.png
+- name: Create Animation From Canvas Texture
+  url_js: https://phaser.io/examples-show/337
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uD5c57DA.png
+- name: Create Animation From Sprite Sheet
+  url_js: https://phaser.io/examples-show/338
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jYqvDfBx.png
+- name: Create Animation From Texture Atlas
+  url_js: https://phaser.io/examples-show/339
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Q5gc7K8j.png
+- name: Create Animation On Sprite
+  url_js: https://phaser.io/examples-show/340
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/U5EYGSq8.png
+- name: Create Animation Without Frame Names
+  url_js: https://phaser.io/examples-show/341
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xHiGUaVb.png
+- name: Create From Sprite Config
+  url_js: https://phaser.io/examples-show/353
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hvExHd1Z.png
+- name: Cubes
+  url_js: https://phaser.io/examples-show/390
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QxdGnisv.png
+- name: Export Json
+  url_js: https://phaser.io/examples-show/570
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zbJdMyJk.png
+- name: From Animation Json
+  url_js: https://phaser.io/examples-show/616
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LEidXxTP.png
+- name: From Json
+  url_js: https://phaser.io/examples-show/617
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/H2d3mcfX.png
+- name: Generate Frame Names
+  url_js: https://phaser.io/examples-show/634
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DCuRPM84.png
+- name: Generate Frame Numbers
+  url_js: https://phaser.io/examples-show/635
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BmVzqkgi.png
+- name: Gif To Animation
+  url_js: https://phaser.io/examples-show/699
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pb7mSowB.png
+- name: Hide On Complete
+  url_js: https://phaser.io/examples-show/747
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fkhC5Cff.png
+- name: Mixed Animation
+  url_js: https://phaser.io/examples-show/969
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/989Xu7Ja.png
+- name: Multi Atlas Animation
+  url_js: https://phaser.io/examples-show/996
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9VRNzea2.png
+- name: Muybridge
+  url_js: https://phaser.io/examples-show/1057
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XbpTcNXM.png
+- name: On Complete Event
+  url_js: https://phaser.io/examples-show/1088
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FbhbqwaE.png
+- name: On Repeat Event
+  url_js: https://phaser.io/examples-show/1094
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/U1TdePJy.png
+- name: On Start Event
+  url_js: https://phaser.io/examples-show/1096
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rt4ufhwn.png
+- name: On Stop Event
+  url_js: https://phaser.io/examples-show/1097
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mUBfocy7.png
+- name: On Update Event
+  url_js: https://phaser.io/examples-show/1099
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DeKmfwY8.png
+- name: Pause All Animations
+  url_js: https://phaser.io/examples-show/1160
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pEZheFbV.png
+- name: Pause Animation Instances
+  url_js: https://phaser.io/examples-show/1163
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ssVNkyRQ.png
+- name: Play After Delay
+  url_js: https://phaser.io/examples-show/1200
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bxKw7r59.png
+- name: Play After Random Delay
+  url_js: https://phaser.io/examples-show/1201
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ymkb5DdA.png
+- name: Play After Repeat
+  url_js: https://phaser.io/examples-show/1202
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7UfZGXiJ.png
+- name: Play Animation With Config
+  url_js: https://phaser.io/examples-show/1204
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UYB7m5W2.png
+- name: Random Delay
+  url_js: https://phaser.io/examples-show/1250
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/k5AtD5cQ.png
+- name: Remove Animation Event
+  url_js: https://phaser.io/examples-show/1287
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/T3jJGQ5Y.png
+- name: Reverse Animation
+  url_js: https://phaser.io/examples-show/1331
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aN4rheZA.png
+- name: Show Animation Play Through
+  url_js: https://phaser.io/examples-show/1473
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/m6Ze24f1.png
+- name: Show On Start
+  url_js: https://phaser.io/examples-show/1474
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZeR5sUGe.png
+- name: Sprite Animation Events
+  url_js: https://phaser.io/examples-show/1542
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tsdG7d48.png
+- name: Stagger Play 1
+  url_js: https://phaser.io/examples-show/1567
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YPCd2fCs.png
+- name: Stagger Play 2
+  url_js: https://phaser.io/examples-show/1568
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TTdJZxfH.png
+- name: Start From Random Frame
+  url_js: https://phaser.io/examples-show/1577
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sNhvRm7Q.png
+- name: Tween Timescale
+  url_js: https://phaser.io/examples-show/1718
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fmwkinhh.png
+- name: Yoyo
+  url_js: https://phaser.io/examples-show/1815
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UvsU4ur6.png

@@ -1,0 +1,18 @@
+---
+name: timestep
+examples:
+- name: Delta History
+  url_js: https://phaser.io/examples-show/434
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/G5nsWwEc.png
+- name: Split Timestep
+  url_js: https://phaser.io/examples-show/1537
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TcDwxiW2.png
+- name: Ticker Loop
+  url_js: https://phaser.io/examples-show/1635
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ta7g52aA.png
+- name: Variable Smooth Step
+  url_js: https://phaser.io/examples-show/1741
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Gm6sWJAi.png
+- name: World Time
+  url_js: https://phaser.io/examples-show/1804
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ufh3LsaW.png

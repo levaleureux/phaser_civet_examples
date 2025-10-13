@@ -5,7 +5,7 @@ require 'net/http'
 require 'fileutils'
 
 class Scrap < Thor
-  desc "structure", "Build structure from Phaser examples URL"
+  desc 'structure', 'Build structure from Phaser examples URL'
   def structure
     def process_category(url, parent_dir, slug)
       uri = URI(url)
@@ -23,6 +23,7 @@ class Scrap < Thor
           sub_name = sub.at_css('.examples_folders_folder_name')&.text&.strip
           next unless sub_name
           next if sub_name.downcase == 'back' # Skip back links
+
           sub_slug = sub_name.downcase.gsub(' ', '-')
           sub_url = sub.at_css('a')['href']
           process_category(sub_url, cat_dir, sub_slug)
@@ -32,16 +33,21 @@ class Scrap < Thor
         examples = []
         doc.css('.examples_folders_example').each do |ex|
           ex_link = ex.at_css('a')
-          if ex_link
-            ex_name = ex.at_css('.examples_folders_example_name').text.strip
-            ex_url = ex_link['href']
-            ex_image = ex.at_css('img')['src'] rescue "/assets/images/#{slug}/#{ex_name.downcase.gsub(/[^a-z0-9]+/, '-')}.png"
-            examples << {
-              'name' => ex_name,
-              'url_js' => ex_url,
-              'url_image' => ex_image
-            }
+          next unless ex_link
+
+          ex_name = ex.at_css('.examples_folders_example_name').text.strip
+          ex_url = ex_link['href']
+          ex_image = begin
+            ex.at_css('img')['src']
+          rescue StandardError
+            "/assets/images/#{slug}/#{ex_name.downcase.gsub(/[^a-z0-9]+/,
+                                                            '-')}.png"
           end
+          examples << {
+            'name' => ex_name,
+            'url_js' => ex_url,
+            'url_image' => ex_image
+          }
         end
       end
 
@@ -55,13 +61,15 @@ class Scrap < Thor
     doc = Nokogiri::HTML(response)
     categories = doc.css('.examples_folders_folder')
 
-    examples_dir = 'civet_examples'
+    # examples_dir = 'civet_examples'
+    examples_dir = 'bridgetown/src/assets/examples'
     Dir.mkdir(examples_dir) unless Dir.exist?(examples_dir)
     Dir.mkdir(examples_dir) unless Dir.exist?(examples_dir)
 
     categories.each do |cat|
       name = cat.at_css('.examples_folders_folder_name')&.text&.strip
       next unless name
+
       slug = name.downcase.gsub(' ', '-')
       cat_url = cat.at_css('a')['href']
       process_category(cat_url, examples_dir, slug)
@@ -70,21 +78,22 @@ class Scrap < Thor
     # Generate categories.yml for Jekyll
     jekyll_data_dir = 'jekyll/_data'
     Dir.mkdir(jekyll_data_dir) unless Dir.exist?(jekyll_data_dir)
-    File.open("#{jekyll_data_dir}/categories.yml", "w") do |f|
-      f.puts "categories:"
+    File.open("#{jekyll_data_dir}/categories.yml", 'w') do |f|
+      f.puts 'categories:'
       categories.each do |cat|
         name = cat.at_css('.examples_folders_folder_name')&.text&.strip
         next unless name
+
         slug = name.downcase.gsub(' ', '-')
         f.puts "  - slug: #{slug}"
         f.puts "    name: \"#{name}\""
       end
     end
 
-    puts "Structure built successfully."
+    puts 'Structure built successfully.'
   end
 
-  desc "examples YAML_FILE", "Scrape examples from YAML file and download assets"
+  desc 'examples YAML_FILE', 'Scrape examples from YAML file and download assets'
   def examples(yaml_file)
     unless File.exist?(yaml_file)
       puts "YAML file not found: #{yaml_file}"
@@ -102,7 +111,7 @@ class Scrap < Thor
       id_padded = id.to_s.rjust(3, '0')
       name_underscore = example['name'].downcase.gsub(/[^a-z0-9]+/, '_').gsub(/^_+|_+$/, '')
       folder_name = "#{id_padded}_#{name_underscore}"
-      folder_path = "#{examples_dir}/#{folder_name}"
+      folder_path = "#{assets_dir}/#{folder_name}"
       FileUtils.mkdir_p(folder_path)
 
       # Download image
@@ -114,7 +123,7 @@ class Scrap < Thor
         else
           warn "Failed to download image for #{example['name']}: #{response_image.code}"
         end
-      rescue => e
+      rescue StandardError => e
         warn "Error downloading image for #{example['name']}: #{e.message}"
       end
 
@@ -127,24 +136,49 @@ class Scrap < Thor
         response_js = Net::HTTP.get_response(uri_js)
         if response_js.is_a?(Net::HTTPSuccess)
           doc = Nokogiri::HTML(response_js.body)
-          code_tag = doc.at_css('pre.example_code_codefile code')
+          code_tag = doc.at_css('#copy-container pre')
           if code_tag
-            File.write("#{folder_path}/original.js", code_tag.text)
+            striped_text = code_tag.text.strip
+            File.write "#{folder_path}/original.js", striped_text
           else
             warn "Failed to extract JS for #{example['name']}: no code tag found"
           end
         else
           warn "Failed to download JS page for #{example['name']}: #{response_js.code}"
         end
-      rescue => e
+      rescue StandardError => e
         warn "Error downloading/extracting JS for #{example['name']}: #{e.message}"
       end
     end
 
-    puts "Scraped examples successfully."
+    puts 'Scraped examples successfully.'
   end
 
-  desc "last_date", "Show last modification date of this file"
+  desc 'all_examples_by_category CATEGORIES_YAML', 'Scrape all examples from all categories listed in CATEGORIES_YAML'
+  def all_examples_by_category(categories_yaml)
+    unless File.exist?(categories_yaml)
+      puts "Categories YAML file not found: #{categories_yaml}"
+      return
+    end
+
+    data = YAML.load_file(categories_yaml)
+    categories = data['categories'] || []
+
+    categories.each do |cat|
+      slug = cat['slug']
+      yaml_file = "bridgetown/src/assets/examples/#{slug}/#{slug}.yml"
+      if File.exist?(yaml_file)
+        puts "Scraping examples for category #{slug}"
+        examples(yaml_file)
+      else
+        warn "YAML file not found for category #{slug}: #{yaml_file}"
+      end
+    end
+
+    puts 'Scraped all examples successfully.'
+  end
+
+  desc 'last_date', 'Show last modification date of this file'
   def last_date
     puts File.mtime(__FILE__)
   end

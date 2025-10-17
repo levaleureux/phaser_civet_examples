@@ -1,3 +1,30 @@
+// Arrow Functions
+inc := (x) => x + 1
+add := <T>(a, b): T => a + b
+
+// Thin arrow -> is equivalent to `function`
+f := (this: ctx, a, b) ->
+  ctx.log a, b if ctx.debug
+
+# converted
+// Thick Pipes
+array
+||> .pop()
+||> .push 5
+||> .sort()
+||> .reverse()
+
+count |> & + 1
+||> console.log
+|> & * 2
+||> console.log
+
+url |> fetch |> await
+||> (response) => console.log response.status
+|> .json() |> await
+||> (json) => console.log "json:", json
+|> callback
+
 # converted
 // Thick Pipes
 array

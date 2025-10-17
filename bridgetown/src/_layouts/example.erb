@@ -36,7 +36,16 @@
                         <input id="civet-tab" type="radio" name="code-tab">
                         <label for="civet-tab">Civet</label>
                         <pre id="js-code"><code class="language-js">// Placeholder JS code</code></pre>
-                        <pre id="civet-code"><code class="language-js">hello civet</code></pre>
+                        <pre id="civet-code">
+                          <code class="language-js">
+                            <% civet_path = data.js_path.split("/")[0..-2].join("/") %>
+                            <% if data.civet_path.present? %>
+                              <%= data.civet_path %>
+                            <% else %>
+                              hello civet
+                            <% end %>
+                          </code>
+                        </pre>
                     </div>
                 </div>
                 <div class="example-preview">

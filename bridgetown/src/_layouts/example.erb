@@ -30,6 +30,18 @@
             <div class="example-content">
                 <div class="example-code">
                     <h2>Code</h2>
+                            <% civet_path = "src" + data.js_path.split("/")[0..-2].join("/") + "/converted.civet" %>
+                            <%= civet_path %>
+                            <br>
+                              <%= Dir.pwd %>
+                            <br>
+                            <% if File.exist?(civet_path)  %>
+                              <%= File.read civet_path  %>
+                            <% else %>
+                              civet not avaliable
+                            <% end %>
+                            <br>
+                            <br>
                     <div class="code-tabs">
                         <input id="js-tab" type="radio" name="code-tab" checked>
                         <label for="js-tab">JS</label>
@@ -37,10 +49,10 @@
                         <label for="civet-tab">Civet</label>
                         <pre id="js-code"><code class="language-js">// Placeholder JS code</code></pre>
                         <pre id="civet-code">
-                          <code class="language-js">
-                            <% civet_path = data.js_path.split("/")[0..-2].join("/") %>
-                            <% if data.civet_path.present? %>
-                              <%= data.civet_path %>
+                          <code class="language-civet">
+
+                            <% if File.exist?(civet_path)  %>
+                              <%= File.read civet_path %>
                             <% else %>
                               hello civet
                             <% end %>

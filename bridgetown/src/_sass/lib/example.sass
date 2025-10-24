@@ -60,6 +60,7 @@
           code, .token
             text-shadow: 0 0 2px rgba(0,0,0,0.7)
 
+          // Prism styles (only for JS tab)
           .token.keyword
             color: #ff6b6b !important
 
@@ -74,6 +75,38 @@
 
           .token.variable
             color: #ffffff !important
+
+          // Shiki styles (one-dark-pro theme, only for Civet tab)
+          .shiki
+            background: transparent !important
+            color: #e4f0fb !important
+            font-family: inherit !important
+            font-size: inherit !important
+            line-height: inherit !important
+
+          .shiki span
+            text-shadow: 0 0 2px rgba(0,0,0,0.7)
+
+          .shiki-keyword
+            color: #c792ea !important
+
+          .shiki-string
+            color: #c3e88d !important
+
+          .shiki-comment
+            color: #546e7a !important
+
+          .shiki-function
+            color: #82aaff !important
+
+          .shiki-variable
+            color: #eeffff !important
+
+          .shiki-number
+            color: #f78c6c !important
+
+          .shiki-operator
+            color: #89ddff !important
 
         #js-tab:checked ~ #js-code
           display: block

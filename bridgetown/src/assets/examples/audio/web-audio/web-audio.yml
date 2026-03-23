@@ -1,0 +1,51 @@
+---
+name: web audio
+examples:
+- name: Audiosprite
+  url_js: https://phaser.io/examples-show/89
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/75My8kJr.png
+- name: Basic Playback And Events
+  url_js: https://phaser.io/examples-show/114
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DT5TzZuK.png
+- name: Loop Delay
+  url_js: "/pricing"
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fkEedyq7.png
+- name: Markers Pause Resume
+  url_js: https://phaser.io/examples-show/932
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/F7HDaU7N.png
+- name: Markers Play
+  url_js: https://phaser.io/examples-show/933
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SNPR5K5E.png
+- name: Play Audio File
+  url_js: https://phaser.io/examples-show/1205
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/AbCQZkd7.png
+- name: Play Audio From Child Scene
+  url_js: https://phaser.io/examples-show/1206
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/b6hMXjmU.png
+- name: Play Audio From File Pack
+  url_js: https://phaser.io/examples-show/1207
+  url_image: ''
+- name: Play Movement Sound
+  url_js: https://phaser.io/examples-show/1208
+  url_image: ''
+- name: Play Sound On Keypress
+  url_js: https://phaser.io/examples-show/1209
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8jQn4Nfm.png
+- name: Reuse Audio Context
+  url_js: https://phaser.io/examples-show/1325
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fWRGwBp5.png
+- name: Seek
+  url_js: https://phaser.io/examples-show/1411
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YmFxW84P.png
+- name: Spatial Audio Move With Player
+  url_js: https://phaser.io/examples-show/1517
+  url_image: ''
+- name: Spatial With Destination Coordinates
+  url_js: https://phaser.io/examples-show/1518
+  url_image: ''
+- name: Using Same Audio File
+  url_js: https://phaser.io/examples-show/1738
+  url_image: ''
+- name: Volume Mute Rate Detune
+  url_js: https://phaser.io/examples-show/1772
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Kg5GxLSA.png

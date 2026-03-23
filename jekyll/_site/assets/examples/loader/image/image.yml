@@ -1,0 +1,24 @@
+---
+name: image
+examples:
+- name: Load Image
+  url_js: https://phaser.io/examples-show/880
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fZxjV411.png
+- name: Load Image From Object
+  url_js: https://phaser.io/examples-show/878
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dvjLinMn.png
+- name: Load Image On Click
+  url_js: https://phaser.io/examples-show/879
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KBhFUkfN.png
+- name: Load Normal Map
+  url_js: https://phaser.io/examples-show/885
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vmwC54hv.png
+- name: Load Normal Map From Object
+  url_js: https://phaser.io/examples-show/883
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mFuaMt5c.png
+- name: Load Normal Map With Light
+  url_js: https://phaser.io/examples-show/884
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iEjZR45N.png
+- name: Load Webp
+  url_js: https://phaser.io/examples-show/918
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Hc9eKJjw.png

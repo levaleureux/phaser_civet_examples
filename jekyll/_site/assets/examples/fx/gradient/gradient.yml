@@ -1,0 +1,15 @@
+---
+name: gradient
+examples:
+- name: Chunky Gradient
+  url_js: https://phaser.io/examples-show/253
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/M4iB11CN.png
+- name: Gradient Fx
+  url_js: https://phaser.io/examples-show/712
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aegV2k4A.png
+- name: Gradient Mouse Twist Fx
+  url_js: https://phaser.io/examples-show/713
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nqU1ZGRG.png
+- name: Tilemap Gradient
+  url_js: https://phaser.io/examples-show/1646
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/62w7aKg2.png

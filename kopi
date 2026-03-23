@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+require 'thor'
+require_relative 'kopi_lib/build'
+require_relative 'kopi_lib/scrap'
+require_relative 'kopi_lib/generate'
+
+class Kopi < Thor
+  desc "version", "Show version"
+  def version
+    puts "1.0.0"
+  end
+
+  desc "build SUBCOMMAND", "Build commands"
+  subcommand "build", Build
+
+  desc "scrap SUBCOMMAND", "Scrap commands"
+  subcommand "scrap", Scrap
+
+  desc "generate SUBCOMMAND", "Generate commands"
+  subcommand "generate", Generate
+end
+
+Kopi.start(ARGV)

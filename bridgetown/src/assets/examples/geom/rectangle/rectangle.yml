@@ -1,0 +1,141 @@
+---
+name: rectangle
+examples:
+- name: Area
+  url_js: https://phaser.io/examples-show/1969
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CJk4j3ku.png
+- name: Ceil
+  url_js: https://phaser.io/examples-show/1982
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/K7ngf9if.png
+- name: Ceil All
+  url_js: https://phaser.io/examples-show/210
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/T1to2drt.png
+- name: Center On
+  url_js: https://phaser.io/examples-show/1988
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bCTiZmzE.png
+- name: Clone
+  url_js: https://phaser.io/examples-show/1986
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qL3rCYwM.png
+- name: Contains
+  url_js: https://phaser.io/examples-show/1977
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MPtRgCGQ.png
+- name: Contains Point
+  url_js: https://phaser.io/examples-show/1970
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UjXvu5DP.png
+- name: Contains Rect
+  url_js: https://phaser.io/examples-show/1985
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DAAZjsNQ.png
+- name: Copy From
+  url_js: https://phaser.io/examples-show/1987
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YZwSGSnK.png
+- name: Create
+  url_js: https://phaser.io/examples-show/1990
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FUkwv4sw.png
+- name: Decompose
+  url_js: https://phaser.io/examples-show/1979
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hF2SNq9U.png
+- name: Deflate
+  url_js: https://phaser.io/examples-show/431
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/H4gg5gtx.png
+- name: Equals
+  url_js: https://phaser.io/examples-show/1968
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XGRbp5fF.png
+- name: Fit Inside
+  url_js: https://phaser.io/examples-show/586
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5JQH3e1v.png
+- name: Fit Outside
+  url_js: https://phaser.io/examples-show/588
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4E8q65bt.png
+- name: Floor
+  url_js: https://phaser.io/examples-show/1971
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HsD17eS1.png
+- name: Floor All
+  url_js: https://phaser.io/examples-show/601
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/L9Ev7TcN.png
+- name: From Points
+  url_js: https://phaser.io/examples-show/618
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3Xfuus7W.png
+- name: Get Aspect Ratio
+  url_js: https://phaser.io/examples-show/645
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MpwaAeQ6.png
+- name: Get Center
+  url_js: https://phaser.io/examples-show/654
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/946fiWG3.png
+- name: Get Line
+  url_js: https://phaser.io/examples-show/1972
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Eq2DtcPZ.png
+- name: Get Point
+  url_js: https://phaser.io/examples-show/1984
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VXHGwmpf.png
+- name: Get Points
+  url_js: https://phaser.io/examples-show/1991
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EnmpBGr4.png
+- name: Get Random Point
+  url_js: https://phaser.io/examples-show/1978
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yvkzTSML.png
+- name: Get Random Point Outside
+  url_js: https://phaser.io/examples-show/683
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9yNBw51K.png
+- name: Get Size
+  url_js: https://phaser.io/examples-show/688
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7hBSPs2M.png
+- name: Inflate
+  url_js: https://phaser.io/examples-show/780
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/taUJ78Tw.png
+- name: Intersection
+  url_js: https://phaser.io/examples-show/791
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dVprqTCf.png
+- name: Is Empty
+  url_js: https://phaser.io/examples-show/1989
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/g23hmyPw.png
+- name: Marching Ants
+  url_js: https://phaser.io/examples-show/930
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/auv2X2Vc.png
+- name: Merge Points
+  url_js: https://phaser.io/examples-show/954
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rpRwLK96.png
+- name: Merge Rect
+  url_js: https://phaser.io/examples-show/955
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/t5yHH7KR.png
+- name: Merge Xy
+  url_js: https://phaser.io/examples-show/956
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gZwPt56C.png
+- name: Offset
+  url_js: https://phaser.io/examples-show/1980
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6zXSDiSF.png
+- name: Offset Point
+  url_js: https://phaser.io/examples-show/1976
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vhphK48x.png
+- name: Overlaps
+  url_js: https://phaser.io/examples-show/1118
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/enxL9Sfe.png
+- name: Perimeter
+  url_js: https://phaser.io/examples-show/1975
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/az3LwQTv.png
+- name: Perimeter Point
+  url_js: https://phaser.io/examples-show/1168
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fsDE2WVg.png
+- name: Properties
+  url_js: https://phaser.io/examples-show/1973
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cvrsSCkt.png
+- name: Scale
+  url_js: https://phaser.io/examples-show/1376
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TeHvBB3H.png
+- name: Set Empty
+  url_js: https://phaser.io/examples-show/1981
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RsSX8QC8.png
+- name: Set Position
+  url_js: https://phaser.io/examples-show/1983
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9QtE1KtH.png
+- name: Set Size
+  url_js: https://phaser.io/examples-show/1437
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dMSguNJr.png
+- name: Set To
+  url_js: https://phaser.io/examples-show/1974
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WFCEJX9J.png
+- name: Sprite To Perimeter
+  url_js: https://phaser.io/examples-show/1555
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NE992rNv.png
+- name: Union
+  url_js: https://phaser.io/examples-show/1733
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GfwYJfpW.png

@@ -1,0 +1,39 @@
+---
+name: collision
+examples:
+- name: Csv Map Arcade Physics
+  url_js: https://phaser.io/examples-show/388
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6aSZpF7Y.png
+- name: Custom Collide Call
+  url_js: https://phaser.io/examples-show/405
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dmnSrNkJ.png
+- name: Matter
+  url_js: https://phaser.io/examples-show/949
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/55MAtYDg.png
+- name: Matter Destroy Tile Bodies
+  url_js: https://phaser.io/examples-show/941
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9xzB6q8B.png
+- name: Matter Detect Collision With Tile
+  url_js: https://phaser.io/examples-show/942
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/thMqADr3.png
+- name: Matter Ghost Collisions
+  url_js: https://phaser.io/examples-show/943
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iPDhHA7q.png
+- name: Matter Platformer Modify Map
+  url_js: https://phaser.io/examples-show/947
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cSEzE6XJ.png
+- name: Matter Platformer With Wall Jumping
+  url_js: https://phaser.io/examples-show/948
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3PZnEc2H.png
+- name: Multiple Tile Sizes
+  url_js: https://phaser.io/examples-show/1050
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nMcz3aj5.png
+- name: Simple Map
+  url_js: https://phaser.io/examples-show/1479
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WkBsg4HJ.png
+- name: Tile Callbacks
+  url_js: https://phaser.io/examples-show/1636
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qQnaEX1u.png
+- name: Tilemap Spotlight
+  url_js: https://phaser.io/examples-show/1649
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2goyXmeA.png

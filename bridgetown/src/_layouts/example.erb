@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= data.name || data.title %> | Phaser Examples</title>
+    <link rel="stylesheet" href="/assets/css/main.css?v=<%= Time.now.to_i %>">
+    <script src="/assets/shiki/dist/index.umd.js"></script>
+    <%= live_reload_dev_js %>
+</head>
+<body>
+    <div class="copper-bg"></div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <div class="logo phaser">P</div>
+                    <span style="color: #b4b4c8; font-size: 2rem;">+</span>
+                    <div class="logo civet">C</div>
+                </div>
+                <h1 class="title">Phaser Examples</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="example-container">
+            <h1><%= data.name || data.title %></h1>
+            <div class="example-content">
+                 <div class="example-code">
+                     <h2>Code</h2>
+                     <% civet_path = "src" + data.js_path.split("/")[0..-2].join("/") + "/converted.civet" %>
+                     <% civet_code = File.exist?(civet_path) ? File.read(civet_path) : "// civet not available" %>
+                     <div class="code-tabs">
+                        <input id="js-tab" type="radio" name="code-tab" checked>
+                        <label for="js-tab">JS</label>
+                        <input id="civet-tab" type="radio" name="code-tab">
+                        <label for="civet-tab">Civet</label>
+                        <pre id="js-code"><code>// Loading...</code></pre>
+                        <pre id="civet-code"><code><%= civet_code %></code></pre>
+                    </div>
+                </div>
+                <div class="example-preview">
+                    <h2>Preview</h2>
+                    <div id="phaser-example"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="https://phaser.io" class="footer-link">Phaser.io</a>
+                <a href="https://civet.dev" class="footer-link">Civet.dev</a>
+                <a href="https://github.com/levaleureux/phaser_civet_examples" class="footer-link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.85.0/dist/phaser.min.js"></script>
+    <script src="<%= data.js_path %>"></script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+        let highlighter;
+        try {
+            shiki.setCDN('/assets/shiki/');
+            highlighter = await shiki.getHighlighter({
+                theme: 'one-dark-pro',
+                langs: ['javascript', 'coffee']
+            });
+        } catch (err) {
+            console.error('Shiki init failed:', err);
+        }
+
+        // Highlight JS code
+        try {
+            const response = await fetch('<%= data.js_path %>');
+            const code = await response.text();
+            if (highlighter) {
+                document.getElementById('js-code').innerHTML = highlighter.codeToHtml(code, 'javascript');
+            } else {
+                document.getElementById('js-code').innerHTML = '<pre><code>' + code.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</code></pre>';
+            }
+        } catch (err) {
+            document.getElementById('js-code').innerHTML = '<pre><code>Error loading code.</code></pre>';
+            console.error(err);
+        }
+
+        // Highlight Civet code
+        const civetElement = document.querySelector('#civet-code code');
+        const civetCode = civetElement.textContent;
+        if (highlighter) {
+            document.getElementById('civet-code').innerHTML = highlighter.codeToHtml(civetCode, 'coffee');
+        }
+    });
+    </script>
+</body>
+</html>

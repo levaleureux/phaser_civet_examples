@@ -1,0 +1,99 @@
+---
+name: triangle
+examples:
+- name: Area
+  url_js: https://phaser.io/examples-show/1993
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5AYGYheY.png
+- name: Bottom
+  url_js: https://phaser.io/examples-show/165
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6xNhtWXi.png
+- name: Build Equilateral
+  url_js: https://phaser.io/examples-show/179
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rp6XjhAQ.png
+- name: Build From Polygon
+  url_js: https://phaser.io/examples-show/180
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/v6aaJZnC.png
+- name: Build Right
+  url_js: https://phaser.io/examples-show/181
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wzkSo56B.png
+- name: Center On
+  url_js: https://phaser.io/examples-show/2003
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WMXc8aVk.png
+- name: Centroid
+  url_js: https://phaser.io/examples-show/213
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vtpo9Ptd.png
+- name: Circumcenter
+  url_js: https://phaser.io/examples-show/272
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MUttDVKq.png
+- name: Circumcircle
+  url_js: https://phaser.io/examples-show/273
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RfijAsG7.png
+- name: Clone
+  url_js: https://phaser.io/examples-show/2001
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fsLuVeqv.png
+- name: Contains
+  url_js: https://phaser.io/examples-show/1996
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SDBofQ3V.png
+- name: Contains Array
+  url_js: https://phaser.io/examples-show/325
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tk9z6ru2.png
+- name: Contains Point
+  url_js: https://phaser.io/examples-show/1994
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1eDFidzW.png
+- name: Copy From
+  url_js: https://phaser.io/examples-show/2002
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zPGfY9Lj.png
+- name: Create Triangle
+  url_js: https://phaser.io/examples-show/368
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/o81N2nUL.png
+- name: Decompose
+  url_js: https://phaser.io/examples-show/430
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Vsyv8taZ.png
+- name: Equals
+  url_js: https://phaser.io/examples-show/1992
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bn57ALzu.png
+- name: Get Line
+  url_js: https://phaser.io/examples-show/663
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TpY7Ef2u.png
+- name: Get Point
+  url_js: https://phaser.io/examples-show/679
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dWNVXfZ9.png
+- name: Get Points
+  url_js: https://phaser.io/examples-show/2004
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YnfC7bxz.png
+- name: Get Random Point
+  url_js: https://phaser.io/examples-show/1997
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ygtq5TF8.png
+- name: In Center
+  url_js: https://phaser.io/examples-show/770
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/V8viFHbd.png
+- name: Left
+  url_js: https://phaser.io/examples-show/833
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cJkxtoCf.png
+- name: Offset
+  url_js: https://phaser.io/examples-show/1999
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uLayMPdY.png
+- name: Perimeter
+  url_js: https://phaser.io/examples-show/1169
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wR31Frnr.png
+- name: Random
+  url_js: https://phaser.io/examples-show/1260
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/R2W6TMF8.png
+- name: Right
+  url_js: https://phaser.io/examples-show/1338
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KHaVK1Hu.png
+- name: Rotate Around Point
+  url_js: https://phaser.io/examples-show/1998
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/H7jLQoJq.png
+- name: Rotate Around Xy
+  url_js: https://phaser.io/examples-show/2000
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BqAGwdVb.png
+- name: Rotate From Center
+  url_js: https://phaser.io/examples-show/1352
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/McvXmwss.png
+- name: Set To
+  url_js: https://phaser.io/examples-show/1995
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aPShfewW.png
+- name: Top
+  url_js: https://phaser.io/examples-show/1676
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RfGS26sy.png

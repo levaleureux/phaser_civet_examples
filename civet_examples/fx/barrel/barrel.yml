@@ -1,0 +1,15 @@
+---
+name: barrel
+examples:
+- name: Barrel Fx
+  url_js: https://phaser.io/examples-show/102
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gJWvQEUg.png
+- name: Barrel Sprite Fx
+  url_js: https://phaser.io/examples-show/103
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YyecRr86.png
+- name: Barrel Squish Fx
+  url_js: https://phaser.io/examples-show/104
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1sy7WfMf.png
+- name: Barrel Text
+  url_js: https://phaser.io/examples-show/105
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/g4S2fTvv.png

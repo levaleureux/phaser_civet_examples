@@ -1,0 +1,30 @@
+---
+name: sprites
+examples:
+- name: Create From Config
+  url_js: https://phaser.io/examples-show/1848
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PsVgYMYX.png
+- name: Custom Sprite Class Es6
+  url_js: https://phaser.io/examples-show/420
+  url_image: ''
+- name: Moving Sprite
+  url_js: https://phaser.io/examples-show/995
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RyfKScZR.png
+- name: Multiple Sprites
+  url_js: https://phaser.io/examples-show/1046
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oA4VbmEE.png
+- name: Rotate Around A Sprite
+  url_js: https://phaser.io/examples-show/1343
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fS7axhXh.png
+- name: Single Sprite
+  url_js: https://phaser.io/examples-show/1847
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6tFhSWRs.png
+- name: Sprite Alpha
+  url_js: https://phaser.io/examples-show/1540
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6eyf7wMy.png
+- name: Sprite Rotation
+  url_js: https://phaser.io/examples-show/1550
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ATD1r7o9.png
+- name: To Json
+  url_js: https://phaser.io/examples-show/1849
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NLa6z5jD.png

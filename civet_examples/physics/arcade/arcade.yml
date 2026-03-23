@@ -1,0 +1,384 @@
+---
+name: arcade
+examples:
+- name: 100 World Bodies
+  url_js: https://phaser.io/examples-show/1891
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MBQdnpYW.png
+- name: 1000 World Bodies
+  url_js: https://phaser.io/examples-show/2
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZqsK4kaV.png
+- name: 10000 World Bodies
+  url_js: https://phaser.io/examples-show/3
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nB1tNEqo.png
+- name: 40000 World Bodies
+  url_js: https://phaser.io/examples-show/9
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Uq2LkmFy.png
+- name: 500 Colliding Bodies
+  url_js: https://phaser.io/examples-show/10
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UQYBdy5B.png
+- name: Accelerate To
+  url_js: https://phaser.io/examples-show/15
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Uhn97YTy.png
+- name: Add Body To Shape
+  url_js: https://phaser.io/examples-show/20
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZmmUCzep.png
+- name: Add Body To Tilesprite
+  url_js: https://phaser.io/examples-show/1893
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6Ku3kaQt.png
+- name: Angle From Velocity
+  url_js: https://phaser.io/examples-show/53
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/StWSQXbi.png
+- name: Angular Acceleration
+  url_js: https://phaser.io/examples-show/56
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/B8mc9AhH.png
+- name: Angular Velocity
+  url_js: https://phaser.io/examples-show/57
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bymTU5Zt.png
+- name: Apply Force
+  url_js: https://phaser.io/examples-show/64
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gnPEhTQE.png
+- name: Asteroids Movement
+  url_js: https://phaser.io/examples-show/81
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PjGUJZKb.png
+- name: Basic Platform
+  url_js: https://phaser.io/examples-show/113
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LSMRVzNn.png
+- name: Blocked Faces
+  url_js: https://phaser.io/examples-show/151
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bx9NM7qo.png
+- name: Blocked Touching And Embedded
+  url_js: https://phaser.io/examples-show/152
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/G5uC6WTG.png
+- name: Body Controls
+  url_js: https://phaser.io/examples-show/156
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dqzbcVWv.png
+- name: Body Follow Path
+  url_js: https://phaser.io/examples-show/1889
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VDNarwy4.png
+- name: Body On A Path
+  url_js: https://phaser.io/examples-show/158
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/A3EHLpUT.png
+- name: Body Push Blocks
+  url_js: https://phaser.io/examples-show/159
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/W97vT5aC.png
+- name: Bounce Test
+  url_js: https://phaser.io/examples-show/167
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rL5xfRNc.png
+- name: Bullets Group
+  url_js: https://phaser.io/examples-show/183
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rJDW19zD.png
+- name: Circular Body
+  url_js: https://phaser.io/examples-show/1896
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4CBs2L2S.png
+- name: Circular Collisions
+  url_js: https://phaser.io/examples-show/268
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/piU8S4fy.png
+- name: Circular Collisions 2
+  url_js: https://phaser.io/examples-show/266
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Cjzb4BM1.png
+- name: Circular Collisions 3
+  url_js: https://phaser.io/examples-show/267
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ui4z11VC.png
+- name: Closest Furthest
+  url_js: https://phaser.io/examples-show/281
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ztJnwFfZ.png
+- name: Collide Event
+  url_js: https://phaser.io/examples-show/284
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tH7VZP24.png
+- name: Collider 1
+  url_js: https://phaser.io/examples-show/285
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eA7EwZf1.png
+- name: Collider Process Callback
+  url_js: https://phaser.io/examples-show/286
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/B37qsMPb.png
+- name: Collision Direction
+  url_js: https://phaser.io/examples-show/287
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QMK2Z6AZ.png
+- name: Collision Filter
+  url_js: https://phaser.io/examples-show/1895
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LcQySeLZ.png
+- name: Custom Bounds
+  url_js: https://phaser.io/examples-show/402
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7cv1UE7j.png
+- name: Custom Separate
+  url_js: https://phaser.io/examples-show/418
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4Vt8GaiE.png
+- name: Custom Update
+  url_js: https://phaser.io/examples-show/421
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/AQUUv6LV.png
+- name: Custom World Bounds
+  url_js: https://phaser.io/examples-show/425
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/k8XfuaGF.png
+- name: Destroy Body
+  url_js: https://phaser.io/examples-show/1894
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/T1Ec2xaD.png
+- name: Direct Control
+  url_js: https://phaser.io/examples-show/456
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vWXj2GnB.png
+- name: Direct Control Follow Mouse
+  url_js: https://phaser.io/examples-show/453
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ecn4DhbC.png
+- name: Direct Control Follow Path
+  url_js: https://phaser.io/examples-show/454
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CYNVh8iV.png
+- name: Direct Control Platforms
+  url_js: https://phaser.io/examples-show/455
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FmTRw3Jk.png
+- name: Disable Collider
+  url_js: https://phaser.io/examples-show/458
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KvpsTDaB.png
+- name: Drag
+  url_js: https://phaser.io/examples-show/505
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/piUHqX2i.png
+- name: Drag On Both Axes
+  url_js: https://phaser.io/examples-show/492
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iLXVYMgC.png
+- name: Drag Scalar
+  url_js: https://phaser.io/examples-show/495
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qxTo3tMq.png
+- name: Drag With Damping
+  url_js: https://phaser.io/examples-show/502
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DDH4Kxuk.png
+- name: Drag With Damping On Both Axes
+  url_js: https://phaser.io/examples-show/501
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YEmKsevD.png
+- name: Draggable Body
+  url_js: https://phaser.io/examples-show/506
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ztfcXE2V.png
+- name: Dragon Movement
+  url_js: https://phaser.io/examples-show/508
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oj1ZxyVp.png
+- name: Extending Arcade Sprite
+  url_js: https://phaser.io/examples-show/574
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/agG5Gkou.png
+- name: Final Delta
+  url_js: https://phaser.io/examples-show/583
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YaxxKurz.png
+- name: Fps Test
+  url_js: https://phaser.io/examples-show/611
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dDom7L3o.png
+- name: Friction
+  url_js: https://phaser.io/examples-show/614
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/c2BtkcJH.png
+- name: Get Bodies Within Circle
+  url_js: https://phaser.io/examples-show/650
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8cWuYBWf.png
+- name: Get Bodies Within Rectangle
+  url_js: https://phaser.io/examples-show/651
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QmBq9BAP.png
+- name: Gravity
+  url_js: https://phaser.io/examples-show/725
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TNCrxxFP.png
+- name: Group Set Velocity X
+  url_js: https://phaser.io/examples-show/734
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VBvQoYuf.png
+- name: Group Set Velocity Y
+  url_js: https://phaser.io/examples-show/735
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tAdXus3A.png
+- name: Group Vs Group
+  url_js: https://phaser.io/examples-show/737
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ju212ew6.png
+- name: Group Vs Self
+  url_js: https://phaser.io/examples-show/738
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/94QmHJZW.png
+- name: Group World Bounds Event
+  url_js: https://phaser.io/examples-show/739
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eJezAVF9.png
+- name: Immovable Body
+  url_js: https://phaser.io/examples-show/766
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/AmZEvpUB.png
+- name: Interpolate Velocity
+  url_js: https://phaser.io/examples-show/787
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8QJickeL.png
+- name: Interpolate Velocity 2
+  url_js: https://phaser.io/examples-show/786
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/W4pNgzHu.png
+- name: Larger Bounding Box
+  url_js: https://phaser.io/examples-show/824
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wYutyh1a.png
+- name: Mass
+  url_js: https://phaser.io/examples-show/940
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DLY6nbH9.png
+- name: Mass Collision Test
+  url_js: https://phaser.io/examples-show/935
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1Rg5GZ1t.png
+- name: Max Speed
+  url_js: https://phaser.io/examples-show/951
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8FBJPUdR.png
+- name: Move And Stop At Position
+  url_js: https://phaser.io/examples-show/978
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6kxjHauC.png
+- name: Move To
+  url_js: https://phaser.io/examples-show/992
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/byPxc3AH.png
+- name: Move To Pointer
+  url_js: https://phaser.io/examples-show/990
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Z9iicdCs.png
+- name: Move To Position By Duration
+  url_js: https://phaser.io/examples-show/991
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3QaVCHS3.png
+- name: Non Pushable Bodies
+  url_js: https://phaser.io/examples-show/1073
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HcgWa5zw.png
+- name: Overlap Collider
+  url_js: https://phaser.io/examples-show/1111
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MEycnZ9X.png
+- name: Overlap Event
+  url_js: https://phaser.io/examples-show/1112
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LjzHkog7.png
+- name: Overlap Process Callback
+  url_js: https://phaser.io/examples-show/1114
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iMVZjy8z.png
+- name: Overlap Process Callback 2
+  url_js: https://phaser.io/examples-show/1113
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/duq8jVRw.png
+- name: Overlap Zone
+  url_js: https://phaser.io/examples-show/1116
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YywxkEar.png
+- name: Overlap Zone Static Body
+  url_js: https://phaser.io/examples-show/1115
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FvdXiLq1.png
+- name: Physics Body Without Sprite
+  url_js: https://phaser.io/examples-show/1175
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8Y7iRRiJ.png
+- name: Racecar
+  url_js: https://phaser.io/examples-show/1245
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/svtK9qcE.png
+- name: Random Velocity
+  url_js: https://phaser.io/examples-show/1259
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wB4yZ8rr.png
+- name: Recycle Physics Body
+  url_js: https://phaser.io/examples-show/1281
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PesUkBbT.png
+- name: Remove Collider
+  url_js: https://phaser.io/examples-show/1289
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3vSEQifp.png
+- name: Restart Physics Scene
+  url_js: https://phaser.io/examples-show/1892
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/knFBJrCm.png
+- name: Rolling Body
+  url_js: https://phaser.io/examples-show/1339
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/u9sKNcGr.png
+- name: Rotate To Pointer
+  url_js: https://phaser.io/examples-show/1358
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Eow9wZjJ.png
+- name: Rtree Test
+  url_js: https://phaser.io/examples-show/1369
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/o938C5Yg.png
+- name: Scene Config
+  url_js: https://phaser.io/examples-show/1384
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5wHKioXx.png
+- name: Set World Bounds
+  url_js: https://phaser.io/examples-show/1443
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RuE6XXdZ.png
+- name: Simple Body
+  url_js: https://phaser.io/examples-show/1890
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zRSrew8J.png
+- name: Simple Group
+  url_js: https://phaser.io/examples-show/1478
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gV82M6Rh.png
+- name: Smaller Bounding Box
+  url_js: https://phaser.io/examples-show/1501
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/N5Ma2M9A.png
+- name: Smooth Stop
+  url_js: https://phaser.io/examples-show/1502
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FgoV1iR9.png
+- name: Space
+  url_js: https://phaser.io/examples-show/1515
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EGf3zjS2.png
+- name: Space Battle
+  url_js: https://phaser.io/examples-show/1514
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PxDr8uMV.png
+- name: Sprite Follow Physics Body
+  url_js: https://phaser.io/examples-show/1546
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ShbGCP1L.png
+- name: Sprite Follow Physics Sprite
+  url_js: https://phaser.io/examples-show/1547
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xkvkBgyZ.png
+- name: Sprite Overlap Group
+  url_js: https://phaser.io/examples-show/1548
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VNtHaK9R.png
+- name: Sprite Vs Group
+  url_js: https://phaser.io/examples-show/1558
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GBAPwQtJ.png
+- name: Sprite Vs Immovable
+  url_js: https://phaser.io/examples-show/1559
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5D3KzfKE.png
+- name: Sprite Vs Multiple Groups
+  url_js: https://phaser.io/examples-show/1560
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/JSHnwAdD.png
+- name: Sprite Vs Sprite
+  url_js: https://phaser.io/examples-show/1561
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UWxTJUcd.png
+- name: Static Body
+  url_js: https://phaser.io/examples-show/1582
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/swS7PyQy.png
+- name: Static Body Update
+  url_js: https://phaser.io/examples-show/1581
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nMCKeiwa.png
+- name: Static Group
+  url_js: https://phaser.io/examples-show/1583
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rW5q1C9B.png
+- name: Sticky Platform
+  url_js: https://phaser.io/examples-show/1587
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RkTvPFrX.png
+- name: Topdown Shooter Average Focus
+  url_js: https://phaser.io/examples-show/1677
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/92RzDRSV.png
+- name: Topdown Shooter Combat Mechanics
+  url_js: https://phaser.io/examples-show/1678
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BT4M3q9n.png
+- name: Topdown Shooter Player Focus
+  url_js: https://phaser.io/examples-show/1679
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fDkTJ9xP.png
+- name: Topdown Shooter Target Focus
+  url_js: https://phaser.io/examples-show/1680
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oPbZ4YRj.png
+- name: Touching Faces
+  url_js: https://phaser.io/examples-show/1681
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7pogtm3Y.png
+- name: Trick Platforms
+  url_js: https://phaser.io/examples-show/1703
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ATgdoWXG.png
+- name: Tween Body
+  url_js: https://phaser.io/examples-show/1710
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LmgbkDfb.png
+- name: Tween Velocity
+  url_js: https://phaser.io/examples-show/1721
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3xfo9gXx.png
+- name: Tween Velocity 2
+  url_js: https://phaser.io/examples-show/1720
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/K4j1GrXS.png
+- name: Using Collide Directly
+  url_js: https://phaser.io/examples-show/1737
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HTH1s2Ct.png
+- name: Variable Step
+  url_js: https://phaser.io/examples-show/1742
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/g2spmDjt.png
+- name: Velocity From Angle
+  url_js: https://phaser.io/examples-show/1744
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/f8dRRXFW.png
+- name: Velocity From Angle 2
+  url_js: https://phaser.io/examples-show/1743
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4k8URAn3.png
+- name: Vertical Friction
+  url_js: https://phaser.io/examples-show/1747
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WYT2rnDe.png
+- name: World Bounds Event
+  url_js: https://phaser.io/examples-show/1796
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nhnRGuBG.png
+- name: World Bounds Event Custom
+  url_js: https://phaser.io/examples-show/1795
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SzbhcxkE.png
+- name: World Controls
+  url_js: "/pricing"
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YmpLEhxf.png
+- name: World Step Event
+  url_js: https://phaser.io/examples-show/1803
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xRNNZYut.png
+- name: Wrap Group
+  url_js: https://phaser.io/examples-show/1806
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/oz7KZ9i5.png
+- name: Wrap Sprite
+  url_js: https://phaser.io/examples-show/1810
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZaVwoWJ2.png

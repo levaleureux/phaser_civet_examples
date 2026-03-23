@@ -1,0 +1,12 @@
+---
+name: svg
+examples:
+- name: Load Svg
+  url_js: https://phaser.io/examples-show/902
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Tx3JzgiY.png
+- name: Load Svg With Fixed Size
+  url_js: https://phaser.io/examples-show/900
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4bswhQTk.png
+- name: Load Svg With Scale
+  url_js: https://phaser.io/examples-show/901
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/X8h5m97F.png

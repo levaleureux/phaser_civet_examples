@@ -1,0 +1,78 @@
+---
+name: mouse
+examples:
+- name: Check Button Released
+  url_js: https://phaser.io/examples-show/243
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DjHWZCbo.png
+- name: Circle Hit Area
+  url_js: https://phaser.io/examples-show/257
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/u5hA6Qfb.png
+- name: Click Sprite
+  url_js: https://phaser.io/examples-show/278
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TpRNEZs2.png
+- name: Ellipse Hit Area
+  url_js: https://phaser.io/examples-show/540
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jSVa9pfT.png
+- name: Mass Scrolling Sprite Test
+  url_js: https://phaser.io/examples-show/938
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jA8zDZc3.png
+- name: Mass Scrolling Sprite Test No Cull
+  url_js: https://phaser.io/examples-show/937
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qTiCuxUS.png
+- name: Mass Sprite Test
+  url_js: https://phaser.io/examples-show/939
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rvhXNwJU.png
+- name: Mouse Down
+  url_js: https://phaser.io/examples-show/973
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vw4SMXA2.png
+- name: Mouse Wheel
+  url_js: https://phaser.io/examples-show/977
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4vvdjLKs.png
+- name: Mouse Wheel Over Gameobject
+  url_js: https://phaser.io/examples-show/975
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6CxBSyC6.png
+- name: Move Event
+  url_js: https://phaser.io/examples-show/1897
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hAnWMSyu.png
+- name: Origin Tests
+  url_js: https://phaser.io/examples-show/1105
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mxjAPry2.png
+- name: Over And Out Events
+  url_js: https://phaser.io/examples-show/1898
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/c8R8Lp2J.png
+- name: Pointer Lock
+  url_js: https://phaser.io/examples-show/1219
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qwYv3niV.png
+- name: Poll Always
+  url_js: https://phaser.io/examples-show/1220
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UFTLsE8h.png
+- name: Poll Only On Move
+  url_js: https://phaser.io/examples-show/1221
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ivfrSBJ7.png
+- name: Polygon Hit Area
+  url_js: https://phaser.io/examples-show/1225
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2XbDZRyt.png
+- name: Right Mouse Button
+  url_js: https://phaser.io/examples-show/1335
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XM91S2fV.png
+- name: Shape Hit Tests
+  url_js: https://phaser.io/examples-show/1467
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ppAgPaQt.png
+- name: Single Sprite
+  url_js: https://phaser.io/examples-show/1493
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/d79gsEGd.png
+- name: Text Input Test
+  url_js: https://phaser.io/examples-show/1617
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BajwAnns.png
+- name: Top Only
+  url_js: https://phaser.io/examples-show/1675
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Jxh6cbcQ.png
+- name: Top Only Over And Out Events
+  url_js: https://phaser.io/examples-show/1671
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aFmp55a4.png
+- name: Top Only Up And Down Events
+  url_js: https://phaser.io/examples-show/1673
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rUy6cDjB.png
+- name: Triangle Hit Area
+  url_js: https://phaser.io/examples-show/1697
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kVntHtFq.png

@@ -1,0 +1,39 @@
+---
+name: wipe
+examples:
+- name: Reveal Bottom To Top
+  url_js: https://phaser.io/examples-show/1326
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/krrwqB7Q.png
+- name: Reveal Left To Right
+  url_js: https://phaser.io/examples-show/1327
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MwYxDBSY.png
+- name: Reveal Right To Left
+  url_js: https://phaser.io/examples-show/1328
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VYgyUaSJ.png
+- name: Reveal Text
+  url_js: https://phaser.io/examples-show/1329
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/w578Autq.png
+- name: Reveal Top To Bottom
+  url_js: https://phaser.io/examples-show/1330
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/83trex6g.png
+- name: Wipe Bottom To Top
+  url_js: https://phaser.io/examples-show/1785
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WzyRsX3X.png
+- name: Wipe Left To Right
+  url_js: https://phaser.io/examples-show/1786
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bzmdAHCj.png
+- name: Wipe Right To Left
+  url_js: https://phaser.io/examples-show/1787
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GfJBrUZ4.png
+- name: Wipe To A Scene
+  url_js: https://phaser.io/examples-show/1788
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/k2uz7qv8.png
+- name: Wipe To Pointer
+  url_js: https://phaser.io/examples-show/1789
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eq4Mms2w.png
+- name: Wipe Top To Bottom
+  url_js: https://phaser.io/examples-show/1790
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/28jPyZ21.png
+- name: Wipe Width
+  url_js: https://phaser.io/examples-show/1791
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ED23Tp3J.png

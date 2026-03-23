@@ -1,0 +1,6 @@
+---
+name: bloom
+examples:
+- name: Destroy Planet Bloom Fx
+  url_js: https://phaser.io/examples-show/447
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8XhGbxYV.png

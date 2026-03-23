@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category | Phaser Examples</title>
+    <link rel="stylesheet" href="/assets/css/main.css?v=<%= Time.now.to_i %>">
+    <%= live_reload_dev_js %>
+</head>
+<body>
+    <div class="copper-bg"></div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <div class="logo phaser">P</div>
+                    <span style="color: #b4b4c8; font-size: 2rem;">+</span>
+                    <div class="logo civet">C</div>
+                </div>
+                <h1 class="title">Phaser Examples</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="examples-preview">
+            <div class="container">
+                <h2><%= data.title %></h2>
+                <p class="examples-subtitle">
+                    Examples in the <%= data.category %> category
+                </p>
+                <div class="examples-grid">
+                  <% if data.is_leaf %>
+                    <% collections.examples.resources.select { |e| e.data.category == data.category }.each do |example| %>
+                      <div class="example-item">
+                        <div class="category-image"></div>
+                        <div class="category-content">
+                          <% example %>
+                           <% hardcoded_url =  "/examples/#{example.data.category}/#{example.data.slug}/index.html" %>.
+                           <% hardcoded_url =  "/examples/beta/#{example.data.slug}" %>.
+                          <%= hardcoded_url %>
+                          <%  example.relative_url %>
+
+                          <h4><a href="<%= hardcoded_url %>"><%= example.data.title || example.data.slug %></a></h4>
+                          <p><%= example.data.description || "Example in #{data.category}" %></p>
+                        </div>
+                      </div>
+                    <% end %>
+                  <% else %>
+                    <% (data.sub_categories || []).each do |sub| %>
+                      <div class="example-item">
+                        <div class="category-image"></div>
+                        <div class="category-content">
+                          <h4><a href="/categories/<%= sub['slug'] %>"><%= sub['name'] %></a></h4>
+                          <p>Sub-category in <%= data.category %></p>
+                        </div>
+                      </div>
+                    <% end %>
+                  <% end %>
+                </div>
+                <div class="view-all-examples">
+                    <a href="/">Back to Home</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="https://phaser.io" class="footer-link">Phaser.io</a>
+                <a href="https://civet.dev" class="footer-link">Civet.dev</a>
+                <a href="https://github.com/levaleureux/phaser_civet_examples" class="footer-link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

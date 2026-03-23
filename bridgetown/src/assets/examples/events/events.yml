@@ -1,0 +1,30 @@
+---
+name: events
+examples:
+- name: Create Event Emitter
+  url_js: https://phaser.io/examples-show/347
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WZeXJnmX.png
+- name: Emit Scene Event
+  url_js: https://phaser.io/examples-show/543
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ndUyx678.png
+- name: Emit Using Symbols
+  url_js: https://phaser.io/examples-show/544
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uQSx9Gum.png
+- name: Event Arguments
+  url_js: https://phaser.io/examples-show/561
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/igD6vpPT.png
+- name: Game Object Events
+  url_js: https://phaser.io/examples-show/624
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qFJX1vWH.png
+- name: Listen To Game Object Event
+  url_js: https://phaser.io/examples-show/854
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XDKtibLW.png
+- name: Once Event
+  url_js: https://phaser.io/examples-show/1101
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FL28QT5y.png
+- name: Turn Off Anonymous Event Handler
+  url_js: https://phaser.io/examples-show/1706
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cR8PC9un.png
+- name: Turn Off Event Handler
+  url_js: https://phaser.io/examples-show/1707
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MGNs2HNp.png

@@ -1,0 +1,6 @@
+---
+name: minesweeper
+examples:
+- name: Minesweeper
+  url_js: https://phaser.io/examples-show/967
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LTtAitXD.png

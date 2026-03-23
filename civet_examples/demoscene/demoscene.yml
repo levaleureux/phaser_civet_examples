@@ -1,0 +1,15 @@
+---
+name: demoscene
+examples:
+- name: Chunky Raster Bars
+  url_js: https://phaser.io/examples-show/254
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Xc2nGh1Y.png
+- name: Raster Carpet
+  url_js: https://phaser.io/examples-show/1263
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SY68jAXw.png
+- name: Raster Wave
+  url_js: https://phaser.io/examples-show/1264
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BEdfWKvK.png
+- name: Vertical Raster Wave
+  url_js: https://phaser.io/examples-show/1748
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hpJPmEUS.png

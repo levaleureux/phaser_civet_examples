@@ -1,0 +1,27 @@
+---
+name: color
+examples:
+- name: Brighten
+  url_js: https://phaser.io/examples-show/173
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/m48eMJmM.png
+- name: Darken
+  url_js: https://phaser.io/examples-show/428
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/S2oWdJyq.png
+- name: Hex To Color
+  url_js: https://phaser.io/examples-show/744
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rAQ4sgnq.png
+- name: Integer To Color
+  url_js: https://phaser.io/examples-show/784
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uXD2pbQ6.png
+- name: Lighten
+  url_js: https://phaser.io/examples-show/838
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GyHKmLkP.png
+- name: Random Color
+  url_js: https://phaser.io/examples-show/1249
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xSUiih4R.png
+- name: Random Gray
+  url_js: https://phaser.io/examples-show/1253
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LeK6AYjr.png
+- name: Rgb To Color
+  url_js: https://phaser.io/examples-show/1334
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LpNC2kp8.png

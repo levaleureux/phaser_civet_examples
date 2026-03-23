@@ -1,0 +1,69 @@
+---
+name: eases
+examples:
+- name: Back
+  url_js: https://phaser.io/examples-show/94
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WLabqakK.png
+- name: Back Graph
+  url_js: https://phaser.io/examples-show/93
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1MdEuL2X.png
+- name: Bounce
+  url_js: https://phaser.io/examples-show/168
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2Qpt13PL.png
+- name: Bounce Graph
+  url_js: https://phaser.io/examples-show/166
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FNyyuNT3.png
+- name: Circular
+  url_js: https://phaser.io/examples-show/271
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9XddyEYZ.png
+- name: Circular Graph
+  url_js: https://phaser.io/examples-show/270
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/n5kPcuvY.png
+- name: Cubic
+  url_js: https://phaser.io/examples-show/394
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CZkiVC4L.png
+- name: Cubic Graph
+  url_js: https://phaser.io/examples-show/393
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TAPxGmtT.png
+- name: Ease Equations
+  url_js: https://phaser.io/examples-show/532
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GWxVorFi.png
+- name: Ease Mixer
+  url_js: https://phaser.io/examples-show/533
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tNqyRw7R.png
+- name: Ease Params
+  url_js: https://phaser.io/examples-show/534
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/JJeRp2AH.png
+- name: Exponential
+  url_js: https://phaser.io/examples-show/569
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MrZ5kNE3.png
+- name: Exponential Graph
+  url_js: https://phaser.io/examples-show/568
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8cs8ibYu.png
+- name: Linear
+  url_js: https://phaser.io/examples-show/853
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/daFQHVRH.png
+- name: Quad
+  url_js: https://phaser.io/examples-show/1237
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bLzugK9N.png
+- name: Quad Graph
+  url_js: https://phaser.io/examples-show/1236
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sKnoWKbF.png
+- name: Quartic
+  url_js: https://phaser.io/examples-show/1240
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8mXBQVhS.png
+- name: Quartic Graph
+  url_js: https://phaser.io/examples-show/1239
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PGo4vebe.png
+- name: Quintic
+  url_js: https://phaser.io/examples-show/1243
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MqJMwW13.png
+- name: Quintic Graph
+  url_js: https://phaser.io/examples-show/1242
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vV5deTMv.png
+- name: Sine
+  url_js: https://phaser.io/examples-show/1483
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ojYA9eEN.png
+- name: Sine Graph
+  url_js: https://phaser.io/examples-show/1482
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/S1NGJPnq.png

@@ -1,0 +1,27 @@
+---
+name: depth sorting
+examples:
+- name: Ball Mesh Depth Sort
+  url_js: https://phaser.io/examples-show/98
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QA6cRsDU.png
+- name: Bring To Top
+  url_js: https://phaser.io/examples-show/2029
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cGeBmBt6.png
+- name: Get Top Object
+  url_js: https://phaser.io/examples-show/697
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qbyRd14U.png
+- name: Isometric Blocks
+  url_js: https://phaser.io/examples-show/804
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xozHZmzn.png
+- name: Isometric Map
+  url_js: https://phaser.io/examples-show/805
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VxoGXnN5.png
+- name: Remove From Display List
+  url_js: https://phaser.io/examples-show/1290
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1fJEtSrh.png
+- name: Sprite Depth Index
+  url_js: https://phaser.io/examples-show/1543
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gkiXBeg3.png
+- name: Z Index
+  url_js: https://phaser.io/examples-show/1816
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VnUpAGQg.png

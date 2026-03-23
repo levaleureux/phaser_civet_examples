@@ -1,0 +1,57 @@
+---
+name: point
+examples:
+- name: Ceil
+  url_js: https://phaser.io/examples-show/211
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8jjZuiim.png
+- name: Clone
+  url_js: https://phaser.io/examples-show/2007
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xNjw31xh.png
+- name: Copy From
+  url_js: https://phaser.io/examples-show/2008
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QFgyxU2i.png
+- name: Create
+  url_js: https://phaser.io/examples-show/2009
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/71ER2AEd.png
+- name: Cross
+  url_js: https://phaser.io/examples-show/385
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QNeHMPiL.png
+- name: Equals
+  url_js: https://phaser.io/examples-show/2005
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ufw3FD6d.png
+- name: Floor
+  url_js: https://phaser.io/examples-show/602
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/scMHDzk9.png
+- name: Get Centroid
+  url_js: https://phaser.io/examples-show/655
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qpQMXCbJ.png
+- name: Get Magnitude
+  url_js: https://phaser.io/examples-show/665
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WkvHbbZD.png
+- name: Get Magnitude Sq
+  url_js: https://phaser.io/examples-show/664
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xbx8fgJX.png
+- name: Get Rectangle From Points
+  url_js: https://phaser.io/examples-show/685
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7DgcpEER.png
+- name: Interpolate
+  url_js: https://phaser.io/examples-show/788
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fdPiZB17.png
+- name: Invert
+  url_js: https://phaser.io/examples-show/793
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fRP6qwqK.png
+- name: Negative
+  url_js: https://phaser.io/examples-show/1059
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2X2hz6GA.png
+- name: Negative 2
+  url_js: https://phaser.io/examples-show/1058
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Y7fdG1w9.png
+- name: Project
+  url_js: https://phaser.io/examples-show/1233
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/T3o3eJrX.png
+- name: Project Unit
+  url_js: https://phaser.io/examples-show/1232
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WStg8U8S.png
+- name: Set To
+  url_js: https://phaser.io/examples-show/2006
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8emy3ogL.png

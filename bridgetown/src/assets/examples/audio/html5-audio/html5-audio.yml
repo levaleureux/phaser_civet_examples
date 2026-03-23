@@ -1,0 +1,33 @@
+---
+name: html5 audio
+examples:
+- name: Audiosprite
+  url_js: https://phaser.io/examples-show/1828
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sqe5uCNS.png
+- name: Basic Playback And Events
+  url_js: https://phaser.io/examples-show/1835
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TocfSXkJ.png
+- name: Disable Pause On Blur
+  url_js: https://phaser.io/examples-show/459
+  url_image: ''
+- name: Loop Delay
+  url_js: "/pricing"
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tzGUmMR2.png
+- name: Markers Pause Resume
+  url_js: https://phaser.io/examples-show/1830
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3jErLtHG.png
+- name: Markers Play
+  url_js: https://phaser.io/examples-show/1836
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EswL6ocb.png
+- name: Play Audio File
+  url_js: https://phaser.io/examples-show/1833
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/53qPKAPN.png
+- name: Play Audio From Child Scene
+  url_js: https://phaser.io/examples-show/1832
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BWW7gijh.png
+- name: Seek
+  url_js: "/pricing"
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qAuBU1wz.png
+- name: Volume Mute Rate Detune
+  url_js: https://phaser.io/examples-show/1829
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/D2PHhUzX.png

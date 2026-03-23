@@ -1,0 +1,75 @@
+---
+name: static
+examples:
+- name: Bitmaptext
+  url_js: https://phaser.io/examples-show/138
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zqVD6s4V.png
+- name: Bitmaptext Blend Mode
+  url_js: https://phaser.io/examples-show/132
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MQMxn9GL.png
+- name: Bitmaptext Origin And Scale
+  url_js: https://phaser.io/examples-show/133
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EWfKcKsH.png
+- name: Bitmaptext Rotation
+  url_js: https://phaser.io/examples-show/134
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zm85n8Hb.png
+- name: Bitmaptext Scale
+  url_js: https://phaser.io/examples-show/135
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/i6biWAA3.png
+- name: Bitmaptext-Atlas
+  url_js: https://phaser.io/examples-show/136
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/k7S6Dg9G.png
+- name: Bitmaptext-Canvas
+  url_js: https://phaser.io/examples-show/137
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LjWSzgcg.png
+- name: Change Font
+  url_js: https://phaser.io/examples-show/221
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PatoSmbq.png
+- name: Change Font Size
+  url_js: https://phaser.io/examples-show/220
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ruzvx5ht.png
+- name: Drop Shadow
+  url_js: https://phaser.io/examples-show/521
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LRFeApdw.png
+- name: Get Bitmaptext Bounds
+  url_js: https://phaser.io/examples-show/648
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SWot98iJ.png
+- name: Get Text Size
+  url_js: https://phaser.io/examples-show/695
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Qa5XHvU2.png
+- name: Get Text Size Multiline
+  url_js: https://phaser.io/examples-show/693
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/AsxDnX8o.png
+- name: Get Text Size Scaled
+  url_js: https://phaser.io/examples-show/694
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wbVoR7Tj.png
+- name: Large-Text
+  url_js: https://phaser.io/examples-show/823
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DzoECPTs.png
+- name: Max Width
+  url_js: https://phaser.io/examples-show/953
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/f5o72wKj.png
+- name: Max Width Change Content
+  url_js: https://phaser.io/examples-show/952
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wCoVP4gg.png
+- name: Multi Line
+  url_js: https://phaser.io/examples-show/1013
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/trS6wXi7.png
+- name: Multi Line Alignment
+  url_js: https://phaser.io/examples-show/1010
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rsAMYjq4.png
+- name: Origin And Scale
+  url_js: https://phaser.io/examples-show/1104
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5xNeejMA.png
+- name: Padding
+  url_js: https://phaser.io/examples-show/1125
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/v8AH5TeQ.png
+- name: Text Origin
+  url_js: https://phaser.io/examples-show/1621
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/29X5Bkt3.png
+- name: Tinted Text
+  url_js: https://phaser.io/examples-show/1665
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mabNchvT.png
+- name: Width And Height
+  url_js: https://phaser.io/examples-show/1782
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yzQNWFqL.png

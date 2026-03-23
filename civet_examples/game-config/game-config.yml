@@ -1,0 +1,60 @@
+---
+name: game config
+examples:
+- name: Background Color
+  url_js: https://phaser.io/examples-show/1878
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4a3PrrkJ.png
+- name: Banner Colors
+  url_js: https://phaser.io/examples-show/101
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dsCWSxdR.png
+- name: Clear Before Render
+  url_js: https://phaser.io/examples-show/276
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QeLzNHzm.png
+- name: Custom Canvas
+  url_js: https://phaser.io/examples-show/404
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/H6dsuwhK.png
+- name: Custom Webgl Canvas
+  url_js: https://phaser.io/examples-show/423
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZE8excWr.png
+- name: Custom Webgl2 Canvas
+  url_js: https://phaser.io/examples-show/424
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yYYHd2ue.png
+- name: Game Destroy
+  url_js: https://phaser.io/examples-show/622
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XL9QvJic.png
+- name: Game Destroy With Multi Scenes
+  url_js: https://phaser.io/examples-show/621
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/y7f73P4e.png
+- name: Game Rng
+  url_js: https://phaser.io/examples-show/625
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fDShoBaS.png
+- name: Game Title
+  url_js: https://phaser.io/examples-show/629
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/p8XRFA1W.png
+- name: Game Url
+  url_js: https://phaser.io/examples-show/630
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TDgHEv5q.png
+- name: Game Version
+  url_js: https://phaser.io/examples-show/631
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/v2yNiNXX.png
+- name: Headless Renderer
+  url_js: https://phaser.io/examples-show/740
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Tj16KTg6.png
+- name: Hide Banner
+  url_js: https://phaser.io/examples-show/746
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ezHZmxNV.png
+- name: Hide Phaser From Banner
+  url_js: https://phaser.io/examples-show/748
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/g2P9iso2.png
+- name: Multiple Game Instances
+  url_js: https://phaser.io/examples-show/1028
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dnzwH5sE.png
+- name: Pixel Art Mode
+  url_js: https://phaser.io/examples-show/1178
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sRTHXWMa.png
+- name: Round Pixels
+  url_js: https://phaser.io/examples-show/1879
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/f7Bhsx3u.png
+- name: Transparent
+  url_js: https://phaser.io/examples-show/1692
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9dA4bdYi.png

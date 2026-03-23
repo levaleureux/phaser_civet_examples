@@ -1,0 +1,6 @@
+---
+name: sid
+examples:
+- name: C64 Sid Player
+  url_js: https://phaser.io/examples-show/185
+  url_image: ''

@@ -1,0 +1,75 @@
+---
+name: shaders
+examples:
+- name: Basic Texture Shader
+  url_js: https://phaser.io/examples-show/118
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/43eCZDV2.png
+- name: Buffer A
+  url_js: https://phaser.io/examples-show/177
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2nikP9ka.png
+- name: Buffer B
+  url_js: https://phaser.io/examples-show/178
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5R5MAUYS.png
+- name: Change Shader Texture
+  url_js: https://phaser.io/examples-show/231
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NAgXCGE8.png
+- name: Load Shader
+  url_js: https://phaser.io/examples-show/895
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FD8B9DXZ.png
+- name: Sandbox
+  url_js: https://phaser.io/examples-show/1371
+  url_image: ''
+- name: Save Shader As Texture
+  url_js: https://phaser.io/examples-show/1372
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/f272uBzY.png
+- name: Set Shader Uniform
+  url_js: https://phaser.io/examples-show/1436
+  url_image: ''
+- name: Shader Arcade Physics
+  url_js: https://phaser.io/examples-show/1448
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/nKkaFr8M.png
+- name: Shader As A Mask
+  url_js: https://phaser.io/examples-show/1449
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zMQFFbP5.png
+- name: Shader Bundle
+  url_js: https://phaser.io/examples-show/1450
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sUaRBxVq.png
+- name: Shader Mass Texture Test
+  url_js: https://phaser.io/examples-show/1451
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NKLDTfLh.png
+- name: Shader Test 1
+  url_js: https://phaser.io/examples-show/1886
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CnAFHoLz.png
+- name: Shader Test 2
+  url_js: https://phaser.io/examples-show/1885
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aK8wUHp4.png
+- name: Shader Test 3
+  url_js: https://phaser.io/examples-show/1883
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ewq76mk6.png
+- name: Shader Test 4
+  url_js: https://phaser.io/examples-show/1884
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fX4wU4Ab.png
+- name: Shader Test 5
+  url_js: https://phaser.io/examples-show/1882
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HRnd6q9s.png
+- name: Shader Test 6
+  url_js: https://phaser.io/examples-show/1881
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CYnr9RD5.png
+- name: Shader Test 7
+  url_js: https://phaser.io/examples-show/1887
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NmodcT4W.png
+- name: Shader Test 8
+  url_js: https://phaser.io/examples-show/1888
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XwwdNLmK.png
+- name: Shader Transforms
+  url_js: https://phaser.io/examples-show/1461
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/upraVhGY.png
+- name: Shader Using A Dynamic Texture
+  url_js: https://phaser.io/examples-show/1462
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PTZWgjPa.png
+- name: Shader Using An Updating Dynamic Texture
+  url_js: https://phaser.io/examples-show/1463
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MQFM2KtK.png
+- name: Using A Shader As A Buffer
+  url_js: https://phaser.io/examples-show/1736
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HoxC7L4y.png

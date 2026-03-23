@@ -1,0 +1,101 @@
+.example-container
+  max-width: 1600px
+  margin: 0 auto
+  padding: 40px 20px
+
+  h1
+    text-align: center
+    font-size: 2.5rem
+    margin-bottom: 40px
+    color: #ffffff
+
+  .example-content
+    display: flex
+    gap: 1em
+
+    @media (max-width: 1024px)
+      flex-direction: column
+      gap: 10px
+
+    .example-code, .example-preview
+      background: #1a1a2e
+      padding: 20px
+      border-radius: 8px
+      border: 1px solid #4433aa
+      flex: 1
+      min-width: 0
+
+      h2
+        font-size: 1.5rem
+        margin-bottom: 20px
+        color: #3377ee
+
+    .example-code
+      .code-tabs
+        input
+          display: none
+
+        label
+          cursor: pointer
+          padding: 10px
+          background: #1a1a2e
+          border: 1px solid #4433aa
+          border-radius: 4px
+          margin-right: 5px
+
+        #js-tab:checked ~ label[for="js-tab"], #civet-tab:checked ~ label[for="civet-tab"]
+          background: #3377ee
+
+        #js-code, #civet-code
+          display: none
+          background: #111122
+          padding: 20px
+          border-radius: 4px
+          overflow-x: auto
+          overflow-y: auto
+          max-height: 600px
+          font-size: 14px
+          color: #ffffff
+
+          code
+            text-shadow: 0 0 2px rgba(0,0,0,0.7)
+
+          .shiki
+            background: transparent !important
+            font-family: inherit !important
+            font-size: inherit !important
+            line-height: inherit !important
+            padding: 0 !important
+
+            code
+              display: block
+
+        #js-tab:checked ~ #js-code
+          display: block
+
+        #civet-tab:checked ~ #civet-code
+          display: block
+
+    .example-preview
+      #phaser-example
+        width: 100%
+        height: 600px
+        background: #000000
+        border-radius: 4px
+
+        canvas
+          width: 100%
+          height: auto
+
+@media (max-width: 768px)
+  .example-container
+    padding: 20px 10px
+
+  .example-content
+    gap: 15px
+
+  .example-code, .example-preview
+    padding: 15px
+
+  #code-display
+    font-size: 13px

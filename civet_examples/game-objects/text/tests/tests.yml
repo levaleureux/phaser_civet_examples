@@ -1,0 +1,6 @@
+---
+name: tests
+examples:
+- name: Word Wrap
+  url_js: https://phaser.io/examples-show/1794
+  url_image: ''

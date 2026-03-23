@@ -1,0 +1,201 @@
+---
+name: matterjs
+examples:
+- name: 100 World Bodies
+  url_js: https://phaser.io/examples-show/1
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yz4bFRAG.png
+- name: Add Body To Bitmap Text
+  url_js: https://phaser.io/examples-show/19
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Xdry63Tw.png
+- name: Add Body To Text
+  url_js: https://phaser.io/examples-show/21
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KacVLYon.png
+- name: Add Body To Tilesprite
+  url_js: https://phaser.io/examples-show/22
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uRKQKL2K.png
+- name: Add Body To World
+  url_js: https://phaser.io/examples-show/23
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tdZkKdEo.png
+- name: Advanced Shape Creation
+  url_js: https://phaser.io/examples-show/46
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UQqVReLh.png
+- name: Attractors
+  url_js: https://phaser.io/examples-show/88
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Eqw72Ex7.png
+- name: Balls
+  url_js: https://phaser.io/examples-show/99
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HtxRdWeA.png
+- name: Basic Constraint
+  url_js: https://phaser.io/examples-show/110
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cryf2JhZ.png
+- name: Body Follow Path
+  url_js: https://phaser.io/examples-show/157
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ET1Erkts.png
+- name: Body Scale
+  url_js: https://phaser.io/examples-show/160
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/k5cruCvh.png
+- name: Body To Json
+  url_js: https://phaser.io/examples-show/161
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jzjmRk2o.png
+- name: Body Velocity
+  url_js: https://phaser.io/examples-show/162
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XE4MtsuF.png
+- name: Bridge
+  url_js: https://phaser.io/examples-show/172
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Qzoj2Jus.png
+- name: Bullet Pool
+  url_js: https://phaser.io/examples-show/182
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/E3DDP13H.png
+- name: Chain
+  url_js: https://phaser.io/examples-show/214
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8kuR5DKz.png
+- name: Chamfer Body
+  url_js: https://phaser.io/examples-show/216
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BUCGD1bi.png
+- name: Circle Body
+  url_js: https://phaser.io/examples-show/255
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mcCdLeuR.png
+- name: Circle Stack
+  url_js: https://phaser.io/examples-show/261
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9vNLGkaF.png
+- name: Circular Body
+  url_js: https://phaser.io/examples-show/265
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/y6C3fYjC.png
+- name: Cloth
+  url_js: https://phaser.io/examples-show/282
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/58v8PWPE.png
+- name: Collision Event
+  url_js: https://phaser.io/examples-show/288
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/JpPpUYT8.png
+- name: Collision Filter
+  url_js: https://phaser.io/examples-show/289
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/k62E5DXf.png
+- name: Collision Group
+  url_js: https://phaser.io/examples-show/290
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2UofaWgb.png
+- name: Compound Body
+  url_js: https://phaser.io/examples-show/298
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/399H9JnJ.png
+- name: Compound Body From Physics Editor
+  url_js: https://phaser.io/examples-show/297
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ctMtpBHJ.png
+- name: Compound Sensors
+  url_js: https://phaser.io/examples-show/299
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bqVvWTzc.png
+- name: Container Collision
+  url_js: https://phaser.io/examples-show/314
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6QcNsC9t.png
+- name: Create Sensor
+  url_js: https://phaser.io/examples-show/366
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6wBuJUDK.png
+- name: Destroy Body
+  url_js: https://phaser.io/examples-show/442
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TPpfevdW.png
+- name: Drag Filter With Pointer
+  url_js: https://phaser.io/examples-show/488
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sLJsDiPP.png
+- name: Drag Through Balls
+  url_js: https://phaser.io/examples-show/498
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5nnQhkgh.png
+- name: Drag With Pointer
+  url_js: https://phaser.io/examples-show/504
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RKEz82ac.png
+- name: Draw Chain
+  url_js: https://phaser.io/examples-show/509
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Xre1UQRV.png
+- name: Draw Smoother Stiff Line
+  url_js: https://phaser.io/examples-show/516
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/tNwPwSsV.png
+- name: Draw Stiff Line
+  url_js: https://phaser.io/examples-show/518
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ep9G5c32.png
+- name: Draw Triangles
+  url_js: https://phaser.io/examples-show/519
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qPbpxSei.png
+- name: Fixed Rotation
+  url_js: https://phaser.io/examples-show/592
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FkvNsDd2.png
+- name: Get Bodies Below Point
+  url_js: https://phaser.io/examples-show/649
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LdPpLyNY.png
+- name: Get Shape Bounds
+  url_js: https://phaser.io/examples-show/687
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/MVHhYQPr.png
+- name: Ignore Gravity
+  url_js: https://phaser.io/examples-show/755
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qUwoyoCv.png
+- name: Increase Body Scale
+  url_js: https://phaser.io/examples-show/779
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZcKqW1bs.png
+- name: Is Point Within Body
+  url_js: https://phaser.io/examples-show/797
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/n5x7vFyo.png
+- name: Mixed Bodies
+  url_js: https://phaser.io/examples-show/970
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VqyUN7JK.png
+- name: Move Body With Cursors
+  url_js: https://phaser.io/examples-show/980
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zDdun1mU.png
+- name: Multiple Physics Scenes
+  url_js: https://phaser.io/examples-show/1035
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QwGmLm6A.png
+- name: No Gravity
+  url_js: https://phaser.io/examples-show/1069
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6LcyCViV.png
+- name: Offset Body
+  url_js: https://phaser.io/examples-show/1083
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rAXtvm1e.png
+- name: Pachinko
+  url_js: https://phaser.io/examples-show/1121
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FnhQwhF5.png
+- name: Particles Follow Body
+  url_js: https://phaser.io/examples-show/1150
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/devwRDYs.png
+- name: Physics Editor
+  url_js: https://phaser.io/examples-show/1176
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/76QUeNQh.png
+- name: Polygon Body
+  url_js: https://phaser.io/examples-show/1222
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/isXnLzbK.png
+- name: Rectangle Body
+  url_js: https://phaser.io/examples-show/1269
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WmEdLPoz.png
+- name: Restart Physics Scene
+  url_js: https://phaser.io/examples-show/1316
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uAZyp2qg.png
+- name: Rotate Body With Cursors
+  url_js: https://phaser.io/examples-show/1349
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/o427FHr7.png
+- name: Scene Restart
+  url_js: https://phaser.io/examples-show/1398
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Tk3WtkqU.png
+- name: Scene Transition
+  url_js: https://phaser.io/examples-show/1403
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FizdkGkt.png
+- name: Simple Body
+  url_js: https://phaser.io/examples-show/1477
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5hrxqogH.png
+- name: Sleep Events
+  url_js: https://phaser.io/examples-show/1497
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ABtvfqxL.png
+- name: Snake
+  url_js: https://phaser.io/examples-show/1504
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/waP9CwgN.png
+- name: Thrust
+  url_js: https://phaser.io/examples-show/1634
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/z2B7y3p9.png
+- name: Top Down Car Body
+  url_js: https://phaser.io/examples-show/1669
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NWMYvaKK.png
+- name: Trapezoid Body
+  url_js: https://phaser.io/examples-show/1694
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8m8WQy3C.png
+- name: Vertices Body
+  url_js: https://phaser.io/examples-show/1751
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VznppAqE.png
+- name: Wrap
+  url_js: https://phaser.io/examples-show/1811
+  url_image: ''
+- name: Wrecking Ball
+  url_js: https://phaser.io/examples-show/1812
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7FVDLVZt.png

@@ -1,0 +1,30 @@
+---
+name: size
+examples:
+- name: Aspect Mode Envelop
+  url_js: https://phaser.io/examples-show/76
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sKJ1XAMi.png
+- name: Aspect Mode Fit
+  url_js: https://phaser.io/examples-show/77
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CpN2yNdz.png
+- name: Aspect Mode Height Controls Width
+  url_js: https://phaser.io/examples-show/78
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1mu7XdFp.png
+- name: Aspect Mode None
+  url_js: https://phaser.io/examples-show/79
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/zKksvNAU.png
+- name: Aspect Mode Width Controls Height
+  url_js: https://phaser.io/examples-show/80
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5xmYYtGR.png
+- name: Max Size
+  url_js: https://phaser.io/examples-show/1877
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/osu62Fac.png
+- name: Min Max Size
+  url_js: https://phaser.io/examples-show/964
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/n63YZTZB.png
+- name: Min Size
+  url_js: https://phaser.io/examples-show/966
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/stLBJgEw.png
+- name: Snap Child
+  url_js: https://phaser.io/examples-show/1505
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/21JUd3TE.png

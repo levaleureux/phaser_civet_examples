@@ -1,0 +1,33 @@
+---
+name: firstgame
+examples:
+- name: Part1
+  url_js: https://phaser.io/examples-show/2034
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jNYJ7nRG.png
+- name: Part10
+  url_js: https://phaser.io/examples-show/1135
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Uc7rYApH.png
+- name: Part2
+  url_js: https://phaser.io/examples-show/2039
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PXtbe1nP.png
+- name: Part3
+  url_js: https://phaser.io/examples-show/2036
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9VZ9qtvc.png
+- name: Part4
+  url_js: https://phaser.io/examples-show/2037
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eofUoKaD.png
+- name: Part5
+  url_js: https://phaser.io/examples-show/2038
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DukeGkdb.png
+- name: Part6
+  url_js: https://phaser.io/examples-show/2040
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/vaRXssy6.png
+- name: Part7
+  url_js: https://phaser.io/examples-show/2035
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eEXZGXQf.png
+- name: Part8
+  url_js: https://phaser.io/examples-show/1142
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qnffg5nX.png
+- name: Part9
+  url_js: https://phaser.io/examples-show/1143
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/BwKgPxkq.png

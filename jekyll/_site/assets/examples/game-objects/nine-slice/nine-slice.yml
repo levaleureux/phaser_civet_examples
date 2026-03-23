@@ -1,0 +1,27 @@
+---
+name: nine slice
+examples:
+- name: 3 Slice Button
+  url_js: https://phaser.io/examples-show/6
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HAAmLK57.png
+- name: Create Nine Slice
+  url_js: https://phaser.io/examples-show/361
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PgbQQcYC.png
+- name: Interactive Button
+  url_js: https://phaser.io/examples-show/785
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rRgJkkha.png
+- name: Nine Slice Panel
+  url_js: https://phaser.io/examples-show/1067
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hJHuDQrH.png
+- name: Nine Slice Vs Scaling
+  url_js: https://phaser.io/examples-show/1068
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/a1vmEG5T.png
+- name: Progress Bar
+  url_js: https://phaser.io/examples-show/1231
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QmLgx5KS.png
+- name: Stress Test
+  url_js: https://phaser.io/examples-show/1592
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZaTvah8W.png
+- name: Texture Packer Nine Slice
+  url_js: https://phaser.io/examples-show/1632
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rDsnqpSL.png

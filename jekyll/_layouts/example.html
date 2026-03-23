@@ -1,13 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
-</head>
-<body>
-    <div id="phaser-example"></div>
-    <script src="{{ site.baseurl }}/js/builded_examples/{{ page.category }}/{{ page.slug }}.js"></script>
-</body>
-</html>
+---
+layout: default
+---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+
+<div class="example-container">
+  <h1>{{ page.name }}</h1>
+  <div class="example-content">
+    <div class="example-code">
+      <h2>Code</h2>
+      <pre id="code-display"><code class="language-js">// Loading code...</code></pre>
+    </div>
+    <div class="example-preview">
+      <h2>Preview</h2>
+      <div id="phaser-example"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/phaser@3.85.0/dist/phaser.min.js"></script>
+<script src="{{ page.js_path }}"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  fetch('{{ page.js_path }}')
+    .then(response => response.text())
+    .then(code => {
+      document.getElementById('code-display').innerHTML = `<code class="language-js">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code>`;
+      if (window.Prism) {
+        Prism.highlightElement(document.querySelector('#code-display code'));
+      }
+    })
+    .catch(err => {
+      document.getElementById('code-display').innerHTML = '<code>Error loading code.</code>';
+      console.error(err);
+    });
+});
+</script>

@@ -1,0 +1,12 @@
+---
+name: displacement
+examples:
+- name: Displacement Circles Fx
+  url_js: https://phaser.io/examples-show/460
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DoFcRBq3.png
+- name: Displacement Fx
+  url_js: https://phaser.io/examples-show/461
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UEGEKV2k.png
+- name: Displacement Skull Fx
+  url_js: https://phaser.io/examples-show/462
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/X8N79cDq.png

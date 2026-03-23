@@ -1,0 +1,36 @@
+---
+name: texture atlas json
+examples:
+- name: Get Atlas Custom Frame Data
+  url_js: https://phaser.io/examples-show/646
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HLeREvH9.png
+- name: Get Atlas Meta Data
+  url_js: https://phaser.io/examples-show/647
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fJDvvGrp.png
+- name: Load Atlas With Local Json
+  url_js: https://phaser.io/examples-show/857
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mGAQo1RY.png
+- name: Load Remove And Reload Atlas
+  url_js: https://phaser.io/examples-show/890
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZvjA6q53.png
+- name: Load Texture Atlas
+  url_js: https://phaser.io/examples-show/908
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/aAPHefqg.png
+- name: Load Texture Atlas From Object
+  url_js: https://phaser.io/examples-show/903
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZZR5GiiN.png
+- name: Load Texture Atlas From Pack
+  url_js: https://phaser.io/examples-show/904
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VidD8nft.png
+- name: Load Texture Atlas From Payload
+  url_js: https://phaser.io/examples-show/905
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/yksfvykA.png
+- name: Load Texture Atlas With Normal Map
+  url_js: https://phaser.io/examples-show/907
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NMpwAoJV.png
+- name: Load Texture Atlas With Normal Map From Object
+  url_js: https://phaser.io/examples-show/906
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Qkew3wQi.png
+- name: Mixed Json Test
+  url_js: https://phaser.io/examples-show/971
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FSfZnMed.png

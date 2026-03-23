@@ -1,0 +1,24 @@
+---
+name: tests
+examples:
+- name: Semi Automated Tests
+  url_js: https://phaser.io/examples-show/1415
+  url_image: ''
+- name: Visual Culling Check
+  url_js: https://phaser.io/examples-show/1766
+  url_image: ''
+- name: Visual Face Test
+  url_js: https://phaser.io/examples-show/1767
+  url_image: ''
+- name: Visual Flipping Test
+  url_js: https://phaser.io/examples-show/1768
+  url_image: ''
+- name: Visual Tile Bleed Test
+  url_js: https://phaser.io/examples-show/1769
+  url_image: ''
+- name: Visual Tile Coords Test
+  url_js: https://phaser.io/examples-show/1770
+  url_image: ''
+- name: Visual Worldxy Test
+  url_js: https://phaser.io/examples-show/1771
+  url_image: ''

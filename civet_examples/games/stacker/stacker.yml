@@ -1,0 +1,6 @@
+---
+name: stacker
+examples:
+- name: Stacker
+  url_js: https://phaser.io/examples-show/1565
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/g7ZtoBUx.png

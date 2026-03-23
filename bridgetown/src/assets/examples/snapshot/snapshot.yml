@@ -1,0 +1,15 @@
+---
+name: snapshot
+examples:
+- name: Snapshot Area
+  url_js: https://phaser.io/examples-show/1507
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/N7RUkDrg.png
+- name: Snapshot Game
+  url_js: https://phaser.io/examples-show/1508
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GKKq5hUU.png
+- name: Snapshot Pixel
+  url_js: https://phaser.io/examples-show/1509
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/PRiarbQd.png
+- name: Snapshot To Base64
+  url_js: https://phaser.io/examples-show/1510
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hSoYBmrp.png

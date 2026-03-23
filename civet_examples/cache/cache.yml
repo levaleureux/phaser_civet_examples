@@ -1,0 +1,12 @@
+---
+name: cache
+examples:
+- name: Json File
+  url_js: https://phaser.io/examples-show/808
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kkVs11Et.png
+- name: Text File
+  url_js: https://phaser.io/examples-show/1614
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RxXv9GJM.png
+- name: Xml File
+  url_js: https://phaser.io/examples-show/1813
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/x6uUYoSs.png

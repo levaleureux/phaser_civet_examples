@@ -1,0 +1,9 @@
+---
+name: external scene
+examples:
+- name: Controller
+  url_js: https://phaser.io/examples-show/2031
+  url_image: ''
+- name: Demo
+  url_js: https://phaser.io/examples-show/435
+  url_image: ''

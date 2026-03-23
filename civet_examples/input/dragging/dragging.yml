@@ -1,0 +1,69 @@
+---
+name: dragging
+examples:
+- name: Bring Dragged Item To Top
+  url_js: https://phaser.io/examples-show/174
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/qQcFpMSy.png
+- name: Camera Move And Rotate
+  url_js: https://phaser.io/examples-show/199
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ntEw1Le2.png
+- name: Drag Container
+  url_js: https://phaser.io/examples-show/484
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9Fn4Eca8.png
+- name: Drag Distance Threshold
+  url_js: https://phaser.io/examples-show/486
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sh81Y1bk.png
+- name: Drag Horizontally
+  url_js: https://phaser.io/examples-show/489
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/c3WPAFfy.png
+- name: Drag On A Fixed Axis
+  url_js: https://phaser.io/examples-show/491
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/61jWtnKV.png
+- name: Drag Time Threshold
+  url_js: https://phaser.io/examples-show/499
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dkhmWBoc.png
+- name: Drag Vertically
+  url_js: https://phaser.io/examples-show/500
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RKCKR7EV.png
+- name: Drag With Multiple Scenes
+  url_js: https://phaser.io/examples-show/503
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UmxaC3pX.png
+- name: Enable For Drag
+  url_js: https://phaser.io/examples-show/553
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kDjhskX9.png
+- name: Enable For Drag Test 2
+  url_js: https://phaser.io/examples-show/552
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iKfwvFX1.png
+- name: Multi Camera Stack Of Cards
+  url_js: https://phaser.io/examples-show/1002
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/D34TdiBH.png
+- name: Multiple Draggables
+  url_js: https://phaser.io/examples-show/1026
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xhrZy4AM.png
+- name: Multiple Rotated And Scaled
+  url_js: https://phaser.io/examples-show/1039
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/jPPZQH93.png
+- name: Multiple Scene Drag
+  url_js: https://phaser.io/examples-show/1041
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/W6wVFzQW.png
+- name: Retain Index After Drag
+  url_js: https://phaser.io/examples-show/1317
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RGXPENmu.png
+- name: Rotated And Scaled
+  url_js: https://phaser.io/examples-show/1361
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1JJo4Uaa.png
+- name: Scale During Drag
+  url_js: https://phaser.io/examples-show/1375
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/uYJxwKyZ.png
+- name: Scroll Factor Drag
+  url_js: https://phaser.io/examples-show/1405
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4mxLPYuo.png
+- name: Scrolling Text Box
+  url_js: https://phaser.io/examples-show/1408
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VZMnfh56.png
+- name: Snap To Grid On Drag
+  url_js: https://phaser.io/examples-show/1506
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kATvcaT6.png
+- name: Stack Of Cards
+  url_js: https://phaser.io/examples-show/1562
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/X29EUSmo.png

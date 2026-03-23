@@ -1,0 +1,39 @@
+---
+name: rope
+examples:
+- name: Animated Rope
+  url_js: https://phaser.io/examples-show/58
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/K6mQgBHK.png
+- name: Draw Rope
+  url_js: https://phaser.io/examples-show/515
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gb3NQCQg.png
+- name: Draw Rope Gradient
+  url_js: https://phaser.io/examples-show/514
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UzGX5oj3.png
+- name: Flip Rope Xy
+  url_js: https://phaser.io/examples-show/595
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Npe91xBj.png
+- name: Horizontal Rope
+  url_js: https://phaser.io/examples-show/750
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7xVAv4k6.png
+- name: Rope As A Mask
+  url_js: https://phaser.io/examples-show/1340
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZBzXWQRK.png
+- name: Rope With A Mask
+  url_js: https://phaser.io/examples-show/1341
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/o1NsFZhm.png
+- name: Rope With Shader Texture
+  url_js: https://phaser.io/examples-show/1342
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9KeuKgMy.png
+- name: Single Alpha Rope
+  url_js: https://phaser.io/examples-show/1484
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xU4ev2k6.png
+- name: Split Alpha Rope
+  url_js: https://phaser.io/examples-show/1535
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/E3U8UvXC.png
+- name: Vertex Tint Rope
+  url_js: https://phaser.io/examples-show/1746
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/JZZDH3Nm.png
+- name: Vertical Rope
+  url_js: https://phaser.io/examples-show/1749
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/kA9oMmdR.png

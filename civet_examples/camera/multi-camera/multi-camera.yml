@@ -1,0 +1,24 @@
+---
+name: multi camera
+examples:
+- name: Controller
+  url_js: https://phaser.io/examples-show/330
+  url_image: ''
+- name: Demoa
+  url_js: https://phaser.io/examples-show/436
+  url_image: ''
+- name: Demob
+  url_js: https://phaser.io/examples-show/437
+  url_image: ''
+- name: Democ
+  url_js: https://phaser.io/examples-show/438
+  url_image: ''
+- name: Demod
+  url_js: https://phaser.io/examples-show/439
+  url_image: ''
+- name: Game
+  url_js: https://phaser.io/examples-show/632
+  url_image: ''
+- name: Obj3D
+  url_js: https://phaser.io/examples-show/1082
+  url_image: ''

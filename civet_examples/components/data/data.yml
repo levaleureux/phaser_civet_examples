@@ -1,0 +1,24 @@
+---
+name: data
+examples:
+- name: Change Data Event
+  url_js: https://phaser.io/examples-show/218
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bjaEYLEi.png
+- name: Data Values
+  url_js: https://phaser.io/examples-show/429
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/26a7aV6b.png
+- name: Get And Set Data Values
+  url_js: https://phaser.io/examples-show/644
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GaZ3ny5u.png
+- name: Query Data
+  url_js: https://phaser.io/examples-show/1241
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Cx8ABFu1.png
+- name: Set Data Event
+  url_js: https://phaser.io/examples-show/1423
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/T9odFMr2.png
+- name: Set Multiple Values
+  url_js: https://phaser.io/examples-show/1430
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NZUs15jz.png
+- name: Store Scene Data
+  url_js: https://phaser.io/examples-show/1590
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HVmfavYt.png

@@ -1,0 +1,60 @@
+---
+name: tests
+examples:
+- name: 32 Texture Test
+  url_js: https://phaser.io/examples-show/8
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6nTguyxW.png
+- name: Batch Test
+  url_js: https://phaser.io/examples-show/2028
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/QEPYEasw.png
+- name: Custom Pipeline Multi Texture
+  url_js: https://phaser.io/examples-show/413
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/EYzyHB23.png
+- name: Custom Pipeline Single Texture
+  url_js: https://phaser.io/examples-show/415
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/advFL8yQ.png
+- name: Dynamic Bitmap Text
+  url_js: https://phaser.io/examples-show/1854
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sDu1qPKM.png
+- name: Image
+  url_js: https://phaser.io/examples-show/1851
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FTjMDYPc.png
+- name: Semi Automated Tests
+  url_js: https://phaser.io/examples-show/1942
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pwKvAutj.png
+- name: Single Tilesprite
+  url_js: https://phaser.io/examples-show/1852
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6Wc46r7G.png
+- name: Sprite Test
+  url_js: https://phaser.io/examples-show/1554
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Ldnrnp6q.png
+- name: Static Bitmap Text
+  url_js: https://phaser.io/examples-show/1850
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/TCVAavVJ.png
+- name: Text
+  url_js: https://phaser.io/examples-show/1855
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/J18i9Ttf.png
+- name: Tilesprite
+  url_js: https://phaser.io/examples-show/1853
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/HYEoP5zF.png
+- name: Visual Culling Check
+  url_js: https://phaser.io/examples-show/1944
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Qr8hpzcG.png
+- name: Visual Face Test
+  url_js: https://phaser.io/examples-show/1943
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/se1A8bb1.png
+- name: Visual Flipping Test
+  url_js: https://phaser.io/examples-show/1941
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/h8jBPB3k.png
+- name: Visual Tile Bleed Test
+  url_js: https://phaser.io/examples-show/1945
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cdmuV1kE.png
+- name: Visual Tile Coords Test
+  url_js: https://phaser.io/examples-show/1946
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/rZittRuo.png
+- name: Visual Worldxy Test
+  url_js: https://phaser.io/examples-show/1940
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DL54kkqU.png
+- name: Word Wrap
+  url_js: https://phaser.io/examples-show/1859
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6gF8Y9CD.png

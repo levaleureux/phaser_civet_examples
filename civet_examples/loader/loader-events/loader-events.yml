@@ -1,0 +1,42 @@
+---
+name: loader events
+examples:
+- name: Add Files During Load
+  url_js: https://phaser.io/examples-show/28
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/at8HatzV.png
+- name: Destroy Game During Load
+  url_js: https://phaser.io/examples-show/444
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/33U4sutz.png
+- name: Display File As Loaded
+  url_js: https://phaser.io/examples-show/467
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fH2gHxJi.png
+- name: File Complete Event
+  url_js: https://phaser.io/examples-show/578
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CGiK73kr.png
+- name: File Complete Event With Key
+  url_js: https://phaser.io/examples-show/577
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/w9YbF5Hc.png
+- name: File Progress Event
+  url_js: https://phaser.io/examples-show/579
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3PvHmiLS.png
+- name: Load 200 Image Files
+  url_js: https://phaser.io/examples-show/855
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/sQT8gFfz.png
+- name: Load From External Url
+  url_js: https://phaser.io/examples-show/875
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/CZkFp8Ga.png
+- name: Load Progress
+  url_js: https://phaser.io/examples-show/889
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XgF2JXQU.png
+- name: Multi File Progress Event
+  url_js: https://phaser.io/examples-show/1009
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/ZQVnVdd4.png
+- name: Play Animation During Load
+  url_js: https://phaser.io/examples-show/1203
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FWKDA43u.png
+- name: Start Loader Manually
+  url_js: https://phaser.io/examples-show/1578
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1pinXNQ3.png
+- name: Test Loading Files Already Loaded
+  url_js: https://phaser.io/examples-show/1608
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/9CiRo7hB.png

@@ -1,0 +1,18 @@
+---
+name: multitouch
+examples:
+- name: Multi Down Test
+  url_js: https://phaser.io/examples-show/1007
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LH7GobMt.png
+- name: Multi Drag
+  url_js: https://phaser.io/examples-show/1008
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Lrc71oPp.png
+- name: Multi Over Test
+  url_js: https://phaser.io/examples-show/1014
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8B1S8ysA.png
+- name: Multi Touch Test
+  url_js: https://phaser.io/examples-show/1017
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mVsE664i.png
+- name: Two Touch Inputs
+  url_js: https://phaser.io/examples-show/1730
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/bczNzuTY.png

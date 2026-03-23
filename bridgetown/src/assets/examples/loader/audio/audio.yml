@@ -1,0 +1,18 @@
+---
+name: audio
+examples:
+- name: Load Audio
+  url_js: https://phaser.io/examples-show/861
+  url_image: ''
+- name: Load Audio Sprite
+  url_js: https://phaser.io/examples-show/859
+  url_image: ''
+- name: Load Audio Sprite Resources
+  url_js: https://phaser.io/examples-show/858
+  url_image: ''
+- name: Load Audio Stream
+  url_js: https://phaser.io/examples-show/860
+  url_image: ''
+- name: Load Html5 Audio
+  url_js: https://phaser.io/examples-show/877
+  url_image: ''

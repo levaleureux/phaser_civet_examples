@@ -1,0 +1,21 @@
+---
+name: tests
+examples:
+- name: Dynamic Bitmap Text
+  url_js: https://phaser.io/examples-show/525
+  url_image: ''
+- name: Image
+  url_js: https://phaser.io/examples-show/765
+  url_image: ''
+- name: Single Tilesprite
+  url_js: https://phaser.io/examples-show/1494
+  url_image: ''
+- name: Static Bitmap Text
+  url_js: https://phaser.io/examples-show/1580
+  url_image: ''
+- name: Text
+  url_js: https://phaser.io/examples-show/1628
+  url_image: ''
+- name: Tilesprite
+  url_js: https://phaser.io/examples-show/1655
+  url_image: ''

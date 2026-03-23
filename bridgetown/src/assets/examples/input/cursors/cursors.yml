@@ -1,0 +1,12 @@
+---
+name: cursors
+examples:
+- name: Custom Cursor
+  url_js: https://phaser.io/examples-show/406
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Vk8c7vG5.png
+- name: Cute Cursor
+  url_js: https://phaser.io/examples-show/426
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/7vvfvf1w.png
+- name: Sc2 Cursors
+  url_js: https://phaser.io/examples-show/1374
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dzCN3EyU.png

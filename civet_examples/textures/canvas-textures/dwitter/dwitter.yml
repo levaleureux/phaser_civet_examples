@@ -1,0 +1,15 @@
+---
+name: dwitter
+examples:
+- name: '5475'
+  url_js: https://phaser.io/examples-show/11
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/czZi1vW4.png
+- name: '5479'
+  url_js: https://phaser.io/examples-show/12
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/1tguu1gV.png
+- name: '5500'
+  url_js: https://phaser.io/examples-show/13
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/AP7iCcoq.png
+- name: Test
+  url_js: https://phaser.io/examples-show/1610
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GpZQ2tfH.png

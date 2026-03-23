@@ -1,0 +1,15 @@
+---
+name: sprite sheet
+examples:
+- name: Load Sprite Sheet
+  url_js: https://phaser.io/examples-show/899
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YziHpsmG.png
+- name: Load Sprite Sheet From Object
+  url_js: https://phaser.io/examples-show/897
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8AQ2YXBb.png
+- name: Load Sprite Sheet From Object Array
+  url_js: https://phaser.io/examples-show/896
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2UAndDj1.png
+- name: Load Sprite Sheet From Scene Payload
+  url_js: https://phaser.io/examples-show/898
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/B4TeJgJh.png

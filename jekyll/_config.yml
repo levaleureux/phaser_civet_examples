@@ -9,6 +9,9 @@ baseurl: ""
 collections:
   examples:
     output: true
+    permalink: /examples/:path/
+  categories:
+    output: true
 
 # Build settings
 markdown: kramdown

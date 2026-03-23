@@ -1,0 +1,87 @@
+---
+name: curves
+examples:
+- name: Cubic Bezier Bounds
+  url_js: https://phaser.io/examples-show/391
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hDFHBtsU.png
+- name: Cubic Bezier Curve
+  url_js: https://phaser.io/examples-show/392
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/gtWkYqVL.png
+- name: Drag Cubic Bezier Curve
+  url_js: https://phaser.io/examples-show/485
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xnuKCzd9.png
+- name: Drag Ellipse Curve
+  url_js: https://phaser.io/examples-show/487
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/2ae2Sdxd.png
+- name: Drag Line Curve
+  url_js: https://phaser.io/examples-show/490
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/i2qEfb1W.png
+- name: Drag Quadratic Bezier Curve
+  url_js: https://phaser.io/examples-show/493
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KADfY5EK.png
+- name: Drag Spline Curve
+  url_js: https://phaser.io/examples-show/497
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/mHiExqsV.png
+- name: Ellipse Curve
+  url_js: https://phaser.io/examples-show/539
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YR5UBiNf.png
+- name: Ellipse Curve Bounds
+  url_js: https://phaser.io/examples-show/538
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/GUHu6FXA.png
+- name: Get Distance On Line Curve
+  url_js: https://phaser.io/examples-show/658
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/FVc2nYaE.png
+- name: Get Point From Spline Curve
+  url_js: https://phaser.io/examples-show/678
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YGhNtZLc.png
+- name: Get Points On Cubic Bezier Curve
+  url_js: https://phaser.io/examples-show/680
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/DNZ58pSf.png
+- name: Get Points On Line Curve
+  url_js: https://phaser.io/examples-show/681
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4LBqYR2e.png
+- name: Get Spaced Points On Cubic Bezier Curve
+  url_js: https://phaser.io/examples-show/689
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5JYjoEky.png
+- name: Get Spaced Points On Line Curve
+  url_js: https://phaser.io/examples-show/690
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dz3NhPDC.png
+- name: Get Spaced Points Vs Get Points
+  url_js: https://phaser.io/examples-show/691
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8B3W5Ek6.png
+- name: Get Tangent Vectors On Cubic Bezier Curve
+  url_js: https://phaser.io/examples-show/692
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/3AcSgC8y.png
+- name: Line Curve
+  url_js: https://phaser.io/examples-show/841
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/iEk1LrfE.png
+- name: Line Curve Bounds
+  url_js: https://phaser.io/examples-show/840
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/5YjCfD2z.png
+- name: Point Types
+  url_js: https://phaser.io/examples-show/1216
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Den19VR3.png
+- name: Quadratic Bezier Curve
+  url_js: https://phaser.io/examples-show/1238
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6zVUpxUp.png
+- name: Rectangle Spline Intersection
+  url_js: https://phaser.io/examples-show/1273
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NmEpt5rU.png
+- name: Spline Between Points
+  url_js: https://phaser.io/examples-show/1528
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/xxxS3D55.png
+- name: Spline Builder
+  url_js: https://phaser.io/examples-show/1529
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/6bKtoShr.png
+- name: Spline Curve
+  url_js: https://phaser.io/examples-show/1533
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/eHugBv9V.png
+- name: Spline Curve Bounds
+  url_js: https://phaser.io/examples-show/1530
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/wX9DXikT.png
+- name: Spline Curve Distance Points
+  url_js: https://phaser.io/examples-show/1531
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/pU6N7XGM.png
+- name: Spline Curve From Array
+  url_js: https://phaser.io/examples-show/1532
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/NBFoytFS.png

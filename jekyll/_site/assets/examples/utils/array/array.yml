@@ -1,0 +1,33 @@
+---
+name: array
+examples:
+- name: Bring To Top
+  url_js: https://phaser.io/examples-show/1876
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XZpxLWus.png
+- name: Range
+  url_js: https://phaser.io/examples-show/1262
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/dP9eVyo4.png
+- name: Reverse Matrix Columns
+  url_js: https://phaser.io/examples-show/1332
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/JGMWyFee.png
+- name: Reverse Matrix Rows
+  url_js: https://phaser.io/examples-show/1333
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/RYyKYTQc.png
+- name: Rotate Matrix
+  url_js: https://phaser.io/examples-show/1356
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/i99fHy2g.png
+- name: Rotate Matrix 180
+  url_js: https://phaser.io/examples-show/1353
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/hgzXgcrd.png
+- name: Rotate Matrix Left
+  url_js: https://phaser.io/examples-show/1354
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/fDqiiUiS.png
+- name: Rotate Matrix Right
+  url_js: https://phaser.io/examples-show/1355
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/maY8xDzn.png
+- name: Translate Matrix
+  url_js: https://phaser.io/examples-show/1690
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/SWrv5Hmu.png
+- name: Transpose Matrix
+  url_js: https://phaser.io/examples-show/1693
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/WTThXBsL.png

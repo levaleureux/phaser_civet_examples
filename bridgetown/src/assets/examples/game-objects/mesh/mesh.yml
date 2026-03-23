@@ -1,0 +1,24 @@
+---
+name: mesh
+examples:
+- name: Mesh Drag Input
+  url_js: https://phaser.io/examples-show/957
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/x3G8Zzh3.png
+- name: Mesh From Array
+  url_js: https://phaser.io/examples-show/958
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/KJy6bxum.png
+- name: Mesh From Generate Grid
+  url_js: https://phaser.io/examples-show/959
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VBmkDJcA.png
+- name: Mesh From Obj
+  url_js: https://phaser.io/examples-show/960
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/VtMxWw5G.png
+- name: Mesh Input
+  url_js: https://phaser.io/examples-show/961
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/k7vWtZ1N.png
+- name: Mesh Pointer Input
+  url_js: https://phaser.io/examples-show/963
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/4JJVjDj2.png
+- name: Race Track
+  url_js: https://phaser.io/examples-show/1244
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/n7kkKLKU.png

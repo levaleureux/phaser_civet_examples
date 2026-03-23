@@ -1,0 +1,24 @@
+---
+name: pixel perfect
+examples:
+- name: Atlas Frame
+  url_js: https://phaser.io/examples-show/86
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/Nh82NjXe.png
+- name: Image With Lots Of Alpha
+  url_js: https://phaser.io/examples-show/764
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/cE9MaogH.png
+- name: Large Trimmed Atlas Frame
+  url_js: https://phaser.io/examples-show/821
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/YooHPPMV.png
+- name: On Down
+  url_js: https://phaser.io/examples-show/1090
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/UnfeWTtN.png
+- name: On Drag
+  url_js: https://phaser.io/examples-show/1091
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/XgJoVvqi.png
+- name: On Move
+  url_js: https://phaser.io/examples-show/1093
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/8gWPaRqz.png
+- name: Transformed
+  url_js: https://phaser.io/examples-show/1687
+  url_image: https://phaserfiles.sfo3.digitaloceanspaces.com/phaser/v3.85.0/shots/LefP5zdN.png

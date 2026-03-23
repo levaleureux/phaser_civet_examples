@@ -6,7 +6,7 @@ class Example extends Phaser.Scene
             key: 'Example1',
             pack: {
                 files: [
-                    { type: 'scenePlugin', key: 'SpinePlugin', url: 'https://cdn.phaserfiles.com/v385/plugins/spine4.1/SpinePluginDebug.js', sceneKey: 'spine' }
+                    { type: 'scenePlugin', key: 'SpinePlugin', url: '/assets/phaser/plugins/spine4.1/SpinePluginDebug.js', sceneKey: 'spine' }
                 ]
             }
         });
@@ -14,7 +14,7 @@ class Example extends Phaser.Scene
 
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v385');
+        this.load.setBaseURL('/assets/phaser');
         this.load.image('logo', 'assets/sprites/phaser.png');
 
         this.load.setPath('assets/spine/4.1/demos/');

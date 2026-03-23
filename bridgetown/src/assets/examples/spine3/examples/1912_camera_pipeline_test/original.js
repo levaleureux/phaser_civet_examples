@@ -14,7 +14,7 @@ var GameScene = new Phaser.Class({
             active: true,
             pack: {
                 files: [
-                    { type: 'scenePlugin', key: 'SpinePlugin', url: 'https://cdn.phaserfiles.com/v385/plugins/spine4.1/SpinePluginDebug.js', sceneKey: 'spine' }
+                    { type: 'scenePlugin', key: 'SpinePlugin', url: '/assets/phaser/plugins/spine4.1/SpinePluginDebug.js', sceneKey: 'spine' }
                 ]
             }
         });
@@ -25,7 +25,7 @@ var GameScene = new Phaser.Class({
 
     preload: function ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v385');
+        this.load.setBaseURL('/assets/phaser');
         this.load.image('logo', 'assets/sprites/phaser.png');
         this.load.setPath('assets/spine/4.1/demos/');
         this.load.spine('set1', 'demos.json', [ 'atlas1.atlas' ], true);

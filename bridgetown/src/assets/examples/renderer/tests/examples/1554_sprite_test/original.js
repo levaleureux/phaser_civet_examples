@@ -2,7 +2,7 @@ class Example extends Phaser.Scene
 {
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v385');
+        this.load.setBaseURL('/assets/phaser');
         for (let i = 1; i  {
 
             if (pointer.worldY >= 500)
